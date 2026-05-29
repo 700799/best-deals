@@ -10,7 +10,7 @@ The site has two pages:
 | **Overview (home)** | `index.html` | A stats dashboard — totals by category, reliability mix, offer types, top stores, and freshness/expiry. |
 | **Browse** | `browse.html` | The full, filterable coupon list. Each card has a copy-to-clipboard code, source link, and confirmation time. |
 
-> **146 coupons** across **14 categories**, collected **2026-05-29**.
+> **300 coupons** across **14 categories** — all **High/Medium reliability** (Low-tier excluded), collected **2026-05-29**.
 
 ## ⚠️ How to read the data (please read)
 
@@ -70,7 +70,7 @@ filesystem — use a local server.)
 ```jsonc
 {
   "generatedAt": "2026-05-29T21:03:49Z",   // when the dataset was assembled
-  "count": 146,
+  "count": 300,
   "categories": ["Fashion & Apparel", "..."],
   "coupons": [
     {
