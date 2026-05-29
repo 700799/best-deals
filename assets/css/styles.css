@@ -372,3 +372,112 @@ a { color: var(--primary); }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* ===== Header nav (shared) ===== */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.site-nav {
+  display: flex;
+  gap: 0.3rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.nav-link:hover { color: var(--text); }
+.nav-link.nav-active { background: var(--primary); color: var(--primary-contrast); }
+.nav-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+/* ===== Overview / stats page ===== */
+.overview-hero { padding: 1.3rem 0 0.2rem; }
+.overview-h2 { margin: 0 0 0.25rem; font-size: 1.5rem; letter-spacing: -0.01em; }
+.overview-sub { margin: 0; color: var(--text-muted); max-width: 72ch; }
+.overview-sub strong { color: var(--text); }
+.hero-cta { font-weight: 600; white-space: nowrap; }
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--gap);
+  margin: 1.1rem 0 1.4rem;
+}
+.kpi {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.05rem;
+}
+.kpi-value { font-size: 2rem; font-weight: 800; line-height: 1.1; color: var(--primary); letter-spacing: -0.02em; }
+.kpi-label { font-size: 0.9rem; font-weight: 600; margin-top: 0.2rem; }
+.kpi-sub { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.15rem; }
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap);
+  margin-bottom: 2.5rem;
+}
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.1rem 1.15rem 1.2rem;
+}
+.panel-wide { grid-column: 1 / -1; }
+.panel-title { margin: 0 0 0.9rem; font-size: 1.02rem; }
+.panel-note { margin: 0.8rem 0 0; font-size: 0.78rem; color: var(--text-muted); }
+
+/* bar charts */
+.bars { display: flex; flex-direction: column; gap: 0.5rem; }
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 33%) 1fr auto;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.86rem;
+}
+.bar-label { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-track { background: var(--surface-2); border-radius: 999px; height: 12px; overflow: hidden; }
+.bar-fill { display: block; height: 100%; background: var(--primary); border-radius: 999px; min-width: 2px; }
+.bar-fill.fill-high { background: var(--accent); }
+.bar-fill.fill-medium { background: #e0a93a; }
+.bar-fill.fill-low { background: #9aa0b4; }
+.bar-value { font-variant-numeric: tabular-nums; color: var(--text-muted); font-weight: 600; min-width: 2ch; text-align: right; }
+
+/* freshness panel */
+.expiry-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; text-align: center; }
+.mini-stat { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 0.7rem 0.5rem; }
+.mini-value { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+.mini-label { font-size: 0.76rem; color: var(--text-muted); }
+.subhead { margin: 1rem 0 0.5rem; font-size: 0.9rem; }
+.expiry-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+.expiry-list li { display: flex; justify-content: space-between; gap: 0.6rem; font-size: 0.86rem; border-bottom: 1px dashed var(--border); padding-bottom: 0.35rem; }
+.expiry-list li:last-child { border-bottom: none; }
+.expiry-store { font-weight: 600; }
+.expiry-when { color: var(--text-muted); }
+
+/* stats-page responsive */
+@media (max-width: 720px) {
+  .panel-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .header-inner { flex-direction: column; align-items: stretch; }
+  .header-actions { justify-content: space-between; }
+  .bar-row { grid-template-columns: minmax(80px, 40%) 1fr auto; }
+}

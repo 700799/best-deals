@@ -34,11 +34,9 @@
       statCategories: $("stat-categories"),
       statUpdated: $("stat-updated"),
       footerUpdated: $("footer-updated"),
-      copyLive: $("copy-live"),
-      themeToggle: $("theme-toggle")
+      copyLive: $("copy-live")
     };
 
-    setupTheme();
     bindControls();
     loadData();
   });
@@ -317,24 +315,6 @@
     } catch (e) {
       els.copyLive.textContent = "Press Ctrl+C to copy: " + code;
     }
-  }
-
-  // ---- Theme ----
-  function setupTheme() {
-    syncThemeLabel();
-    els.themeToggle.addEventListener("click", function () {
-      var next = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      document.documentElement.setAttribute("data-theme", next);
-      try { localStorage.setItem("bd-theme", next); } catch (e) { /* ignore */ }
-      syncThemeLabel();
-    });
-  }
-  function syncThemeLabel() {
-    var dark = document.documentElement.getAttribute("data-theme") === "dark";
-    var icon = els.themeToggle.querySelector(".theme-toggle-icon");
-    var text = els.themeToggle.querySelector(".theme-toggle-text");
-    if (icon) icon.textContent = dark ? "☀️" : "🌙";
-    if (text) text.textContent = dark ? "Light" : "Dark";
   }
 
   // ---- Helpers ----

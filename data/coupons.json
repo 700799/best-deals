@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-29T20:30:47.383Z",
-  "count": 145,
+  "generatedAt": "2026-05-29T21:03:49.035Z",
+  "count": 146,
   "categories": [
     "Fashion & Apparel",
     "Health & Beauty",
@@ -13,8 +13,8 @@
     "Home & Garden",
     "Streaming & Subscriptions",
     "Travel",
-    "Gaming",
     "Online Learning",
+    "Gaming",
     "Pets"
   ],
   "coupons": [
@@ -1569,6 +1569,22 @@
       "sourceName": "Skillshare official site",
       "verifiedAt": "2026-05-29T20:40:00Z",
       "id": "skillshare-1-month-free-skillshare-premium"
+    },
+    {
+      "store": "Udemy",
+      "category": "Online Learning",
+      "title": "Personal Plan: 30% off first year",
+      "code": null,
+      "type": "deal",
+      "description": "New Personal Plan subscribers get 30% off the first year (about $9.80/month billed annually). Limited-time promotion; Udemy also runs frequent sitewide course sales dropping individual courses to $9.99-$14.99.",
+      "discount": "30% off first year",
+      "eligibility": "New Personal Plan subscribers",
+      "expiry": "2026-05-17",
+      "reliability": "medium",
+      "source": "https://couponfollow.com/site/udemy.com",
+      "sourceName": "CouponFollow",
+      "verifiedAt": "2026-05-29T20:40:00Z",
+      "id": "udemy-personal-plan-30-off-first-year"
     },
     {
       "store": "BarkBox",
