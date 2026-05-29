@@ -1,0 +1,2 @@
+# This file disables Jekyll processing on GitHub Pages so files/folders
+# beginning with an underscore are served as-is. Its contents are ignored.
