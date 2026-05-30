@@ -77,7 +77,7 @@
     // ---- charts ----
     renderBars("chart-category", categories.map(function (cat) {
       return { label: cat, value: catCounts[cat] || 0 };
-    }));
+    }), function (r) { return "./browse.html?category=" + encodeURIComponent(r.label); });
 
     renderBars("chart-reliability", [
       { label: "High", value: relCounts.high || 0, cls: "fill-high" },
@@ -98,7 +98,7 @@
       .sort(function (a, b) { return storeCounts[b] - storeCounts[a] || a.localeCompare(b); })
       .slice(0, 10)
       .map(function (s) { return { label: s, value: storeCounts[s] }; });
-    renderBars("chart-stores", topStores);
+    renderBars("chart-stores", topStores, function (r) { return "./browse.html?store=" + encodeURIComponent(r.label); });
 
     renderExpiry(byId("chart-expiry"), {
       evergreen: evergreen, dated: withExpiry, soonCount: expiringSoon.length,
@@ -110,12 +110,14 @@
   }
 
   // ---- renderers ----
-  function renderBars(containerId, rows) {
+  function renderBars(containerId, rows, hrefFor) {
     var container = byId(containerId);
     if (!container) return;
     var max = rows.reduce(function (m, r) { return Math.max(m, r.value); }, 0) || 1;
     rows.forEach(function (r) {
-      var row = el("div", "bar-row");
+      var href = hrefFor ? hrefFor(r) : null;
+      var row = el(href ? "a" : "div", "bar-row" + (href ? " bar-row-link" : ""));
+      if (href) { row.href = href; row.setAttribute("aria-label", r.label + ": " + r.value + " — view deals"); }
       row.appendChild(el("span", "bar-label", r.label));
       var track = el("span", "bar-track");
       var fill = el("span", "bar-fill" + (r.cls ? " " + r.cls : ""));
@@ -145,8 +147,13 @@
       var ul = el("ul", "expiry-list");
       x.soonest.forEach(function (c) {
         var li = document.createElement("li");
-        li.appendChild(el("span", "expiry-store", c.store));
-        li.appendChild(el("span", "expiry-when", formatDate(c.expiry)));
+        var a = document.createElement("a");
+        a.className = "expiry-link";
+        if (c.source) { a.href = c.source; a.target = "_blank"; a.rel = "noopener noreferrer"; }
+        else { a.href = "./browse.html?store=" + encodeURIComponent(c.store); }
+        a.appendChild(el("span", "expiry-store", c.store));
+        a.appendChild(el("span", "expiry-when", formatDate(c.expiry)));
+        li.appendChild(a);
         ul.appendChild(li);
       });
       container.appendChild(ul);
