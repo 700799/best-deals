@@ -55,6 +55,7 @@
           ? data.categories.slice()
           : deriveCategories(allCoupons);
         els.loading.hidden = true;
+        applyQueryParams();
         renderStats();
         renderCategories();
         render();
@@ -74,6 +75,20 @@
     });
     out.sort();
     return out;
+  }
+
+  // Apply ?store= / ?category= deep-links coming from the overview page.
+  function applyQueryParams() {
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var qpCat = params.get("category");
+      var qpStore = params.get("store");
+      if (qpCat && meta.categories.indexOf(qpCat) !== -1) state.category = qpCat;
+      if (qpStore) {
+        state.query = String(qpStore).trim().toLowerCase();
+        if (els.search) els.search.value = qpStore;
+      }
+    } catch (e) { /* ignore */ }
   }
 
   // ---- Stats ----
