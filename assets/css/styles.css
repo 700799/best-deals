@@ -155,18 +155,28 @@ a { color: var(--primary); }
   top: 0;
   z-index: 20;
   background: var(--bg);
-  padding: 0.7rem 0 0.5rem;
+  padding: 0.5rem 0;
   border-bottom: 1px solid var(--border);
 }
+/* Single horizontally-scrollable row so the category list stays one line
+   instead of wrapping into many rows and eating the viewport. */
 .category-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.5rem;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0.2rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
+.category-list::-webkit-scrollbar { height: 6px; }
+.category-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+.category-list::-webkit-scrollbar-track { background: transparent; }
 .category-pill {
+  flex: 0 0 auto;
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text);
