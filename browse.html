@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Browse Coupons — Best Deals</title>
-  <meta name="description" content="Browse and filter real coupon and promo codes by category and reliability. Every code links to its source and shows the time it was confirmed active." />
+  <meta name="description" content="Browse and filter 300 real coupon and promo codes. Tap any coupon for the code, terms, and a link to the deal." />
   <meta name="color-scheme" content="light dark" />
   <meta name="theme-color" content="#4f46e5" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./assets/css/styles.css?v=2" />
+  <link rel="stylesheet" href="./assets/css/styles.css?v=3" />
   <script>
     (function () {
       try {
@@ -28,7 +28,7 @@
         <span class="brand-mark" aria-hidden="true">🏷️</span>
         <div>
           <h1 class="brand-title">Best Deals</h1>
-          <p class="brand-tagline">Real, categorized coupon codes — each with a source and the time it was confirmed active.</p>
+          <p class="brand-tagline">Tap a coupon for its code, terms, and a link to the deal.</p>
         </div>
       </div>
       <div class="header-actions">
@@ -42,36 +42,59 @@
         </button>
       </div>
     </div>
-
-    <div class="container stats" id="stats" aria-live="polite">
-      <span class="stat"><strong id="stat-total">—</strong> coupons</span>
-      <span class="stat-sep" aria-hidden="true">•</span>
-      <span class="stat"><strong id="stat-categories">—</strong> categories</span>
-      <span class="stat-sep" aria-hidden="true">•</span>
-      <span class="stat">Last updated: <strong id="stat-updated">—</strong></span>
-    </div>
   </header>
 
-  <div class="disclaimer container" role="note">
-    <strong>How to read these:</strong> Each coupon shows <em>“Confirmed active”</em> — the time we confirmed it was
-    <strong>listed as active on the linked source</strong>. Codes are <strong>not</strong> tested at a real checkout and can
-    expire, be region- or account-specific, or change at any time. Always confirm the discount applies before you pay.
-    Use the <strong>reliability</strong> badges and source links to judge each offer.
+  <div class="toolbar">
+    <div class="container toolbar-inner">
+      <button id="open-filters" class="filters-btn" type="button" aria-haspopup="dialog" aria-controls="filters-drawer">
+        <span aria-hidden="true">⚙️</span> Filters
+        <span id="filter-badge" class="filter-badge" hidden></span>
+      </button>
+      <p id="result-count" class="result-count" aria-live="polite"></p>
+    </div>
+    <div class="container">
+      <div id="active-filters" class="active-filters" hidden></div>
+    </div>
   </div>
 
-  <nav class="category-nav" aria-label="Coupon categories">
-    <div class="container">
-      <ul id="category-list" class="category-list">
-        <!-- category pills injected by JS -->
-      </ul>
+  <main id="main" class="container" tabindex="-1">
+    <div id="loading" class="state-message">Loading coupons…</div>
+    <div id="error" class="state-message state-error" hidden>
+      Sorry — we couldn’t load the coupons. Please refresh the page.
     </div>
-  </nav>
+    <div id="empty" class="state-message" hidden>
+      No coupons match your filters. Open <strong>Filters</strong> and clear them, or choose “All”.
+    </div>
+    <div id="coupon-grid" class="coupon-grid"></div>
+  </main>
 
-  <section class="controls" aria-label="Search and filter">
-    <div class="container controls-inner">
-      <div class="control control-search">
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <strong>Best Deals</strong> is a static, open coupon directory. Coupons were gathered from public sources
+        (official brand pages and reputable deal sites) during a single collection run; each coupon links to its source.
+      </p>
+      <p class="footer-disclaimer">
+        “Confirmed active” reflects when a code was found listed as active on its source — not a guarantee it will work at
+        checkout. Offers may expire or be restricted. Verify before purchasing. This site has no affiliation with the
+        brands listed and earns no commission.
+      </p>
+      <p class="footer-updated">Data last updated: <span id="footer-updated">—</span></p>
+    </div>
+  </footer>
+
+  <!-- ===== Drawers ===== -->
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+
+  <aside id="filters-drawer" class="drawer drawer-right" role="dialog" aria-modal="true" aria-label="Filters" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 class="drawer-title">Filters</h2>
+      <button class="drawer-close" type="button" data-drawer-close aria-label="Close filters">✕</button>
+    </div>
+    <div class="drawer-body">
+      <div class="control">
         <label for="search">Search</label>
-        <input id="search" type="search" placeholder="Search store, offer, or code…" autocomplete="off" />
+        <input id="search" type="search" placeholder="Search store, offer, or code…" autocomplete="off" data-autofocus />
       </div>
       <div class="control">
         <label for="reliability">Reliability</label>
@@ -90,41 +113,29 @@
           <option value="store">Store (A–Z)</option>
         </select>
       </div>
+      <div class="filter-group">
+        <span class="filter-group-label">Category</span>
+        <ul id="category-list" class="drawer-cats"></ul>
+      </div>
     </div>
-  </section>
-
-  <main id="main" class="container" tabindex="-1">
-    <p id="result-count" class="result-count" aria-live="polite"></p>
-
-    <div id="loading" class="state-message">Loading coupons…</div>
-    <div id="error" class="state-message state-error" hidden>
-      Sorry — we couldn’t load the coupons. Please refresh the page.
+    <div class="drawer-foot">
+      <button id="clear-filters" class="btn-ghost" type="button">Clear all</button>
+      <button class="btn-primary" type="button" data-drawer-close>Show <span id="apply-count">…</span> results</button>
     </div>
-    <div id="empty" class="state-message" hidden>
-      No coupons match your filters. Try clearing the search or choosing “All”.
-    </div>
+  </aside>
 
-    <div id="coupon-grid" class="coupon-grid" role="list"></div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>
-        <strong>Best Deals</strong> is a static, open coupon directory. Coupons were gathered from public sources
-        (official brand pages and reputable deal sites) during a single collection run; see each card’s source link.
-      </p>
-      <p class="footer-disclaimer">
-        “Confirmed active” reflects when a code was found listed as active on its source — not a guarantee it will work at
-        checkout. Offers may expire or be restricted. Verify before purchasing. This site has no affiliation with the
-        brands listed and earns no commission.
-      </p>
-      <p class="footer-updated">Data last updated: <span id="footer-updated">—</span></p>
+  <aside id="detail-drawer" class="drawer drawer-right" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 class="drawer-title" id="detail-title">Details</h2>
+      <button class="drawer-close" type="button" data-drawer-close aria-label="Close details">✕</button>
     </div>
-  </footer>
+    <div class="drawer-body" id="detail-body"></div>
+  </aside>
 
   <div id="copy-live" class="visually-hidden" aria-live="assertive"></div>
 
-  <script src="./assets/js/theme.js?v=2" defer></script>
-  <script src="./assets/js/app.js?v=2" defer></script>
+  <script src="./assets/js/theme.js?v=3" defer></script>
+  <script src="./assets/js/drawer.js?v=3" defer></script>
+  <script src="./assets/js/app.js?v=3" defer></script>
 </body>
 </html>
