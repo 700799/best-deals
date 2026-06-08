@@ -1,16 +1,16 @@
 # Best Deals 🏷️
 
-A standalone, **zero-build** static webapp that displays a curated directory of **real coupon &
-promo codes**, organized by category and browsable with search, filtering, and sorting.
+A standalone, **zero-build** static webapp that surfaces a curated directory of **real, hand-picked
+deals** on popular brands and products — scored, ranked, and browsable through drawers.
 
 The site has two pages:
 
 | Page | File | What it shows |
 | --- | --- | --- |
-| **Overview (home)** | `index.html` | A stats dashboard — totals by category, reliability mix, offer types, top stores, and freshness/expiry. |
-| **Browse** | `browse.html` | The full, filterable coupon list. Each card has a copy-to-clipboard code, source link, and confirmation time. |
+| **Overview (home)** | `index.html` | Leads with a **🔥 Top Deals** rail (featured picks), then a stats dashboard — totals by category, reliability mix, offer types, top stores, freshness/expiry. |
+| **Browse** | `browse.html` | The deal grid with a **category-jump drawer**, a **Filters** drawer (search / sort by *Best* / reliability / top-deals-only), and a **detail drawer** per deal (code + copy, terms, "Get the deal"). |
 
-> **300 coupons** across **14 categories** — all **High/Medium reliability** (Low-tier excluded), collected **2026-05-29**.
+> **291 hand-picked deals** across **14 categories** — High/Medium reliability only, **scored & ranked**, with **30 featured "Top Deals"**, collected **2026-06-08**.
 
 ## ⚠️ How to read the data (please read)
 
@@ -19,12 +19,11 @@ aggregator sites go stale quickly. So this directory is built for **transparency
 
 - **“Confirmed active at <time>”** means the code was found **listed as active on its linked source**
   at that UTC time — *not* that it was tested at a real checkout.
-- Every coupon has a **source link** so you can verify it yourself.
-- Every coupon has a **reliability tier**:
-  - **High** — official / evergreen codes (first-order or newsletter/SMS discounts, student/military,
-    free trials, or codes on the brand's own site).
-  - **Medium** — dated, time-limited promos with an explicit expiry from a reputable deal site.
-  - **Low** — aggregator-listed codes with weaker corroboration. *Verify before use.*
+- Every deal has a **source link** so you can verify it yourself.
+- Every deal has a **reliability tier** (only **High/Medium** are kept):
+  - **High** — official brand sale pages or strongly corroborated deals.
+  - **Medium** — from a reputable deal site; rates can rotate, so verify before use.
+- Every deal has a **score** (0–100) used by the *Best* sort; the top ~30 are **featured** as Top Deals.
 
 Codes may expire, be region- or account-specific, or change at any time. **Always confirm the
 discount applies before you pay.** This site has no affiliation with the brands listed and earns no
@@ -40,8 +39,9 @@ commission.
 │   ├── css/styles.css          # All styles (light/dark, responsive)
 │   └── js/
 │       ├── theme.js            # Shared light/dark toggle
-│       ├── app.js              # Browser page logic (filter/search/sort/copy)
-│       └── stats.js            # Overview page logic (aggregations + charts)
+│       ├── drawer.js           # Shared drawer controller (backdrop, ESC, focus trap)
+│       ├── app.js              # Browse logic (filters/category/detail drawers, Best sort)
+│       └── stats.js            # Overview logic (Top Deals, charts, category drawer)
 ├── data/coupons.json           # The dataset (single source of truth)
 ├── scripts/validate-coupons.mjs# Validate / normalize / dedupe the dataset (Node, no deps)
 ├── .github/workflows/deploy-pages.yml  # GitHub Pages deploy
@@ -69,25 +69,27 @@ filesystem — use a local server.)
 
 ```jsonc
 {
-  "generatedAt": "2026-05-29T21:03:49Z",   // when the dataset was assembled
-  "count": 300,
-  "categories": ["Fashion & Apparel", "..."],
+  "generatedAt": "2026-06-08T00:16:55Z",   // when the dataset was assembled
+  "count": 291,
+  "categories": ["Home & Garden", "..."],
   "coupons": [
     {
-      "id": "ubereats-affeats10us0426",
-      "store": "Uber Eats",
-      "category": "Food Delivery",
-      "title": "$10 off your first order of $20+",
-      "code": "AFFEATS10US0426",          // null for no-code deals/signups
-      "type": "code",                       // code | deal | signup
-      "description": "New customers get $10 off a first order of $20 or more.",
-      "discount": "$10 off",
-      "eligibility": "New customers only",  // or null
-      "expiry": "2026-05-31",               // ISO date or null
-      "reliability": "high",                // high | medium | low
+      "id": "lululemon-up-to-67-off",
+      "store": "Lululemon",
+      "category": "Fashion & Apparel",
+      "title": "We Made Too Much — up to 67% off + free shipping",
+      "code": null,                          // null for no-code deals
+      "type": "deal",                        // code | deal | signup
+      "description": "Lululemon's outlet section, up to 67% off, free shipping.",
+      "discount": "Up to 67% off",
+      "eligibility": null,                   // or a string
+      "expiry": "2026-06-11",                // ISO date or null
+      "reliability": "high",                 // high | medium (low is excluded)
       "source": "https://...",
-      "sourceName": "DealNews",
-      "verifiedAt": "2026-05-29T20:25:00Z"
+      "sourceName": "Lululemon",
+      "verifiedAt": "2026-06-08T00:10:00Z",
+      "score": 82,                           // 0–100 ranking ("Best" sort)
+      "featured": true                       // shown in Top Deals
     }
   ]
 }
@@ -116,5 +118,6 @@ via the Vercel integration); it serves the root directory directly and gives an 
 
 ---
 
-*Data is a point-in-time snapshot from 2026-05-29. The “Last updated” time on the Overview page and
-each card's “Confirmed active” stamp make that freshness explicit.*
+*Data is a point-in-time snapshot from 2026-06-08. Standout deals are time-limited, so this ages
+faster than evergreen offers — the “Last updated” time and each deal's “Confirmed active” stamp make
+that freshness explicit.*

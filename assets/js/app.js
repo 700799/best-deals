@@ -5,7 +5,7 @@
   var DATA_URL = "./data/coupons.json";
   var RELIABILITY_RANK = { high: 0, medium: 1, low: 2 };
 
-  var state = { category: "All", query: "", sort: "reliability", reliability: "all" };
+  var state = { category: "All", query: "", sort: "best", reliability: "all", featuredOnly: false };
   var allCoupons = [];
   var meta = { generatedAt: null, categories: [] };
   var els = {};
@@ -18,6 +18,7 @@
       search: $("search"),
       sort: $("sort"),
       reliability: $("reliability"),
+      featuredToggle: $("featured-toggle"),
       resultCount: $("result-count"),
       loading: $("loading"),
       error: $("error"),
@@ -25,7 +26,9 @@
       footerUpdated: $("footer-updated"),
       copyLive: $("copy-live"),
       openFilters: $("open-filters"),
+      openCategories: $("open-categories"),
       filtersDrawer: $("filters-drawer"),
+      categoryDrawer: $("category-drawer"),
       detailDrawer: $("detail-drawer"),
       detailBody: $("detail-body"),
       detailTitle: $("detail-title"),
@@ -51,6 +54,7 @@
         renderFooter();
         renderCategories();
         render();
+        openDealFromQuery();
       })
       .catch(function (err) {
         console.error("Failed to load coupons:", err);
@@ -77,6 +81,20 @@
         state.query = String(qpStore).trim().toLowerCase();
         if (els.search) els.search.value = qpStore;
       }
+      if (params.get("featured") === "1") {
+        state.featuredOnly = true;
+        if (els.featuredToggle) els.featuredToggle.checked = true;
+      }
+    } catch (e) { /* ignore */ }
+  }
+
+  // ?deal=<id> opens that coupon's detail drawer on load.
+  function openDealFromQuery() {
+    try {
+      var id = new URLSearchParams(window.location.search).get("deal");
+      if (!id) return;
+      var hit = allCoupons.filter(function (x) { return x.id === id; })[0];
+      if (hit) openDetail(hit, null);
     } catch (e) { /* ignore */ }
   }
 
@@ -85,7 +103,7 @@
     if (els.footerUpdated) els.footerUpdated.textContent = updated;
   }
 
-  // ---- Category pills (inside the filters drawer) ----
+  // ---- Category-jump drawer list ----
   function renderCategories() {
     var counts = {};
     allCoupons.forEach(function (c) { counts[c.category] = (counts[c.category] || 0) + 1; });
@@ -100,8 +118,11 @@
       btn.dataset.category = cat;
       btn.appendChild(el("span", null, cat));
       var n = cat === "All" ? allCoupons.length : (counts[cat] || 0);
-      btn.appendChild(el("span", "count", "(" + n + ")"));
-      btn.addEventListener("click", function () { state.category = cat; updatePillStates(); render(); });
+      btn.appendChild(el("span", "count", String(n)));
+      btn.addEventListener("click", function () {
+        state.category = cat; updatePillStates(); render();
+        if (window.BDDrawer) window.BDDrawer.close();
+      });
       li.appendChild(btn);
       frag.appendChild(li);
     });
@@ -110,6 +131,7 @@
   }
 
   function updatePillStates() {
+    if (!els.categoryList) return;
     var pills = els.categoryList.querySelectorAll(".category-pill");
     Array.prototype.forEach.call(pills, function (p) {
       p.setAttribute("aria-pressed", String(p.dataset.category === state.category));
@@ -125,17 +147,22 @@
     });
     if (els.sort) els.sort.addEventListener("change", function () { state.sort = els.sort.value; render(); });
     if (els.reliability) els.reliability.addEventListener("change", function () { state.reliability = els.reliability.value; render(); });
+    if (els.featuredToggle) els.featuredToggle.addEventListener("change", function () { state.featuredOnly = els.featuredToggle.checked; render(); });
     if (els.openFilters) els.openFilters.addEventListener("click", function () {
       if (window.BDDrawer) window.BDDrawer.open(els.filtersDrawer, els.openFilters);
+    });
+    if (els.openCategories) els.openCategories.addEventListener("click", function () {
+      if (window.BDDrawer) window.BDDrawer.open(els.categoryDrawer, els.openCategories);
     });
     if (els.clearFilters) els.clearFilters.addEventListener("click", clearAllFilters);
   }
 
   function clearAllFilters() {
-    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "reliability";
+    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "best"; state.featuredOnly = false;
     if (els.search) els.search.value = "";
     if (els.reliability) els.reliability.value = "all";
-    if (els.sort) els.sort.value = "reliability";
+    if (els.sort) els.sort.value = "best";
+    if (els.featuredToggle) els.featuredToggle.checked = false;
     updatePillStates();
     render();
   }
@@ -144,6 +171,7 @@
   function getFiltered() {
     var q = state.query;
     return allCoupons.filter(function (c) {
+      if (state.featuredOnly && !c.featured) return false;
       if (state.category !== "All" && c.category !== state.category) return false;
       if (state.reliability !== "all" && c.reliability !== state.reliability) return false;
       if (q) {
@@ -155,6 +183,11 @@
   }
 
   function sorter(a, b) {
+    if (state.sort === "best") {
+      var sa = a.score != null ? a.score : 0, sb = b.score != null ? b.score : 0;
+      if (sb !== sa) return sb - sa;
+      return String(a.store).localeCompare(String(b.store));
+    }
     if (state.sort === "store") return String(a.store).localeCompare(String(b.store));
     if (state.sort === "verified") return new Date(b.verifiedAt || 0) - new Date(a.verifiedAt || 0);
     var ra = RELIABILITY_RANK[a.reliability] != null ? RELIABILITY_RANK[a.reliability] : 99;
@@ -168,8 +201,8 @@
     var list = getFiltered();
     els.grid.innerHTML = "";
     var msg = list.length === allCoupons.length
-      ? "Showing all " + list.length + " coupons"
-      : "Showing " + list.length + " of " + allCoupons.length + " coupons";
+      ? "Showing all " + list.length + " deals"
+      : "Showing " + list.length + " of " + allCoupons.length + " deals";
     if (els.resultCount) els.resultCount.textContent = msg;
     if (els.applyCount) els.applyCount.textContent = String(list.length);
     if (els.empty) els.empty.hidden = list.length !== 0;
@@ -181,6 +214,7 @@
 
   function updateActiveFilters() {
     var active = [];
+    if (state.featuredOnly) active.push({ key: "featured", label: "★ Top deals" });
     if (state.category !== "All") active.push({ key: "category", label: state.category });
     if (state.reliability !== "all") active.push({ key: "reliability", label: cap(state.reliability) + " reliability" });
     if (state.query) active.push({ key: "query", label: "“" + state.query + "”" });
@@ -209,6 +243,7 @@
     if (key === "category") state.category = "All";
     else if (key === "reliability") { state.reliability = "all"; if (els.reliability) els.reliability.value = "all"; }
     else if (key === "query") { state.query = ""; if (els.search) els.search.value = ""; }
+    else if (key === "featured") { state.featuredOnly = false; if (els.featuredToggle) els.featuredToggle.checked = false; }
     updatePillStates();
     render();
   }
@@ -223,8 +258,11 @@
 
     var top = el("div", "card-top");
     top.appendChild(el("span", "card-store", c.store));
+    var badges = el("span", "card-badges");
+    if (c.featured) badges.appendChild(el("span", "badge badge-featured", "★ Best"));
     var rel = (c.reliability || "low").toLowerCase();
-    top.appendChild(el("span", "badge badge-rel-" + rel, cap(rel)));
+    badges.appendChild(el("span", "badge badge-rel-" + rel, cap(rel)));
+    top.appendChild(badges);
     card.appendChild(top);
 
     if (c.discount) card.appendChild(el("div", "card-discount", c.discount));
@@ -250,6 +288,7 @@
     els.detailTitle.textContent = c.store;
 
     var badges = el("div", "detail-badges");
+    if (c.featured) badges.appendChild(el("span", "badge badge-featured", "★ Best"));
     var rel = (c.reliability || "low").toLowerCase();
     var b = el("span", "badge badge-rel-" + rel, cap(rel));
     b.title = reliabilityHint(rel);
@@ -352,9 +391,9 @@
   function cap(s) { s = String(s || ""); return s.charAt(0).toUpperCase() + s.slice(1); }
 
   function reliabilityHint(rel) {
-    if (rel === "high") return "Official / evergreen code (first-order, newsletter, student, or trial offer).";
-    if (rel === "medium") return "Dated promo with a stated expiry from a reputable deal source.";
-    return "Aggregator-listed code with limited corroboration — verify before use.";
+    if (rel === "high") return "Official / strongly corroborated deal.";
+    if (rel === "medium") return "From a reputable deal source; verify before use.";
+    return "Limited corroboration — verify before use.";
   }
 
   function formatDateTime(iso) {
