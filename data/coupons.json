@@ -1,7 +1,8 @@
 {
-  "generatedAt": "2026-06-08T06:58:25.955Z",
-  "count": 400,
+  "generatedAt": "2026-06-08T09:04:38.918Z",
+  "count": 482,
   "categories": [
+    "Restaurants & Dining",
     "Home & Garden",
     "General Retail",
     "Internet & Mobile",
@@ -19,8 +20,7 @@
     "Groceries & Meal Kits",
     "Pets",
     "Travel",
-    "Food Delivery",
-    "Restaurants & Dining"
+    "Food Delivery"
   ],
   "coupons": [
     {
@@ -37,11 +37,11 @@
       "source": "https://www.adobe.com/products/firefly/plans.html",
       "sourceName": "Adobe Firefly Plans",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "adobe-firefly-adobe-firefly-free-tier-18-off-annual",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "adobe-firefly-adobe-firefly-free-tier-18-off-annual"
+      "dailyRank": null
     },
     {
       "store": "Anthropic Claude",
@@ -57,11 +57,11 @@
       "source": "https://beginnersinai.org/claude-for-education-program/",
       "sourceName": "Beginners in AI",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "anthropic-claude-free-claude-for-verified-students-at-partne",
       "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "anthropic-claude-free-claude-for-verified-students-at-partner-universities"
+      "dailyRank": null
     },
     {
       "store": "Canva",
@@ -77,11 +77,11 @@
       "source": "https://www.demandsage.com/canva-free-trial/",
       "sourceName": "DemandSage",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "canva-canva-pro-30-day-free-trial",
       "score": 51,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "canva-canva-pro-30-day-free-trial"
+      "dailyRank": null
     },
     {
       "store": "Canva",
@@ -97,11 +97,11 @@
       "source": "https://www.canva.com/pro/",
       "sourceName": "Canva",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "canva-free-canva-pro-magic-studio-ai-via-canva-for-education",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "canva-free-canva-pro-magic-studio-ai-via-canva-for-education"
+      "dailyRank": null
     },
     {
       "store": "Copy.ai",
@@ -117,11 +117,11 @@
       "source": "https://www.copy.ai/prices",
       "sourceName": "Copy.ai",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "copy-ai-copy-ai-free-plan-26-off-pro-annual",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "copy-ai-copy-ai-free-plan-26-off-pro-annual"
+      "dailyRank": null
     },
     {
       "store": "Cursor",
@@ -137,11 +137,11 @@
       "source": "https://cursor.com/pricing",
       "sourceName": "Cursor Pricing",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "cursor-cursor-pro-2-week-free-trial",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "cursor-cursor-pro-2-week-free-trial"
+      "dailyRank": null
     },
     {
       "store": "Cursor",
@@ -157,11 +157,11 @@
       "source": "https://cursor.com/students",
       "sourceName": "Cursor",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "cursor-free-year-of-cursor-pro-for-verified-students",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "cursor-free-year-of-cursor-pro-for-verified-students"
+      "dailyRank": null
     },
     {
       "store": "Descript",
@@ -177,11 +177,11 @@
       "source": "https://www.descript.com/pricing",
       "sourceName": "Descript",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "descript-descript-35-off-with-annual-billing",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "descript-descript-35-off-with-annual-billing"
+      "dailyRank": null
     },
     {
       "store": "ElevenLabs",
@@ -197,11 +197,11 @@
       "source": "https://elevenlabs.io/pricing",
       "sourceName": "ElevenLabs Pricing",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 56,
+      "id": "elevenlabs-elevenlabs-2-months-free-on-all-annual-plans",
+      "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "elevenlabs-elevenlabs-2-months-free-on-all-annual-plans"
+      "dailyRank": null
     },
     {
       "store": "ElevenLabs",
@@ -217,11 +217,11 @@
       "source": "https://elevenlabs.io/students",
       "sourceName": "ElevenLabs",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 60,
+      "id": "elevenlabs-free-year-of-elevenreader-ultra-for-students-educ",
+      "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "elevenlabs-free-year-of-elevenreader-ultra-for-students-educators"
+      "dailyRank": null
     },
     {
       "store": "Gamma",
@@ -237,11 +237,11 @@
       "source": "https://gamma.app/pricing",
       "sourceName": "Gamma",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "gamma-gamma-20-off-annual-free-plan-400-credits",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "gamma-gamma-20-off-annual-free-plan-400-credits"
+      "dailyRank": null
     },
     {
       "store": "GitHub Copilot",
@@ -257,11 +257,11 @@
       "source": "https://docs.github.com/en/copilot/how-tos/manage-your-account/get-free-access-to-copilot-pro",
       "sourceName": "GitHub Docs",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "github-copilot-github-copilot-free-for-verified-students-tea",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "github-copilot-github-copilot-free-for-verified-students-teachers-oss-maint"
+      "dailyRank": null
     },
     {
       "store": "GitHub Copilot",
@@ -277,11 +277,11 @@
       "source": "https://github.com/features/copilot/plans",
       "sourceName": "GitHub Copilot Plans",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "github-copilot-github-copilot-free-tier-no-subscription",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "github-copilot-github-copilot-free-tier-no-subscription"
+      "dailyRank": null
     },
     {
       "store": "Google Gemini",
@@ -297,11 +297,11 @@
       "source": "https://one.google.com/about/google-ai-plans/",
       "sourceName": "Google One",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "google-gemini-1-month-free-trial-of-google-ai-pro-gemini",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "google-gemini-1-month-free-trial-of-google-ai-pro-gemini"
+      "dailyRank": null
     },
     {
       "store": "Google Gemini",
@@ -317,11 +317,11 @@
       "source": "https://truescho.com/en/blog/gemini-student-free-2026",
       "sourceName": "Truescho",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "google-gemini-google-ai-pro-50-off-student-rate-12-months",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "google-gemini-google-ai-pro-50-off-student-rate-12-months"
+      "dailyRank": null
     },
     {
       "store": "Grammarly",
@@ -337,11 +337,11 @@
       "source": "https://www.demandsage.com/grammarly-premium-free-trial/",
       "sourceName": "DemandSage",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "grammarly-grammarly-pro-7-day-free-trial",
       "score": 51,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "grammarly-grammarly-pro-7-day-free-trial"
+      "dailyRank": null
     },
     {
       "store": "Grammarly",
@@ -357,11 +357,11 @@
       "source": "https://www.grammarly.com/students",
       "sourceName": "Grammarly",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "grammarly-grammarly-pro-up-to-50-off-for-students",
       "score": 66,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "grammarly-grammarly-pro-up-to-50-off-for-students"
+      "dailyRank": null
     },
     {
       "store": "Jasper",
@@ -377,11 +377,11 @@
       "source": "https://www.jasper.ai/free-trial",
       "sourceName": "Jasper",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "jasper-jasper-7-day-free-trial-20-off-annual",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "jasper-jasper-7-day-free-trial-20-off-annual"
+      "dailyRank": null
     },
     {
       "store": "Microsoft 365 Copilot",
@@ -397,11 +397,11 @@
       "source": "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/individuals",
       "sourceName": "Microsoft Copilot Pricing",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "microsoft-365-copilot-copilot-pro-1-month-free-trial",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "microsoft-365-copilot-copilot-pro-1-month-free-trial"
+      "dailyRank": null
     },
     {
       "store": "Midjourney",
@@ -417,11 +417,11 @@
       "source": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
       "sourceName": "Midjourney Docs",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "midjourney-midjourney-20-off-all-annual-plans",
       "score": 54,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "midjourney-midjourney-20-off-all-annual-plans"
+      "dailyRank": null
     },
     {
       "store": "Notion",
@@ -437,11 +437,11 @@
       "source": "https://www.notion.com/help/notion-for-education",
       "sourceName": "Notion Help Center",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "notion-free-notion-plus-plan-for-students-educators",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "notion-free-notion-plus-plan-for-students-educators"
+      "dailyRank": null
     },
     {
       "store": "Notion",
@@ -457,11 +457,11 @@
       "source": "https://www.notion.com/pricing",
       "sourceName": "Notion Pricing",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "notion-notion-17-off-annual-ai-included-in-business",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "notion-notion-17-off-annual-ai-included-in-business"
+      "dailyRank": null
     },
     {
       "store": "OpenAI ChatGPT",
@@ -477,11 +477,11 @@
       "source": "https://openai.com/index/chatgpt-for-teachers/",
       "sourceName": "OpenAI",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "openai-chatgpt-free-chatgpt-for-teachers-through-june-2027",
       "score": 47,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "openai-chatgpt-free-chatgpt-for-teachers-through-june-2027"
+      "dailyRank": null
     },
     {
       "store": "OpenAI ChatGPT",
@@ -497,11 +497,11 @@
       "source": "https://help.openai.com/en/articles/12739021-chatgpt-go-promotion-india",
       "sourceName": "OpenAI Help Center",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "openai-chatgpt-free-year-of-chatgpt-go-in-india",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "openai-chatgpt-free-year-of-chatgpt-go-in-india"
+      "dailyRank": null
     },
     {
       "store": "Perplexity AI",
@@ -517,11 +517,11 @@
       "source": "https://richontech.tv/p/samsung-users-can-get-perplexity",
       "sourceName": "Rich on Tech",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "perplexity-ai-free-year-of-perplexity-pro-for-samsung-galaxy",
       "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "perplexity-ai-free-year-of-perplexity-pro-for-samsung-galaxy-owners"
+      "dailyRank": null
     },
     {
       "store": "Perplexity AI",
@@ -537,11 +537,11 @@
       "source": "https://www.perplexity.ai/hub/blog/redeem-a-free-year-of-perplexity-pro-through-xfinity-rewards",
       "sourceName": "Perplexity",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "perplexity-ai-free-year-of-perplexity-pro-via-xfinity-reward",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "perplexity-ai-free-year-of-perplexity-pro-via-xfinity-rewards"
+      "dailyRank": null
     },
     {
       "store": "Pika",
@@ -557,11 +557,11 @@
       "source": "https://pika.art/pricing",
       "sourceName": "Pika",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "pika-pika-20-off-annual-free-80-credits-month",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "pika-pika-20-off-annual-free-80-credits-month"
+      "dailyRank": null
     },
     {
       "store": "QuillBot",
@@ -577,11 +577,11 @@
       "source": "https://quillbot.com/premium/student-discount",
       "sourceName": "QuillBot",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "quillbot-quillbot-25-student-discount",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "quillbot-quillbot-25-student-discount"
+      "dailyRank": null
     },
     {
       "store": "QuillBot",
@@ -597,11 +597,11 @@
       "source": "https://quillbot.com/upgrade",
       "sourceName": "QuillBot",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "quillbot-quillbot-premium-58-off-with-annual-billing",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "quillbot-quillbot-premium-58-off-with-annual-billing"
+      "dailyRank": null
     },
     {
       "store": "Runway",
@@ -617,11 +617,11 @@
       "source": "https://runwayml.com/pricing",
       "sourceName": "Runway",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 54,
+      "id": "runway-runway-20-off-annual-billing",
+      "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "runway-runway-20-off-annual-billing"
+      "dailyRank": null
     },
     {
       "store": "Suno",
@@ -637,11 +637,11 @@
       "source": "https://suno.com/pricing",
       "sourceName": "Suno",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "suno-suno-20-off-annual-pro-premier",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "suno-suno-20-off-annual-pro-premier"
+      "dailyRank": null
     },
     {
       "store": "Writesonic",
@@ -657,11 +657,11 @@
       "source": "https://writesonic.com/pricing",
       "sourceName": "Writesonic Pricing",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "writesonic-writesonic-free-trial-20-off-annual",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "writesonic-writesonic-free-trial-20-off-annual"
+      "dailyRank": null
     },
     {
       "store": "You.com",
@@ -677,11 +677,11 @@
       "source": "https://you.com/pricing",
       "sourceName": "You.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "you-com-you-com-pro-25-off-with-annual-billing",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "you-com-you-com-pro-25-off-with-annual-billing"
+      "dailyRank": null
     },
     {
       "store": "Advance Auto Parts",
@@ -697,11 +697,11 @@
       "source": "https://shop.advanceautoparts.com/o/advance-auto-parts-coupons-and-deals",
       "sourceName": "Advance Auto Parts",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 49,
+      "id": "advance-auto-parts-25-off-first-online-order-via-email-signu",
+      "score": 39,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "advance-auto-parts-25-off-first-online-order-via-email-signup"
+      "dailyRank": null
     },
     {
       "store": "AutoZone",
@@ -717,11 +717,11 @@
       "source": "https://www.autozone.com/",
       "sourceName": "AutoZone.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 59,
+      "id": "autozone-20-off-100-online-orders-free-next-day-delivery",
+      "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "autozone-20-off-100-online-orders-free-next-day-delivery"
+      "dailyRank": null
     },
     {
       "store": "CarMax",
@@ -737,11 +737,11 @@
       "source": "https://www.carmax.com/car-financing",
       "sourceName": "CarMax.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "carmax-carmax-promotional-apr-auto-financing",
       "score": 68,
-      "featured": false,
+      "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "carmax-carmax-promotional-apr-auto-financing"
+      "dailyRank": null
     },
     {
       "store": "Carvana",
@@ -757,11 +757,11 @@
       "source": "https://www.carvana.com/",
       "sourceName": "Carvana.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "carvana-carvana-500-off-first-vehicle-purchase",
       "score": 68,
-      "featured": false,
+      "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "carvana-carvana-500-off-first-vehicle-purchase"
+      "dailyRank": null
     },
     {
       "store": "Chevrolet",
@@ -777,11 +777,11 @@
       "source": "https://www.chevrolet.com/current-offers",
       "sourceName": "Chevrolet.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "chevrolet-2026-chevy-equinox-ev-0-apr-for-60-months",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chevrolet-2026-chevy-equinox-ev-0-apr-for-60-months"
+      "dailyRank": null
     },
     {
       "store": "Chevrolet",
@@ -797,11 +797,11 @@
       "source": "https://www.chevrolet.com/current-offers",
       "sourceName": "Chevrolet.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "chevrolet-2026-chevy-silverado-1500-0-apr-for-60-months",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chevrolet-2026-chevy-silverado-1500-0-apr-for-60-months"
+      "dailyRank": null
     },
     {
       "store": "Discount Tire",
@@ -817,11 +817,11 @@
       "source": "https://www.discounttire.com/promotions",
       "sourceName": "DiscountTire.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "discount-tire-50-off-599-with-discount-tire-credit-card",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "discount-tire-50-off-599-with-discount-tire-credit-card"
+      "dailyRank": null
     },
     {
       "store": "Discount Tire",
@@ -837,11 +837,11 @@
       "source": "https://www.discounttire.com/promotions",
       "sourceName": "DiscountTire.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "discount-tire-80-instant-savings-on-4-michelin-tires",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "discount-tire-80-instant-savings-on-4-michelin-tires"
+      "dailyRank": null
     },
     {
       "store": "eBay Motors",
@@ -857,11 +857,11 @@
       "source": "https://www.ebay.com/b/eBay-Motors-Coupons/bn_7118680158",
       "sourceName": "eBay Motors",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "ebay-motors-partsdeals15",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "ebay-motors-partsdeals15"
+      "dailyRank": null
     },
     {
       "store": "Ford",
@@ -877,11 +877,11 @@
       "source": "https://www.ford.com/trucks/f150/pricing-and-incentives/",
       "sourceName": "Ford.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "ford-2026-ford-f-150-0-apr-bonus-cash",
       "score": 72,
       "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "ford-2026-ford-f-150-0-apr-bonus-cash"
+      "dailyRank": null
     },
     {
       "store": "Goodyear",
@@ -897,11 +897,11 @@
       "source": "https://www.goodyear.com/en-us/offers/tire-rebate",
       "sourceName": "Goodyear.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "goodyear-goodyear-tire-rebate-prepaid-virtual-card",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "goodyear-goodyear-tire-rebate-prepaid-virtual-card"
+      "dailyRank": null
     },
     {
       "store": "Honda",
@@ -917,11 +917,11 @@
       "source": "https://automobiles.honda.com/tools/current-offers",
       "sourceName": "Honda.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "honda-2026-honda-accord-lx-0-apr-financing",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "honda-2026-honda-accord-lx-0-apr-financing"
+      "dailyRank": null
     },
     {
       "store": "Honda",
@@ -937,11 +937,11 @@
       "source": "https://automobiles.honda.com/tools/current-offers",
       "sourceName": "Honda.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "honda-2026-honda-cr-v-lease-special",
       "score": 53,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "honda-2026-honda-cr-v-lease-special"
+      "dailyRank": null
     },
     {
       "store": "Hyundai",
@@ -957,11 +957,11 @@
       "source": "https://www.hyundaiusa.com/us/en/offers",
       "sourceName": "HyundaiUSA.com Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hyundai-2026-hyundai-ioniq-5-0-apr-for-72-months",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hyundai-2026-hyundai-ioniq-5-0-apr-for-72-months"
+      "dailyRank": null
     },
     {
       "store": "Hyundai",
@@ -977,11 +977,11 @@
       "source": "https://www.hyundaiusa.com/us/en/offers",
       "sourceName": "HyundaiUSA.com Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hyundai-2026-hyundai-tucson-lease-special",
       "score": 53,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hyundai-2026-hyundai-tucson-lease-special"
+      "dailyRank": null
     },
     {
       "store": "Jeep",
@@ -997,11 +997,11 @@
       "source": "https://www.jeep.com/incentives/apr.html",
       "sourceName": "Jeep.com Incentives",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 55,
+      "id": "jeep-2026-jeep-grand-cherokee-0-apr-financing",
+      "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "jeep-2026-jeep-grand-cherokee-0-apr-financing"
+      "dailyRank": null
     },
     {
       "store": "Jeep",
@@ -1017,11 +1017,11 @@
       "source": "https://www.jeep.com/incentives/bonus-incentives.html",
       "sourceName": "Jeep.com Bonus Incentives",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 72,
-      "featured": true,
+      "id": "jeep-jeep-500-military-first-responder-bonus-cash",
+      "score": 62,
+      "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "jeep-jeep-500-military-first-responder-bonus-cash"
+      "dailyRank": null
     },
     {
       "store": "Kia",
@@ -1037,11 +1037,11 @@
       "source": "https://www.kia.com/us/en/offers/landing",
       "sourceName": "Kia.com Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "kia-2026-kia-sportage-0-apr-up-to-3-250-cash",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "kia-2026-kia-sportage-0-apr-up-to-3-250-cash"
+      "dailyRank": null
     },
     {
       "store": "Mazda",
@@ -1057,11 +1057,11 @@
       "source": "https://www.mazdausa.com/shopping-tools/special-offers-and-incentives",
       "sourceName": "MazdaUSA.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "mazda-2026-mazda-cx-50-0-apr-for-72-months",
       "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "mazda-2026-mazda-cx-50-0-apr-for-72-months"
+      "dailyRank": null
     },
     {
       "store": "Michelin",
@@ -1077,11 +1077,11 @@
       "source": "https://www.michelinman.com/deals-promotions-and-rebates",
       "sourceName": "MichelinMan.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "michelin-up-to-100-back-on-4-michelin-tires",
       "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "michelin-up-to-100-back-on-4-michelin-tires"
+      "dailyRank": null
     },
     {
       "store": "Nissan",
@@ -1097,11 +1097,11 @@
       "source": "https://www.nissanusa.com/vehicles/crossovers-suvs/rogue/deals-incentives-offers.html",
       "sourceName": "NissanUSA.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 55,
+      "id": "nissan-2026-nissan-rogue-0-apr-up-to-3-500-cash",
+      "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "nissan-2026-nissan-rogue-0-apr-up-to-3-500-cash"
+      "dailyRank": null
     },
     {
       "store": "O'Reilly Auto Parts",
@@ -1117,11 +1117,11 @@
       "source": "https://www.oreillyauto.com/coupons-offers-and-promotions",
       "sourceName": "O'Reilly Auto Parts",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "o-reilly-auto-parts-buy-2-brakebest-rotors-get-1-free-set-of",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "o-reilly-auto-parts-buy-2-brakebest-rotors-get-1-free-set-of-brake-pads"
+      "dailyRank": null
     },
     {
       "store": "SimpleTire",
@@ -1137,11 +1137,11 @@
       "source": "https://simpletire.com/tire-deals",
       "sourceName": "SimpleTire.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "simpletire-simpletire-brand-tire-deals-military-discount",
       "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "simpletire-simpletire-brand-tire-deals-military-discount"
+      "dailyRank": null
     },
     {
       "store": "Subaru",
@@ -1157,11 +1157,11 @@
       "source": "https://www.subaru.com/shopping-tools/special-offers.html",
       "sourceName": "Subaru.com Special Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 53,
+      "id": "subaru-2026-subaru-forester-1-9-apr-lease-loyalty",
+      "score": 43,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "subaru-2026-subaru-forester-1-9-apr-lease-loyalty"
+      "dailyRank": null
     },
     {
       "store": "Subaru",
@@ -1177,11 +1177,11 @@
       "source": "https://www.subaru.com/shopping-tools/special-offers.html",
       "sourceName": "Subaru.com Special Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 74,
-      "featured": true,
+      "id": "subaru-subaru-500-healthcare-medical-professional-discount",
+      "score": 64,
+      "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "subaru-subaru-500-healthcare-medical-professional-discount"
+      "dailyRank": null
     },
     {
       "store": "Tesla",
@@ -1197,11 +1197,11 @@
       "source": "https://www.tesla.com/current-offers",
       "sourceName": "Tesla.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "tesla-2026-tesla-model-y-0-apr-for-72-months",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "tesla-2026-tesla-model-y-0-apr-for-72-months"
+      "dailyRank": null
     },
     {
       "store": "Tesla",
@@ -1217,11 +1217,11 @@
       "source": "https://www.tesla.com/current-offers",
       "sourceName": "Tesla.com Current Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "tesla-tesla-model-3-lease-1-year-free-supercharging",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "tesla-tesla-model-3-lease-1-year-free-supercharging"
+      "dailyRank": null
     },
     {
       "store": "Tire Rack",
@@ -1237,11 +1237,11 @@
       "source": "https://www.tirerack.com/specialoffers/details.jsp?promoID=C641",
       "sourceName": "Tire Rack",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "tire-rack-up-to-110-or-200-back-on-4-continental-tires",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "tire-rack-up-to-110-or-200-back-on-4-continental-tires"
+      "dailyRank": null
     },
     {
       "store": "Toyota",
@@ -1257,11 +1257,11 @@
       "source": "https://www.toyota.com/deals-incentives/rav4/",
       "sourceName": "Toyota.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "toyota-2026-toyota-camry-le-lease-special",
       "score": 53,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "toyota-2026-toyota-camry-le-lease-special"
+      "dailyRank": null
     },
     {
       "store": "Toyota",
@@ -1277,11 +1277,11 @@
       "source": "https://www.toyota.com/deals-incentives/rav4/lease/",
       "sourceName": "Toyota.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "toyota-2026-toyota-rav4-le-lease-special",
       "score": 53,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "toyota-2026-toyota-rav4-le-lease-special"
+      "dailyRank": null
     },
     {
       "store": "Volkswagen",
@@ -1297,11 +1297,11 @@
       "source": "https://www.vw.com/en/offers.html",
       "sourceName": "VW.com Offers",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "volkswagen-2026-vw-tiguan-1-9-apr-or-2-500-bonus-cash",
       "score": 62,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "volkswagen-2026-vw-tiguan-1-9-apr-or-2-500-bonus-cash"
+      "dailyRank": null
     },
     {
       "store": "Amazon",
@@ -1317,11 +1317,11 @@
       "source": "https://www.tomshardware.com/pc-components/get-a-27-1440p-oled-monitor-with-a-blazing-fast-240-hz-refresh-rate-for-just-usd499-lgs-27gs93qe-b-is-usd400-off-right-now-features-1-300-nits-of-peak-hdr-brightness",
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "amazon-lg-ultragear-27gs93qe-b-27-1440p-240hz-oled-499-99-wa",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "amazon-lg-ultragear-27gs93qe-b-27-1440p-240hz-oled-499-99-was-899-9"
+      "dailyRank": null
     },
     {
       "store": "Amazon",
@@ -1337,11 +1337,11 @@
       "source": "https://news.samsung.com/global/samsung-launches-next-gen-odyssey-gaming-and-viewfinity-monitors-including-industrys-first-6k-gaming-monitor",
       "sourceName": "Samsung Newsroom",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "amazon-samsung-odyssey-oled-g8-27-4k-240hz-1-099-99-200-cred",
       "score": 74,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "amazon-samsung-odyssey-oled-g8-27-4k-240hz-1-099-99-200-credit"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1357,11 +1357,11 @@
       "source": "https://www.techradar.com/computing/chromebooks/huge-chromebook-sale-at-best-buy-includes-half-price-deals-on-acer-lenovo-and-other-leading-brands",
       "sourceName": "TechRadar",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-acer-chromebook-plus-intel-core-ultra-5-256gb-529-w",
       "score": 72,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-acer-chromebook-plus-intel-core-ultra-5-256gb-529-was-799"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1377,11 +1377,11 @@
       "source": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd1-280-on-this-4k-ready-alienware-aurora-desktop-pc-with-rtx-5080-high-performance-gaming-at-your-fingertips-for-usd2-919",
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
-      "featured": false,
+      "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2tb-2-919-9"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1397,11 +1397,11 @@
       "source": "https://appleinsider.com/deals/best-macbook-pro-deals",
       "sourceName": "AppleInsider",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-apple-macbook-pro-14-m5-pro-10-core-1-499-was-1-699",
       "score": 72,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-apple-macbook-pro-14-m5-pro-10-core-1-499-was-1-699"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1417,11 +1417,11 @@
       "source": "https://www.laptopmag.com/deals/gaming-laptops-pcs/best-buy-is-selling-this-high-performance-usd1-580-hp-omen-rtx-50-laptop-for-usd1-279",
       "sourceName": "Laptop Mag",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1-",
       "score": 73,
       "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1-580"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1437,11 +1437,11 @@
       "source": "https://slickdeals.net/laptop-deals/",
       "sourceName": "Slickdeals",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-hp-omnibook-3-snapdragon-x-14-touch-16gb-512gb-549-",
       "score": 73,
-      "featured": true,
+      "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-hp-omnibook-3-snapdragon-x-14-touch-16gb-512gb-549-99-was-94"
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1457,11 +1457,11 @@
       "source": "https://www.techradar.com/computing/gaming-pcs/score-usd200-off-this-pre-built-gaming-pc-with-an-rtx-5060-and-32gb-of-ddr5-ram-at-best-buy",
       "sourceName": "TechRadar",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-ibuypower-slate-core-i7-14700f-rtx-5060-32gb-1tb-1-",
       "score": 72,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-ibuypower-slate-core-i7-14700f-rtx-5060-32gb-1tb-1-299-99-wa"
+      "dailyRank": null
     },
     {
       "store": "Dell",
@@ -1477,11 +1477,11 @@
       "source": "https://www.tomshardware.com/desktops/gaming-pcs/snag-the-most-affordable-rtx-5080-gaming-pc-right-now-for-usd580-off-save-big-on-dells-alienware-aurora-rig",
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "dell-alienware-aurora-rtx-5080-core-ultra-7-265f-16gb-1tb-2-",
       "score": 73,
-      "featured": false,
+      "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "dell-alienware-aurora-rtx-5080-core-ultra-7-265f-16gb-1tb-2-024-9"
+      "dailyRank": null
     },
     {
       "store": "Dell",
@@ -1497,11 +1497,11 @@
       "source": "https://www.techradar.com/coupons/dell",
       "sourceName": "TechRadar (Dell coupons)",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "dell-dell-10-off-first-order-newsletter-signup-coupon",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "dell-dell-10-off-first-order-newsletter-signup-coupon"
+      "dailyRank": null
     },
     {
       "store": "Dell",
@@ -1517,11 +1517,11 @@
       "source": "https://www.tomshardware.com/coupons/dell.com",
       "sourceName": "Tom's Hardware (Dell coupons)",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "dell-dell-inspiron-14-2-in-1-250-off",
       "score": 65,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "dell-dell-inspiron-14-2-in-1-250-off"
+      "dailyRank": null
     },
     {
       "store": "Dell",
@@ -1537,11 +1537,11 @@
       "source": "https://www.tomshardware.com/coupons/dell.com",
       "sourceName": "Tom's Hardware (Dell coupons)",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "dell-dell-inspiron-16-core-i7-1-199-99-200-off",
       "score": 65,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "dell-dell-inspiron-16-core-i7-1-199-99-200-off"
+      "dailyRank": null
     },
     {
       "store": "Dell",
@@ -1557,11 +1557,11 @@
       "source": "https://www.windowscentral.com/hardware/dell/dells-stunning-new-xps-14-and-xps-16-just-got-their-first-big-discounts-save-usd250-on-these-early-contenders-for-best-laptops-of-the-year",
       "sourceName": "Windows Central",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "dell-dell-xps-14-xps-16-2026-core-ultra-save-250",
       "score": 70,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "dell-dell-xps-14-xps-16-2026-core-ultra-save-250"
+      "dailyRank": null
     },
     {
       "store": "HP",
@@ -1577,11 +1577,11 @@
       "source": "https://www.hp.com/us-en/shop/cv/coupons-promo",
       "sourceName": "HP Store",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hp-hp-gaming-coupon-select-omen-victus-laptops-desktops-june",
       "score": 48,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hp-hp-gaming-coupon-select-omen-victus-laptops-desktops-june-7-"
+      "dailyRank": null
     },
     {
       "store": "HP",
@@ -1597,11 +1597,11 @@
       "source": "https://www.tomsguide.com/computing/gaming-laptops/score-rtx-5060-equipped-hp-omen-16-is-at-its-lowest-ever-price-usd300-off-for-a-limited-time",
       "sourceName": "Tom's Guide",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hp-hp-omen-16-core-ultra-7-255h-rtx-5060-16gb-1tb-2k-144hz-1",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hp-hp-omen-16-core-ultra-7-255h-rtx-5060-16gb-1tb-2k-144hz-1-05"
+      "dailyRank": null
     },
     {
       "store": "HP",
@@ -1617,11 +1617,11 @@
       "source": "https://www.tomshardware.com/coupons/hp.com",
       "sourceName": "Tom's Hardware (HP coupons)",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hp-20offomen",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hp-20offomen"
+      "dailyRank": null
     },
     {
       "store": "Lenovo",
@@ -1637,11 +1637,11 @@
       "source": "https://9to5toys.com/2026/02/17/lenovo-oled-legion-pro-5i-rtx-5070-gaming-laptop-all-time-low/",
       "sourceName": "9to5Toys",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
       "top10": true,
-      "dailyRank": 3,
-      "id": "lenovo-pdlive26"
+      "dailyRank": 3
     },
     {
       "store": "Micro Center",
@@ -1657,11 +1657,11 @@
       "source": "https://videocardz.com/newz/amd-ryzen-7-9800x3d-hits-399-at-microcenter",
       "sourceName": "VideoCardz",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "micro-center-amd-ryzen-7-9800x3d-399-in-store-80-under-msrp",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "micro-center-amd-ryzen-7-9800x3d-399-in-store-80-under-msrp"
+      "dailyRank": null
     },
     {
       "store": "Micro Center",
@@ -1677,11 +1677,11 @@
       "source": "https://www.microcenter.com/site/content/bundle-and-save.aspx",
       "sourceName": "Micro Center",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "micro-center-ryzen-7-9700x-32gb-ddr5-6000-gigabyte-b650-bund",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "micro-center-ryzen-7-9700x-32gb-ddr5-6000-gigabyte-b650-bundle-679-99-was"
+      "dailyRank": null
     },
     {
       "store": "Micro Center",
@@ -1697,11 +1697,11 @@
       "source": "https://www.microcenter.com/site/content/bundle-and-save.aspx",
       "sourceName": "Micro Center",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "micro-center-ryzen-7-9800x3d-32gb-ddr5-6000-gigabyte-b850-bu",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "micro-center-ryzen-7-9800x3d-32gb-ddr5-6000-gigabyte-b850-bundle-729-99-w"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1717,11 +1717,11 @@
       "source": "https://www.pcguide.com/deals/this-discounted-rtx-5070-ti-prebuild-with-a-ryzen-7-9800x3d-32gb-of-ddr5-and-2tb-ssd-also-comes-with-a-140-gift-card-at-newegg/",
       "sourceName": "PC Guide",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 71,
+      "id": "newegg-absgamer5",
+      "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-absgamer5"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1737,11 +1737,11 @@
       "source": "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals",
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 67,
+      "id": "newegg-cyberpowerpc-ryzen-7-7800x3d-rtx-5070-32gb-1tb-1-959-",
+      "score": 57,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-cyberpowerpc-ryzen-7-7800x3d-rtx-5070-32gb-1tb-1-959-was-2-1"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1757,11 +1757,11 @@
       "source": "https://www.techradar.com/pro/a-big-win-for-ram-buyers-save-usd115-on-32gb-of-super-fast-g-skill-flare-x5-ddr5-6000-memory-using-this-special-code",
       "sourceName": "TechRadar",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 79,
-      "featured": true,
-      "top10": true,
-      "dailyRank": 8,
-      "id": "newegg-mmsf256"
+      "id": "newegg-mmsf256",
+      "score": 69,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1777,11 +1777,11 @@
       "source": "https://www.pcguide.com/deals/premium-rtx-5070-ti-and-intel-core-ultra-9-285k-msi-gaming-pc-gets-500-discount-with-knockout-newegg-deal/",
       "sourceName": "PC Guide",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "newegg-msi-aegis-rs2-core-ultra-9-285k-rtx-5070-ti-2-599-was",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-msi-aegis-rs2-core-ultra-9-285k-rtx-5070-ti-2-599-was-3-099"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1797,11 +1797,11 @@
       "source": "https://www.pcguide.com/deals/this-premium-msi-oled-4k-240hz-gaming-monitor-has-crashed-to-its-lowest-price-in-30-days-at-newegg/",
       "sourceName": "PC Guide",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 65,
+      "id": "newegg-msi-mpg-321urx-32-4k-240hz-qd-oled-709-99-w-promo-cod",
+      "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-msi-mpg-321urx-32-4k-240hz-qd-oled-709-99-w-promo-code"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1817,11 +1817,11 @@
       "source": "https://www.pcguide.com/deals/rtx-5070-and-ryzen-7800x3d-pc-deal-on-newegg-slashes-price-by-330-to-just-1769-99/",
       "sourceName": "PC Guide",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "newegg-rtx-5070-ryzen-7-7800x3d-prebuilt-1-769-99-330-off",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-rtx-5070-ryzen-7-7800x3d-prebuilt-1-769-99-330-off"
+      "dailyRank": null
     },
     {
       "store": "Newegg",
@@ -1837,11 +1837,11 @@
       "source": "https://www.tomshardware.com/pc-components/ssds/best-ssd-deals",
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "newegg-wd-black-sn850x-2tb-w-heatsink-325-26-was-374-30-13-o",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "newegg-wd-black-sn850x-2tb-w-heatsink-325-26-was-374-30-13-off"
+      "dailyRank": null
     },
     {
       "store": "PC Richard & Son",
@@ -1857,11 +1857,11 @@
       "source": "https://slickdeals.net/laptop-deals/",
       "sourceName": "Slickdeals",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "pc-richard-son-apple-macbook-air-13-6-m5-16gb-512gb-928-was-",
       "score": 62,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "pc-richard-son-apple-macbook-air-13-6-m5-16gb-512gb-928-was-1-099"
+      "dailyRank": null
     },
     {
       "store": "Razer",
@@ -1877,11 +1877,11 @@
       "source": "https://www.razer.com/gaming-laptops/razer-blade-16",
       "sourceName": "Razer",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "razer-razer-blade-rtx-50-series-free-resident-evil-requiem-6",
       "score": 51,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "razer-razer-blade-rtx-50-series-free-resident-evil-requiem-69-99-v"
+      "dailyRank": null
     },
     {
       "store": "Samsung",
@@ -1897,11 +1897,11 @@
       "source": "https://slickdeals.net/monitor-deals/",
       "sourceName": "Slickdeals",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "samsung-samsung-odyssey-g9-49-dualqhd-qd-oled-700-off",
       "score": 68,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "samsung-samsung-odyssey-g9-49-dualqhd-qd-oled-700-off"
+      "dailyRank": null
     },
     {
       "store": "American Express Business Gold",
@@ -1917,11 +1917,11 @@
       "source": "https://www.americanexpress.com/us/credit-cards/business/business-credit-cards/american-express-business-gold-card-amex/",
       "sourceName": "American Express",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "american-express-business-gold-up-to-200-000-point-welcome-o",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "american-express-business-gold-up-to-200-000-point-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "American Express Gold Card",
@@ -1937,11 +1937,11 @@
       "source": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
       "sourceName": "American Express",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "american-express-gold-card-up-to-100-000-point-welcome-offer",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "american-express-gold-card-up-to-100-000-point-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "American Express Platinum Card",
@@ -1957,11 +1957,11 @@
       "source": "https://thepointsguy.com/credit-cards/best-credit-card-offers-this-month/",
       "sourceName": "The Points Guy",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "american-express-platinum-card-up-to-175-000-point-welcome-o",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "american-express-platinum-card-up-to-175-000-point-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "Amex Blue Cash Preferred",
@@ -1977,11 +1977,11 @@
       "source": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
       "sourceName": "American Express",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "amex-blue-cash-preferred-300-cash-back-welcome-offer",
       "score": 63,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "amex-blue-cash-preferred-300-cash-back-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "Bank of America Customized Cash Rewards",
@@ -1997,11 +1997,11 @@
       "source": "https://www.bankofamerica.com/credit-cards/products/cash-back-credit-card/",
       "sourceName": "Bank of America",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "bank-of-america-customized-cash-rewards-200-cash-bonus-0-int",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "bank-of-america-customized-cash-rewards-200-cash-bonus-0-intro-apr"
+      "dailyRank": null
     },
     {
       "store": "Bank of America Travel Rewards",
@@ -2017,11 +2017,11 @@
       "source": "https://wallethub.com/compare/cc/bank-of-america-travel-rewards-vs-cash-rewards",
       "sourceName": "WalletHub",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "bank-of-america-travel-rewards-25-000-point-bonus",
       "score": 48,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "bank-of-america-travel-rewards-25-000-point-bonus"
+      "dailyRank": null
     },
     {
       "store": "Bank of America Unlimited Cash Rewards",
@@ -2037,11 +2037,11 @@
       "source": "https://www.bankofamerica.com/credit-cards/products/unlimited-cash-back-credit-card/",
       "sourceName": "Bank of America",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "bank-of-america-unlimited-cash-rewards-200-cash-bonus",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "bank-of-america-unlimited-cash-rewards-200-cash-bonus"
+      "dailyRank": null
     },
     {
       "store": "Capital One Savor Cash Rewards",
@@ -2057,11 +2057,11 @@
       "source": "https://www.capitalone.com/credit-cards/savor/",
       "sourceName": "Capital One",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "capital-one-savor-cash-rewards-200-cash-bonus",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "capital-one-savor-cash-rewards-200-cash-bonus"
+      "dailyRank": null
     },
     {
       "store": "Capital One Venture Rewards",
@@ -2077,11 +2077,11 @@
       "source": "https://awardwallet.com/credit-cards/capital-one-rewards/venture-card-bonus/",
       "sourceName": "AwardWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "capital-one-venture-rewards-75-000-mile-sign-up-bonus",
       "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "capital-one-venture-rewards-75-000-mile-sign-up-bonus"
+      "dailyRank": null
     },
     {
       "store": "Capital One Venture X",
@@ -2097,11 +2097,11 @@
       "source": "https://www.capitalone.com/credit-cards/venture-x/",
       "sourceName": "Capital One",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "capital-one-venture-x-75-000-mile-sign-up-bonus",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "capital-one-venture-x-75-000-mile-sign-up-bonus"
+      "dailyRank": null
     },
     {
       "store": "Chase Freedom Unlimited",
@@ -2117,11 +2117,11 @@
       "source": "https://upgradedpoints.com/news/chase-freedom-unlimited-250-sign-up-bonus/",
       "sourceName": "Upgraded Points",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 79,
+      "id": "chase-freedom-unlimited-250-elevated-cash-back-bonus",
+      "score": 69,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5,
-      "id": "chase-freedom-unlimited-250-elevated-cash-back-bonus"
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Chase Ink Business Preferred",
@@ -2137,11 +2137,11 @@
       "source": "https://www.nerdwallet.com/business/credit-cards/best/sign-up-bonuses",
       "sourceName": "NerdWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "chase-ink-business-preferred-90-000-point-sign-up-bonus",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chase-ink-business-preferred-90-000-point-sign-up-bonus"
+      "dailyRank": null
     },
     {
       "store": "Chase Ink Business Unlimited",
@@ -2157,11 +2157,11 @@
       "source": "https://www.nerdwallet.com/business/credit-cards/learn/chase-ink-unlimited-cash-bonus-offer",
       "sourceName": "NerdWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "chase-ink-business-unlimited-900-cash-back-sign-up-bonus",
       "score": 63,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chase-ink-business-unlimited-900-cash-back-sign-up-bonus"
+      "dailyRank": null
     },
     {
       "store": "Chase Sapphire Preferred",
@@ -2177,11 +2177,11 @@
       "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
       "sourceName": "Chase",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 68,
+      "id": "chase-sapphire-preferred-75-000-point-sign-up-bonus",
+      "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chase-sapphire-preferred-75-000-point-sign-up-bonus"
+      "dailyRank": null
     },
     {
       "store": "Chase Sapphire Reserve",
@@ -2197,11 +2197,11 @@
       "source": "https://thepointsguy.com/credit-cards/chase-sapphire-reserve-150000-points-faq/",
       "sourceName": "The Points Guy",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 70,
-      "featured": true,
+      "id": "chase-sapphire-reserve-150-000-point-welcome-bonus-all-time-",
+      "score": 60,
+      "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "chase-sapphire-reserve-150-000-point-welcome-bonus-all-time-high"
+      "dailyRank": null
     },
     {
       "store": "Citi Custom Cash",
@@ -2217,11 +2217,11 @@
       "source": "https://www.cnbc.com/select/citi-double-cash-card-welcome-bonus-offer/",
       "sourceName": "CNBC Select",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "citi-custom-cash-200-cash-back-bonus",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "citi-custom-cash-200-cash-back-bonus"
+      "dailyRank": null
     },
     {
       "store": "Citi Double Cash",
@@ -2237,11 +2237,11 @@
       "source": "https://www.cnbc.com/select/citi-double-cash-card-welcome-bonus-offer/",
       "sourceName": "CNBC Select",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "citi-double-cash-200-cash-back-bonus",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "citi-double-cash-200-cash-back-bonus"
+      "dailyRank": null
     },
     {
       "store": "Citi Strata Premier",
@@ -2257,11 +2257,11 @@
       "source": "https://www.citi.com/credit-cards/citi-strata-premier-credit-card",
       "sourceName": "Citi",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "citi-strata-premier-60-000-point-bonus",
       "score": 58,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "citi-strata-premier-60-000-point-bonus"
+      "dailyRank": null
     },
     {
       "store": "Delta SkyMiles Gold American Express",
@@ -2277,11 +2277,11 @@
       "source": "https://www.cnbc.com/select/amex-delta-card-offers/",
       "sourceName": "CNBC Select",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "delta-skymiles-gold-american-express-up-to-90-000-mile-welco",
       "score": 64,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "delta-skymiles-gold-american-express-up-to-90-000-mile-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "Delta SkyMiles Reserve American Express",
@@ -2297,11 +2297,11 @@
       "source": "https://www.cnbc.com/select/amex-delta-card-offers/",
       "sourceName": "CNBC Select",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "delta-skymiles-reserve-american-express-up-to-125-000-mile-w",
       "score": 64,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "delta-skymiles-reserve-american-express-up-to-125-000-mile-welcome-offer"
+      "dailyRank": null
     },
     {
       "store": "Discover it Chrome",
@@ -2317,11 +2317,11 @@
       "source": "https://financebuzz.com/discover-it-chrome-review",
       "sourceName": "FinanceBuzz",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "discover-it-chrome-unlimited-cashback-match-0-intro-apr",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "discover-it-chrome-unlimited-cashback-match-0-intro-apr"
+      "dailyRank": null
     },
     {
       "store": "Hilton Honors American Express",
@@ -2337,11 +2337,11 @@
       "source": "https://thepointsguy.com/credit-cards/hilton-honors-amex-current-offers/",
       "sourceName": "The Points Guy",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hilton-honors-american-express-100-000-points-100-statement-",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hilton-honors-american-express-100-000-points-100-statement-credit"
+      "dailyRank": null
     },
     {
       "store": "Hilton Honors Surpass",
@@ -2357,11 +2357,11 @@
       "source": "https://thepointsguy.com/credit-cards/hilton-honors-amex-current-offers/",
       "sourceName": "The Points Guy",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "hilton-honors-surpass-130-000-point-welcome-bonus",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "hilton-honors-surpass-130-000-point-welcome-bonus"
+      "dailyRank": null
     },
     {
       "store": "Marriott Bonvoy Boundless",
@@ -2377,11 +2377,11 @@
       "source": "https://www.nerdwallet.com/credit-cards/news/marriott-bonvoy-bold-boundless-new-bonus-offers-June-2026",
       "sourceName": "NerdWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "marriott-bonvoy-boundless-125-000-points-free-night-award",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "marriott-bonvoy-boundless-125-000-points-free-night-award"
+      "dailyRank": null
     },
     {
       "store": "Southwest Rapid Rewards Priority",
@@ -2397,11 +2397,11 @@
       "source": "https://www.cnbc.com/select/limited-time-southwest-card-offers-earn-up-to-90000-bonus-points/",
       "sourceName": "CNBC Select",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "southwest-rapid-rewards-priority-90-000-point-limited-time-b",
       "score": 64,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "southwest-rapid-rewards-priority-90-000-point-limited-time-bonus"
+      "dailyRank": null
     },
     {
       "store": "U.S. Bank Cash+ Visa Signature",
@@ -2417,11 +2417,11 @@
       "source": "https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html",
       "sourceName": "U.S. Bank",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "u-s-bank-cash-visa-signature-250-cash-back-bonus-0-intro-apr",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "u-s-bank-cash-visa-signature-250-cash-back-bonus-0-intro-apr"
+      "dailyRank": null
     },
     {
       "store": "United Explorer Card",
@@ -2437,11 +2437,11 @@
       "source": "https://thepointsguy.com/credit-cards/united-cards-sign-up-offers/",
       "sourceName": "The Points Guy",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "united-explorer-card-up-to-80-000-mile-bonus",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "united-explorer-card-up-to-80-000-mile-bonus"
+      "dailyRank": null
     },
     {
       "store": "Wells Fargo Active Cash",
@@ -2457,11 +2457,11 @@
       "source": "https://www.nerdwallet.com/credit-cards/best/wells-fargo-cards",
       "sourceName": "NerdWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "wells-fargo-active-cash-200-cash-rewards-bonus",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "wells-fargo-active-cash-200-cash-rewards-bonus"
+      "dailyRank": null
     },
     {
       "store": "Wells Fargo Autograph",
@@ -2477,11 +2477,11 @@
       "source": "https://www.nerdwallet.com/credit-cards/best/wells-fargo-cards",
       "sourceName": "NerdWallet",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "wells-fargo-autograph-20-000-point-bonus",
       "score": 48,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "wells-fargo-autograph-20-000-point-bonus"
+      "dailyRank": null
     },
     {
       "store": "Amazon",
@@ -2778,7 +2778,7 @@
       "sourceName": "Tom's Hardware",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "newegg-wd-black-sn850x-2tb-heatsink-325-26-was-374-30",
-      "score": 67,
+      "score": 57,
       "featured": false,
       "top10": false,
       "dailyRank": null
@@ -2921,7 +2921,7 @@
       "score": 79,
       "featured": true,
       "top10": true,
-      "dailyRank": 9
+      "dailyRank": 7
     },
     {
       "store": "Sonos",
@@ -3241,7 +3241,7 @@
       "score": 79,
       "featured": true,
       "top10": true,
-      "dailyRank": 7
+      "dailyRank": 6
     },
     {
       "store": "Madewell",
@@ -3319,7 +3319,7 @@
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "nike-up-to-40-off-jordan-styles-in-the-sale",
       "score": 68,
-      "featured": false,
+      "featured": true,
       "top10": false,
       "dailyRank": null
     },
@@ -3697,9 +3697,9 @@
       "source": "https://gg.deals/bundle/humble-choice-june-2026-gets-you-octopath-traveler-2-the-riftbreaker-6-more-games/",
       "sourceName": "GG.deals",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "humble-bundle-humble-choice-june-2026-8-games-incl-octopath-",
+      "id": "humble-bundle-humble-choice-june-2026-8-games-incl-octopath",
       "score": 67,
-      "featured": false,
+      "featured": true,
       "top10": false,
       "dailyRank": null
     },
@@ -3797,7 +3797,7 @@
       "source": "https://www.playstation.com/en-us/deals/days-of-play/",
       "sourceName": "PlayStation Official",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "playstation-direct-playstation-vr2-headset-299-was-399-days-",
+      "id": "playstation-direct-playstation-vr2-headset-299-was-399-days",
       "score": 71,
       "featured": true,
       "top10": false,
@@ -3857,7 +3857,7 @@
       "source": "https://9to5toys.com/2026/05/26/playstation-days-of-play-2026-sale-revealed/",
       "sourceName": "9to5Toys",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "playstation-store-clair-obscur-expedition-33-25-off-days-of-",
+      "id": "playstation-store-clair-obscur-expedition-33-25-off-days-of",
       "score": 53,
       "featured": false,
       "top10": false,
@@ -3961,7 +3961,7 @@
       "score": 77,
       "featured": true,
       "top10": true,
-      "dailyRank": 10
+      "dailyRank": 8
     },
     {
       "store": "Amazon",
@@ -3980,8 +3980,8 @@
       "id": "amazon-early-prime-day-device-deals-echo-ring-kindle-fire-tv",
       "score": 77,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Amazon",
@@ -3997,11 +3997,11 @@
       "source": "https://www.aboutamazon.com/news/retail/best-early-prime-day-deals-2026",
       "sourceName": "About Amazon",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "amazon-prime-day-2026-early-deals-up-to-65-off-amazon-device",
       "score": 77,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "amazon-prime-day-2026-early-deals-up-to-65-off-amazon-devices-live-"
+      "dailyRank": null
     },
     {
       "store": "Amazon",
@@ -4017,11 +4017,11 @@
       "source": "https://www.doctorofcredit.com/chase-amazon-prime-visa-200-signup-bonus-with-no-spend-required-june-11-july-9/",
       "sourceName": "Doctor of Credit",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "amazon-prime-visa-200-amazon-gift-card-instantly-on-approval",
       "score": 74,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "amazon-prime-visa-200-amazon-gift-card-instantly-on-approval-no-spe"
+      "dailyRank": null
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -4037,7 +4037,7 @@
       "source": "https://slickdeals.net/deals/",
       "sourceName": "Slickdeals Frontpage",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "amazon-prime-visa-prime-visa-200-amazon-gift-card-instantly-",
+      "id": "amazon-prime-visa-prime-visa-200-amazon-gift-card-instantly",
       "score": 60,
       "featured": false,
       "top10": false,
@@ -4057,11 +4057,11 @@
       "source": "https://www.bestbuy.com/site/outlet-refurbished-clearance/open-box-electronics/pcmcat748300666861.c?id=pcmcat748300666861",
       "sourceName": "Best Buy",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "best-buy-best-buy-outlet-up-to-95-off-open-box-clearance-ref",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "best-buy-best-buy-outlet-up-to-95-off-open-box-clearance-refurbished"
+      "dailyRank": null
     },
     {
       "store": "Chewy",
@@ -4097,11 +4097,11 @@
       "source": "https://www.costco.com/lg-offers.html",
       "sourceName": "Costco.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-costco-direct-appliance-event-up-to-1-800-off-lg-extr",
       "score": 77,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
-      "id": "costco-costco-direct-appliance-event-up-to-1-800-off-lg-extra-400-o"
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Costco",
@@ -4137,11 +4137,11 @@
       "source": "https://www.costcoinsider.com/costco-june-and-july-2026-coupon-book/",
       "sourceName": "Costco Insider",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-dell-plus-16-touchscreen-copilot-pc-300-off",
       "score": 72,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "costco-dell-plus-16-touchscreen-copilot-pc-300-off"
+      "dailyRank": null
     },
     {
       "store": "Costco",
@@ -4157,11 +4157,11 @@
       "source": "https://www.dealnews.com/features/costco/membership-deals/",
       "sourceName": "DealNews",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-free-20-digital-costco-shop-card-with-new-gold-star-m",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "costco-free-20-digital-costco-shop-card-with-new-gold-star-membersh"
+      "dailyRank": null
     },
     {
       "store": "Costco",
@@ -4177,11 +4177,11 @@
       "source": "https://www.dealnews.com/features/costco/membership-deals/",
       "sourceName": "DealNews",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-free-40-digital-costco-shop-card-with-new-executive-m",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "costco-free-40-digital-costco-shop-card-with-new-executive-membersh"
+      "dailyRank": null
     },
     {
       "store": "Costco",
@@ -4197,11 +4197,11 @@
       "source": "https://www.costcoinsider.com/costco-june-and-july-2026-coupon-book/",
       "sourceName": "Costco Insider",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-msi-aegis-gaming-desktop-300-off",
       "score": 72,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "costco-msi-aegis-gaming-desktop-300-off"
+      "dailyRank": null
     },
     {
       "store": "Costco",
@@ -4217,11 +4217,11 @@
       "source": "https://www.costcoinsider.com/costco-june-and-july-2026-coupon-book/",
       "sourceName": "Costco Insider",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "costco-shark-powerdetect-2-in-1-robot-vacuum-mop-150-off-449",
       "score": 63,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "costco-shark-powerdetect-2-in-1-robot-vacuum-mop-150-off-449-99"
+      "dailyRank": null
     },
     {
       "store": "eBay",
@@ -4257,11 +4257,11 @@
       "source": "https://couponfollow.com/site/jcpenney.com",
       "sourceName": "CouponFollow",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "jcpenney-svgunt15",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "jcpenney-svgunt15"
+      "dailyRank": null
     },
     {
       "store": "Kohl's",
@@ -4297,11 +4297,11 @@
       "source": "https://thekrazycouponlady.com/coupons-for/kohls",
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "kohl-s-kohl-s-card-20-off-first-purchase-monthly-coupons",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "kohl-s-kohl-s-card-20-off-first-purchase-monthly-coupons"
+      "dailyRank": null
     },
     {
       "store": "Macy's",
@@ -4397,11 +4397,11 @@
       "source": "https://thekrazycouponlady.com/tips/store-hacks/sams-club-monthly-ad",
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "sam-s-club-june-instant-savings-event-up-to-1-000-off-furnit",
       "score": 67,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "sam-s-club-june-instant-savings-event-up-to-1-000-off-furniture-applian"
+      "dailyRank": null
     },
     {
       "store": "Sam's Club",
@@ -4437,11 +4437,11 @@
       "source": "https://www.samsclub.com/cp/membership-offers/30001901",
       "sourceName": "Sam's Club",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "sam-s-club-plus-membership-for-55-65-off-limited-time-new-me",
       "score": 53,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "sam-s-club-plus-membership-for-55-65-off-limited-time-new-member-offer"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4457,11 +4457,11 @@
       "source": "https://www.today.com/shop/target-circle-deal-days-june-dates-announcement-2026-rcna348038",
       "sourceName": "TODAY",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-circle-deal-days-40-off-back-to-school-college-essent",
       "score": 70,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-circle-deal-days-40-off-back-to-school-college-essentials"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4477,11 +4477,11 @@
       "source": "https://thekrazycouponlady.com/tips/money/target-circle-week",
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-circle-deal-days-up-to-45-off-bissell-hoover-shark-fl",
       "score": 70,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-circle-deal-days-up-to-45-off-bissell-hoover-shark-floorcare"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4497,11 +4497,11 @@
       "source": "https://thekrazycouponlady.com/tips/money/target-circle-week",
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-circle-deal-days-up-to-45-off-cuisinart-keurig-ninja-",
       "score": 70,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-circle-deal-days-up-to-45-off-cuisinart-keurig-ninja-kitchen"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4517,11 +4517,11 @@
       "source": "https://www.target.com/l/target-circle-deal-days/giftcard-with-purchase/-/N-7196oZ55e6u",
       "sourceName": "Target",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-gift-card-with-purchase-deals-during-circle-deal-days",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-gift-card-with-purchase-deals-during-circle-deal-days"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4537,11 +4537,11 @@
       "source": "https://www.target.com/help/articles/promotions-coupons/current-promotions",
       "sourceName": "Target",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-redcard-5-off-every-purchase-free-shipping",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-redcard-5-off-every-purchase-free-shipping"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4577,11 +4577,11 @@
       "source": "https://www.target.com/l/target-circle-deal-days/-/N-7196o",
       "sourceName": "Target",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "target-target-circle-deal-days-up-to-45-off-june-23-26",
       "score": 70,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "target-target-circle-deal-days-up-to-45-off-june-23-26"
+      "dailyRank": null
     },
     {
       "store": "Target",
@@ -4617,11 +4617,11 @@
       "source": "https://www.today.com/shop/walmart-deals-june-dates-announcement-2026-rcna348253",
       "sourceName": "TODAY",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "walmart-walmart-deals-2026-savings-event-june-22-28",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "walmart-walmart-deals-2026-savings-event-june-22-28"
+      "dailyRank": null
     },
     {
       "store": "Walmart",
@@ -4657,11 +4657,11 @@
       "source": "https://www.techtimes.com/articles/317930/20260606/walmart-deals-2026-starts-june-22-walmart-members-get-24-hour-item-lock-best-drops.htm",
       "sourceName": "Tech Times",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "walmart-walmart-exclusive-24-hour-hot-deal-drops-early-acces",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "walmart-walmart-exclusive-24-hour-hot-deal-drops-early-access"
+      "dailyRank": null
     },
     {
       "store": "Walmart",
@@ -4677,11 +4677,11 @@
       "source": "https://www.today.com/shop/walmart-deals-june-dates-announcement-2026-rcna348253",
       "sourceName": "TODAY",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "walmart-walmart-membership-free-30-day-trial-98-yr-value",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "walmart-walmart-membership-free-30-day-trial-98-yr-value"
+      "dailyRank": null
     },
     {
       "store": "Blue Apron",
@@ -4757,7 +4757,7 @@
       "source": "https://prettysweet.com/factor-coupons/",
       "sourceName": "PrettySweet",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "factor-students-65-off-first-box-free-shipping-15-off-for-a-",
+      "id": "factor-students-65-off-first-box-free-shipping-15-off-for-a",
       "score": 58,
       "featured": false,
       "top10": false,
@@ -4797,7 +4797,7 @@
       "source": "https://couponfollow.com/site/hellofresh.com",
       "sourceName": "CouponFollow",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "hellofresh-military-50-off-first-box-15-off-all-boxes-for-a-",
+      "id": "hellofresh-military-50-off-first-box-15-off-all-boxes-for-a",
       "score": 51,
       "featured": false,
       "top10": false,
@@ -4838,7 +4838,7 @@
       "sourceName": "Home Chef (official)",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "home-chef-up-to-15-free-meals-across-first-5-boxes-free-firs",
-      "score": 46,
+      "score": 50,
       "featured": false,
       "top10": false,
       "dailyRank": null
@@ -5057,7 +5057,7 @@
       "source": "https://thekrazycouponlady.com/tips/money/ulta-big-summer-beauty-sale",
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "ulta-beauty-big-summer-beauty-sale-up-to-40-off-starts-june-",
+      "id": "ulta-beauty-big-summer-beauty-sale-up-to-40-off-starts-june",
       "score": 60,
       "featured": false,
       "top10": false,
@@ -5297,7 +5297,7 @@
       "source": "https://www.irobot.com/en_US/deals.html",
       "sourceName": "iRobot Official",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "irobot-roomba-max-705-combo-vacuum-mop-autowash-dock-799-99-",
+      "id": "irobot-roomba-max-705-combo-vacuum-mop-autowash-dock-799-99",
       "score": 73,
       "featured": true,
       "top10": false,
@@ -5537,7 +5537,7 @@
       "source": "https://www.nbcnews.com/select/shopping/ninja-air-fryer-toaster-combo-deal-of-the-day-2026-rcna262980",
       "sourceName": "NBC Select",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "ninja-ninja-air-fryer-toaster-oven-combo-40-off-deal-of-the-",
+      "id": "ninja-ninja-air-fryer-toaster-oven-combo-40-off-deal-of-the",
       "score": 61,
       "featured": false,
       "top10": false,
@@ -5937,11 +5937,11 @@
       "source": "https://www.astound.com/special-offers/",
       "sourceName": "Astound Broadband",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "astound-1-gig-for-40-mo-price-for-life-up-to-200-gift-card",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "astound-1-gig-for-40-mo-price-for-life-up-to-200-gift-card"
+      "dailyRank": null
     },
     {
       "store": "AT&T",
@@ -5957,11 +5957,11 @@
       "source": "https://www.att.com/deals/phone-trade-in/",
       "sourceName": "AT&T",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "at-t-iphone-17-pro-for-0-with-any-condition-iphone-trade-in",
       "score": 73,
       "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "at-t-iphone-17-pro-for-0-with-any-condition-iphone-trade-in"
+      "dailyRank": null
     },
     {
       "store": "AT&T",
@@ -5977,11 +5977,11 @@
       "source": "https://about.att.com/story/2026/iphone-17e.html",
       "sourceName": "AT&T Newsroom",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "at-t-iphone-17e-free-with-unlimited-plan-no-trade-in-require",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "at-t-iphone-17e-free-with-unlimited-plan-no-trade-in-required"
+      "dailyRank": null
     },
     {
       "store": "AT&T Fiber",
@@ -5997,11 +5997,11 @@
       "source": "https://broadbandnow.com/ATT-deals",
       "sourceName": "BroadbandNow",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 59,
+      "id": "at-t-fiber-100-visa-reward-card-12-mo-off-with-at-t-internet",
+      "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "at-t-fiber-100-visa-reward-card-12-mo-off-with-at-t-internet-air"
+      "dailyRank": null
     },
     {
       "store": "AT&T Fiber",
@@ -6017,11 +6017,11 @@
       "source": "https://www.att.com/offers/wireless-fiber/",
       "sourceName": "AT&T",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 54,
+      "id": "at-t-fiber-20-off-at-t-fiber-when-paired-with-unlimited-wire",
+      "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "at-t-fiber-20-off-at-t-fiber-when-paired-with-unlimited-wireless"
+      "dailyRank": null
     },
     {
       "store": "Boost Mobile",
@@ -6037,11 +6037,11 @@
       "source": "https://www.boostmobile.com/plans/affordable-phone-plan",
       "sourceName": "Boost Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 54,
+      "id": "boost-mobile-unlimited-10-mo-for-first-3-months-then-25-mo-f",
+      "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "boost-mobile-unlimited-10-mo-for-first-3-months-then-25-mo-for-life"
+      "dailyRank": null
     },
     {
       "store": "Consumer Cellular",
@@ -6057,11 +6057,11 @@
       "source": "https://cordcuttersnews.com/consumer-cellulars-best-deal-ever-saves-new-customers-200-on-two-unlimited-lines/",
       "sourceName": "Cord Cutters News",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "consumer-cellular-save200",
       "score": 79,
       "featured": true,
       "top10": true,
-      "dailyRank": 6,
-      "id": "consumer-cellular-save200"
+      "dailyRank": 5
     },
     {
       "store": "Cox",
@@ -6077,11 +6077,11 @@
       "source": "https://www.cox.com/residential/internet/deals.html",
       "sourceName": "Cox",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "cox-5-year-price-lock-free-panoramic-wifi-24-mo-on-cox-inter",
       "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "cox-5-year-price-lock-free-panoramic-wifi-24-mo-on-cox-internet"
+      "dailyRank": null
     },
     {
       "store": "Cricket",
@@ -6097,11 +6097,11 @@
       "source": "https://www.cricketwireless.com/current-phone-and-plan-deals/android",
       "sourceName": "Cricket Wireless",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 60,
+      "id": "cricket-free-samsung-galaxy-a37-5g-or-moto-g-stylus-when-you",
+      "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "cricket-free-samsung-galaxy-a37-5g-or-moto-g-stylus-when-you-add-a-l"
+      "dailyRank": null
     },
     {
       "store": "Frontier Fiber",
@@ -6117,11 +6117,11 @@
       "source": "https://frontier.com/shop/deals",
       "sourceName": "Frontier",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "frontier-fiber-0-for-first-2-months-visa-reward-card-on-fibe",
       "score": 55,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "frontier-fiber-0-for-first-2-months-visa-reward-card-on-fiber-500-1-gig"
+      "dailyRank": null
     },
     {
       "store": "Google Fi",
@@ -6137,11 +6137,11 @@
       "source": "https://fi.google.com/about/offers",
       "sourceName": "Google Fi",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "google-fi-300-off-instantly-499-back-over-24-months-on-new-l",
       "score": 73,
       "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "google-fi-300-off-instantly-499-back-over-24-months-on-new-lines-unlim"
+      "dailyRank": null
     },
     {
       "store": "Google Fiber",
@@ -6157,11 +6157,11 @@
       "source": "https://fiber.google.com/",
       "sourceName": "Google Fiber",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 56,
+      "id": "google-fiber-free-professional-install-free-equipment-no-con",
+      "score": 46,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "google-fiber-free-professional-install-free-equipment-no-contract"
+      "dailyRank": null
     },
     {
       "store": "Metro by T-Mobile",
@@ -6177,11 +6177,11 @@
       "source": "https://www.metrobyt-mobile.com/deals/free-phones",
       "sourceName": "Metro by T-Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "metro-by-t-mobile-free-phone-up-to-4-lines-when-you-switch-o",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "metro-by-t-mobile-free-phone-up-to-4-lines-when-you-switch-on-40-unlimited"
+      "dailyRank": null
     },
     {
       "store": "Mint Mobile",
@@ -6197,11 +6197,11 @@
       "source": "https://www.mintmobile.com/deals/",
       "sourceName": "Mint Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "mint-mobile-buy-3-months-unlimited-get-3-months-free-port-in",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "mint-mobile-buy-3-months-unlimited-get-3-months-free-port-in"
+      "dailyRank": null
     },
     {
       "store": "Optimum",
@@ -6217,11 +6217,11 @@
       "source": "https://www.optimum.com/deals/internet",
       "sourceName": "Optimum",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "optimum-save100",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "optimum-save100"
+      "dailyRank": null
     },
     {
       "store": "Spectrum",
@@ -6237,11 +6237,11 @@
       "source": "https://www.cabletv.com/spectrum/deals",
       "sourceName": "CableTV.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "spectrum-contract-buyout-up-to-500-when-you-switch-and-bundl",
       "score": 57,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "spectrum-contract-buyout-up-to-500-when-you-switch-and-bundle"
+      "dailyRank": null
     },
     {
       "store": "Spectrum",
@@ -6257,11 +6257,11 @@
       "source": "https://www.spectrum.com/packages/best-deals",
       "sourceName": "Spectrum",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "spectrum-spectrum-internet-from-30-mo-for-12-months-free-mob",
       "score": 56,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "spectrum-spectrum-internet-from-30-mo-for-12-months-free-mobile-line-"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6277,11 +6277,11 @@
       "source": "https://broadbandnow.com/starlink-deals",
       "sourceName": "BroadbandNow",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-0-upfront-hardware-free-dish-rental-in-select-regio",
       "score": 51,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-0-upfront-hardware-free-dish-rental-in-select-regions"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6297,11 +6297,11 @@
       "source": "https://broadbandnow.com/starlink-deals",
       "sourceName": "BroadbandNow",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-free-starlink-mini-50-off-roam-with-residential-max",
       "score": 61,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-free-starlink-mini-50-off-roam-with-residential-max-plan"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6317,11 +6317,11 @@
       "source": "https://www.satelliteinternet.com/resources/starlink-drops-prices-further/",
       "sourceName": "SatelliteInternet.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-residential-29-mo-for-first-3-months-100-mbps-in-se",
       "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-residential-29-mo-for-first-3-months-100-mbps-in-select-area"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6337,11 +6337,11 @@
       "source": "https://gearmusk.com/2026/04/02/starlink-residential-35/",
       "sourceName": "Gear Musk",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-residential-plans-15-mo-cheaper-across-every-tier-3",
       "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-residential-plans-15-mo-cheaper-across-every-tier-35-65-105"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6357,11 +6357,11 @@
       "source": "https://www.satelliteinternet.com/resources/best-starlink-deals/",
       "sourceName": "SatelliteInternet.com",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-roam-from-50-mo-100gb-for-portable-rv-internet",
       "score": 49,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-roam-from-50-mo-100gb-for-portable-rv-internet"
+      "dailyRank": null
     },
     {
       "store": "Starlink",
@@ -6377,11 +6377,11 @@
       "source": "https://broadbandnow.com/starlink-deals",
       "sourceName": "BroadbandNow",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "starlink-starlink-mini-standalone-hardware-for-199",
       "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "starlink-starlink-mini-standalone-hardware-for-199"
+      "dailyRank": null
     },
     {
       "store": "Straight Talk",
@@ -6397,11 +6397,11 @@
       "source": "https://www.straighttalk.com/my-account/my-offers",
       "sourceName": "Straight Talk",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "straight-talk-free-samsung-galaxy-a16-5g-on-silver-unlimited",
       "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "straight-talk-free-samsung-galaxy-a16-5g-on-silver-unlimited-or-higher"
+      "dailyRank": null
     },
     {
       "store": "T-Mobile",
@@ -6417,11 +6417,11 @@
       "source": "https://www.t-mobile.com/offers",
       "sourceName": "T-Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "t-mobile-4-free-iphone-17-when-you-switch-with-4-new-lines",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "t-mobile-4-free-iphone-17-when-you-switch-with-4-new-lines"
+      "dailyRank": null
     },
     {
       "store": "T-Mobile",
@@ -6437,11 +6437,11 @@
       "source": "https://www.t-mobile.com/cell-phones/deals/free",
       "sourceName": "T-Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "t-mobile-free-samsung-galaxy-s26-ultra-no-trade-in-on-experi",
       "score": 73,
       "featured": true,
       "top10": false,
-      "dailyRank": null,
-      "id": "t-mobile-free-samsung-galaxy-s26-ultra-no-trade-in-on-experience-beyo"
+      "dailyRank": null
     },
     {
       "store": "T-Mobile Home Internet",
@@ -6457,11 +6457,11 @@
       "source": "https://www.t-mobile.com/home-internet/deals",
       "sourceName": "T-Mobile",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 73,
+      "id": "t-mobile-home-internet-up-to-300-back-virtual-prepaid-card-w",
+      "score": 63,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "t-mobile-home-internet-up-to-300-back-virtual-prepaid-card-when-you-switch-free-mon"
+      "dailyRank": null
     },
     {
       "store": "Total Wireless",
@@ -6477,11 +6477,11 @@
       "source": "https://www.totalwireless.com/deals/",
       "sourceName": "Total Wireless",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "total-wireless-switch-and-pay-15-mo-per-line-for-5-years-byo",
       "score": 44,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "total-wireless-switch-and-pay-15-mo-per-line-for-5-years-byod"
+      "dailyRank": null
     },
     {
       "store": "US Mobile",
@@ -6497,11 +6497,11 @@
       "source": "https://simplycodes.com/store/usmobile.com",
       "sourceName": "SimplyCodes",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 61,
+      "id": "us-mobile-only299",
+      "score": 51,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "us-mobile-only299"
+      "dailyRank": null
     },
     {
       "store": "Verizon",
@@ -6517,11 +6517,11 @@
       "source": "https://www.verizon.com/deals/",
       "sourceName": "Verizon",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "verizon-4-lines-for-25-line-on-unlimited-welcome-with-auto-p",
       "score": 50,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "verizon-4-lines-for-25-line-on-unlimited-welcome-with-auto-pay"
+      "dailyRank": null
     },
     {
       "store": "Verizon",
@@ -6537,11 +6537,11 @@
       "source": "https://www.verizon.com/deals/smartphones/",
       "sourceName": "Verizon",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-u",
       "score": 73,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-ultimate"
+      "dailyRank": null
     },
     {
       "store": "Verizon",
@@ -6557,11 +6557,11 @@
       "source": "https://www.verizon.com/deals/smartphones/",
       "sourceName": "Verizon",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "verizon-iphone-17e-free-with-a-new-line-on-any-unlimited-pla",
       "score": 60,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "verizon-iphone-17e-free-with-a-new-line-on-any-unlimited-plan"
+      "dailyRank": null
     },
     {
       "store": "Verizon Fios",
@@ -6577,11 +6577,11 @@
       "source": "https://www.verizon.com/deals/home-internet/",
       "sourceName": "Verizon",
       "verifiedAt": "2026-06-08T00:30:00Z",
-      "score": 55,
+      "id": "verizon-fios-15-mo-off-all-fios-plans-for-3-years-540-saving",
+      "score": 45,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "verizon-fios-15-mo-off-all-fios-plans-for-3-years-540-savings"
+      "dailyRank": null
     },
     {
       "store": "Visible",
@@ -6597,11 +6597,11 @@
       "source": "https://www.visible.com/deals",
       "sourceName": "Visible",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "visible-switch26",
       "score": 66,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "visible-switch26"
+      "dailyRank": null
     },
     {
       "store": "Visible",
@@ -6617,11 +6617,11 @@
       "source": "https://www.visible.com/plans",
       "sourceName": "Visible",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "visible-visible-unlimited-verizon-network-for-25-mo-no-contr",
       "score": 54,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "visible-visible-unlimited-verizon-network-for-25-mo-no-contract"
+      "dailyRank": null
     },
     {
       "store": "Xfinity",
@@ -6637,11 +6637,11 @@
       "source": "https://broadbandnow.com/XFINITY-deals",
       "sourceName": "BroadbandNow",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "xfinity-100-amazon-gift-card-with-select-internet-plans",
       "score": 59,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "xfinity-100-amazon-gift-card-with-select-internet-plans"
+      "dailyRank": null
     },
     {
       "store": "Xfinity",
@@ -6657,11 +6657,11 @@
       "source": "https://www.xfinity.com/learn/deals/internet",
       "sourceName": "Xfinity",
       "verifiedAt": "2026-06-08T00:30:00Z",
+      "id": "xfinity-1-gig-internet-for-50-mo-with-5-year-price-lock",
       "score": 54,
       "featured": false,
       "top10": false,
-      "dailyRank": null,
-      "id": "xfinity-1-gig-internet-for-50-mo-with-5-year-price-lock"
+      "dailyRank": null
     },
     {
       "store": "Babbel",
@@ -6679,7 +6679,7 @@
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "babbel-learn",
       "score": 68,
-      "featured": false,
+      "featured": true,
       "top10": false,
       "dailyRank": null
     },
@@ -6797,7 +6797,7 @@
       "source": "https://www.coursera.org/explore/coursera-discounts-offers-and-promos",
       "sourceName": "Coursera",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "coursera-professional-certificate-up-to-50-off-with-6-month-",
+      "id": "coursera-professional-certificate-up-to-50-off-with-6-month",
       "score": 56,
       "featured": false,
       "top10": false,
@@ -6859,7 +6859,7 @@
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "masterclass-tco",
       "score": 70,
-      "featured": false,
+      "featured": true,
       "top10": false,
       "dailyRank": null
     },
@@ -6957,7 +6957,7 @@
       "source": "https://9to5toys.com/2026/02/11/lifetime-access-to-learn-25-languages-in-one-payment-rosetta-stone-now-54-off/",
       "sourceName": "9to5Toys",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "rosetta-stone-lifetime-access-to-all-25-languages-149-97-54-",
+      "id": "rosetta-stone-lifetime-access-to-all-25-languages-149-97-54",
       "score": 56,
       "featured": false,
       "top10": false,
@@ -7177,11 +7177,191 @@
       "source": "https://www.thefarmersdog.com/",
       "sourceName": "The Farmer's Dog",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "the-farmer-s-dog-the-farmer-s-dog-50-off-first-box-of-fresh-",
+      "id": "the-farmer-s-dog-the-farmer-s-dog-50-off-first-box-of-fresh",
       "score": 56,
       "featured": false,
       "top10": false,
       "dailyRank": null
+    },
+    {
+      "store": "Amici's East Coast Pizzeria",
+      "category": "Restaurants & Dining",
+      "title": "Wednesdays: Half-Price Pastas, 5pm to close",
+      "code": null,
+      "type": "deal",
+      "description": "Bay Area New York-style chain Amici's East Coast Pizzeria runs half-price pastas every Wednesday from 5pm to close. Plus free delivery on first orders of $30+ via the app. Locations in SF, Peninsula, South Bay, East Bay and Marin.",
+      "discount": "50% off pasta",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.amicis.com/specials",
+      "sourceName": "Amici's East Coast Pizzeria",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "amici-s-east-coast-pizzeria-wednesdays-half-price-pastas-5pm-to-close"
+    },
+    {
+      "store": "Applebee's",
+      "category": "Restaurants & Dining",
+      "title": "2 for $25: shared appetizer + two entrées",
+      "code": null,
+      "type": "deal",
+      "description": "One full-size appetizer to share plus two select entrées for $25. Entrée picks include boneless wings, pasta dishes, burgers, and sizzling skillets; a 2 for $25 with steak option is also available. Dine-in at participating locations.",
+      "discount": "Appetizer + 2 entrées for $25",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.applebees.com/en/specials/2-for-25",
+      "sourceName": "Applebee's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 50,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "applebee-s-2-for-25-shared-appetizer-two-entr-es"
+    },
+    {
+      "store": "Arby's",
+      "category": "Restaurants & Dining",
+      "title": "2 for $7 sandwiches + 25% off Rewards sign-up",
+      "code": null,
+      "type": "deal",
+      "description": "Mix and match two sandwiches - Classic Roast Beef, Beef 'n Cheddar, Crispy Fish, or Crispy Chicken - for $7, no coupon needed (in-store, drive-thru, or app). New Arby's Rewards members get 25% off their order at sign-up plus more unlockable offers.",
+      "discount": "2 sandwiches for $7",
+      "eligibility": "25% off for new Rewards members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.arbys.com/deals/",
+      "sourceName": "Arby's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 39,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "arby-s-2-for-7-sandwiches-25-off-rewards-sign-up"
+    },
+    {
+      "store": "Berkeley Restaurant Week",
+      "category": "Restaurants & Dining",
+      "title": "Special menus from $10 bites to full prix-fixe at 70+ spots",
+      "code": null,
+      "type": "deal",
+      "description": "Visit Berkeley's 'Seeds of Spring' restaurant week features 70+ Berkeley restaurants, bars and wineries with deals from $10 bites to full prix-fixe menus, plus a 'Sips of Spring' complimentary corkage for Berkeley-made wine/sake. Held each spring (2026 ran April 2-12).",
+      "discount": "Prix-fixe / $10 bites",
+      "eligibility": "Berkeley / East Bay",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.visitberkeley.com/food-drinks/restaurant-week/",
+      "sourceName": "Visit Berkeley",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "berkeley-restaurant-week-special-menus-from-10-bites-to-full-prix-fixe-at-70-spots"
+    },
+    {
+      "store": "Buffalo Wild Wings",
+      "category": "Restaurants & Dining",
+      "title": "BOGO Boneless Thursdays + 50% off wing Tuesdays",
+      "code": null,
+      "type": "deal",
+      "description": "Buy any size boneless wings, get the same size free every Thursday (everyone, takeout/delivery via app or site). Tuesdays, Blazin' Rewards members buy one traditional wing order and get a second of equal/lesser value 50% off.",
+      "discount": "BOGO boneless wings",
+      "eligibility": "App/site; Tuesday deal for Blazin' Rewards",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.buffalowildwings.com/menu/categories/wings/bogo-boneless-wings/",
+      "sourceName": "Buffalo Wild Wings Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "buffalo-wild-wings-bogo-boneless-thursdays-50-off-wing-tuesdays"
+    },
+    {
+      "store": "Burger King",
+      "category": "Restaurants & Dining",
+      "title": "$3.98 Whopper Wednesday + free sign-up Whopper",
+      "code": null,
+      "type": "deal",
+      "description": "Get a Whopper for $3.98 on Wednesdays through your Royal Perks account on the BK App or bk.com. New digital customers get a free Whopper, Croissan'wich, or Original Chicken Sandwich on their first order. Members also get a free Whopper on their birthday.",
+      "discount": "$3.98 Whopper / free Whopper",
+      "eligibility": "Royal Perks / BK App",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.bk.com/offers",
+      "sourceName": "Burger King Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "burger-king-3-98-whopper-wednesday-free-sign-up-whopper"
+    },
+    {
+      "store": "Carl's Jr.",
+      "category": "Restaurants & Dining",
+      "title": "Free welcome item with $1+ purchase (My Rewards)",
+      "code": null,
+      "type": "signup",
+      "description": "Join the free My Rewards program and get a free welcome item with any $1+ purchase. Members earn 10 Stars per $1 and the app Offers tab surfaces BOGO sandwiches and app-only combos. Redeem through the app or order.carlsjr.com.",
+      "discount": "Free item / BOGO",
+      "eligibility": "My Rewards members / app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.carlsjr.com/myrewards",
+      "sourceName": "Carl's Jr. Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "carl-s-jr-free-welcome-item-with-1-purchase-my-rewards"
+    },
+    {
+      "store": "Chili's",
+      "category": "Restaurants & Dining",
+      "title": "3 for Me: drink + appetizer + entrée from $10.99",
+      "code": null,
+      "type": "deal",
+      "description": "The 3 For Me combo includes a non-alcoholic drink, a starter (chips & salsa, soup, or side salad), and a full-size entrée starting at $10.99. Available all day, every day. Base entrées like the Big Smasher Burger hit the $10.99 tier; mid-tier $14.99 and premium picks $16.99+.",
+      "discount": "Full meal from $10.99",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.chilis.com/menu/3-for-me",
+      "sourceName": "Chili's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 50,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "chili-s-3-for-me-drink-appetizer-entr-e-from-10-99"
+    },
+    {
+      "store": "Chipotle",
+      "category": "Restaurants & Dining",
+      "title": "Free chips & guac for new Rewards members ($5+ order)",
+      "code": null,
+      "type": "signup",
+      "description": "New Chipotle Rewards members (free to join) get free chips and guac with a $5 minimum purchase. The app regularly drops member-only BOGO and free-side promos throughout the year - check the Offers tab.",
+      "discount": "Free chips & guac",
+      "eligibility": "New Rewards members, $5+ order",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.chipotle.com/free-guac",
+      "sourceName": "Chipotle Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 51,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "chipotle-free-chips-guac-for-new-rewards-members-5-order"
     },
     {
       "store": "Chipotle",
@@ -7198,10 +7378,130 @@
       "sourceName": "Chipotle BOGO tracker",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "chipotle-nba-finals-text-to-win-free-entree-code-first-53-00",
-      "score": 48,
+      "score": 62,
       "featured": false,
       "top10": false,
       "dailyRank": null
+    },
+    {
+      "store": "Cracker Barrel",
+      "category": "Restaurants & Dining",
+      "title": "Early Dinner Deals + Cracker Barrel Rewards",
+      "code": null,
+      "type": "deal",
+      "description": "Early Dinner Deals are available weekdays roughly 4-6 PM for dine-in guests, alongside rotating Daily Specials. Join free Cracker Barrel Rewards to earn points toward food and retail plus a birthday treat.",
+      "discount": "Early dinner discounts",
+      "eligibility": "Dine-in; weekday early hours",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.crackerbarrel.com/rewards",
+      "sourceName": "Cracker Barrel Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 31,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "cracker-barrel-early-dinner-deals-cracker-barrel-rewards"
+    },
+    {
+      "store": "Dairy Queen",
+      "category": "Restaurants & Dining",
+      "title": "Buy One Blizzard, Get One for 99¢ (app)",
+      "code": null,
+      "type": "deal",
+      "description": "Buy one Blizzard Treat and get a second of equal or lesser value for 99 cents, redeemable in the DQ Mobile App for DQ Rewards members. Joining the Blizzard Fan Club also gets you six BOGO Blizzard coupons a year.",
+      "discount": "BOGO 99¢ Blizzard",
+      "eligibility": "DQ Rewards / app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.dairyqueen.com/en-us/bogo-blizzard/",
+      "sourceName": "Dairy Queen Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "dairy-queen-buy-one-blizzard-get-one-for-99-app"
+    },
+    {
+      "store": "Del Taco",
+      "category": "Restaurants & Dining",
+      "title": "2 free Del Tacos when you join Del Yeah! Rewards",
+      "code": null,
+      "type": "signup",
+      "description": "Create and verify a free Del Yeah! Rewards account and get 2 free Del Tacos immediately. Earn 8-12 points per $1, and unlock member-only Wednesday Hookups deals each week in the app.",
+      "discount": "2 free tacos",
+      "eligibility": "New Del Yeah! Rewards members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://deltaco.com/delyeahrewards.html",
+      "sourceName": "Del Taco Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "del-taco-2-free-del-tacos-when-you-join-del-yeah-rewards"
+    },
+    {
+      "store": "Denny's",
+      "category": "Restaurants & Dining",
+      "title": "Kids Eat Free with adult entrée",
+      "code": null,
+      "type": "deal",
+      "description": "Up to two free kids' entrées from the kids' menu per adult entrée purchase of $6 or more, typically Tuesdays 4-10 PM (days/participation vary by location). Join free Denny's Rewards for extra deals and a birthday treat.",
+      "discount": "Kids eat free",
+      "eligibility": "With $6+ adult entrée; varies by location",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.dennys.com/rewards",
+      "sourceName": "Denny's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "denny-s-kids-eat-free-with-adult-entr-e"
+    },
+    {
+      "store": "Dine Downtown Sacramento",
+      "category": "Restaurants & Dining",
+      "title": "$45 three-course prix-fixe at 30+ downtown restaurants",
+      "code": null,
+      "type": "deal",
+      "description": "Downtown Sacramento Partnership's annual Dine Downtown restaurant week: 30+ central-city restaurants (Dawson's Kitchen, The Firehouse, Ella, Frank Fat's, Revolution Winery & Kitchen) serve a 3-course prix-fixe dinner for $45 ($1 per meal donated to Opening Doors). Runs every January in downtown Sacramento.",
+      "discount": "$45 3-course prix-fixe",
+      "eligibility": "Downtown Sacramento",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.downtownsac.org/things-to-do/dine-downtown-2026/",
+      "sourceName": "Downtown Sacramento Partnership",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "dine-downtown-sacramento-45-three-course-prix-fixe-at-30-downtown-restaurants"
+    },
+    {
+      "store": "Domino's",
+      "category": "Restaurants & Dining",
+      "title": "Mix & Match: any 2+ items $6.99 each",
+      "code": null,
+      "type": "deal",
+      "description": "Pick any 2 or more menu items - medium 2-topping pizzas, boneless chicken or wings, Stuffed Cheesy Bread, pastas, oven-baked sandwiches - for $6.99 each. Two-item minimum; carryout or delivery at participating locations. Usually applies automatically at checkout.",
+      "discount": "$6.99 per item",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.dominos.com/en/deals",
+      "sourceName": "Domino's Official Deals",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 50,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "domino-s-mix-match-any-2-items-6-99-each"
     },
     {
       "store": "Domino's",
@@ -7218,10 +7518,650 @@
       "sourceName": "CouponFollow",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "domino-s-new-app-users-50-off-your-first-3-app-orders",
-      "score": 51,
+      "score": 61,
       "featured": false,
       "top10": false,
       "dailyRank": null
+    },
+    {
+      "store": "DoorDash",
+      "category": "Restaurants & Dining",
+      "title": "$0 delivery fee on your first order",
+      "code": null,
+      "type": "deal",
+      "description": "New DoorDash customers automatically get $0 delivery fee on their first order (no code needed) at restaurants across SF, the Bay Area and Sacramento. DashPass members also get reduced/zero fees on eligible orders.",
+      "discount": "$0 delivery fee",
+      "eligibility": "Bay Area / Sacramento",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.doordash.com/",
+      "sourceName": "DoorDash",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "doordash-0-delivery-fee-on-your-first-order"
+    },
+    {
+      "store": "Dunkin'",
+      "category": "Restaurants & Dining",
+      "title": "$6 Meal Deal: coffee + sandwich + hash browns",
+      "code": null,
+      "type": "deal",
+      "description": "Bundle a medium hot or iced coffee, a breakfast sandwich, and an order of hash browns for $6. Join free Dunkin' Rewards to earn 10 points per $1 (free coffee at 600 points), plus weekly app Offers like bonus-point days and $1 coffees.",
+      "discount": "$6 breakfast bundle",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.dunkindonuts.com/en/dunkinrewards",
+      "sourceName": "Dunkin' Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 57,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "dunkin-6-meal-deal-coffee-sandwich-hash-browns"
+    },
+    {
+      "store": "Elixir (San Francisco)",
+      "category": "Restaurants & Dining",
+      "title": "Tiered happy hour: 50% off drinks 4-5pm weekdays",
+      "code": null,
+      "type": "deal",
+      "description": "Historic Mission saloon Elixir offers a sliding happy hour on a wide selection of drinks: 50% off 4-5pm, 30% off 5-6pm and 15% off 6-7pm, weekdays.",
+      "discount": "Up to 50% off drinks",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.theinfatuation.com/san-francisco/guides/best-happy-hour-san-francisco",
+      "sourceName": "The Infatuation",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 51,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "elixir-san-francisco-tiered-happy-hour-50-off-drinks-4-5pm-weekdays"
+    },
+    {
+      "store": "Erik's DeliCafé",
+      "category": "Restaurants & Dining",
+      "title": "Loyalty signup - 50% off your first sandwich + free birthday treat",
+      "code": null,
+      "type": "signup",
+      "description": "Northern California sandwich chain Erik's DeliCafé's app loyalty program gives 50% off your first sandwich at signup, a free bakery item or cup of soup for your birthday, and $10 back per 100 points (1 pt/$1). Bay Area, Santa Cruz and Central Coast locations.",
+      "discount": "50% off first sandwich",
+      "eligibility": "Northern California",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.eriksdelicafe.com/loyalty",
+      "sourceName": "Erik's DeliCafé",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "erik-s-delicaf-loyalty-signup-50-off-your-first-sandwich-free-birthday-trea"
+    },
+    {
+      "store": "Five Guys",
+      "category": "Restaurants & Dining",
+      "title": "Free unlimited toppings + bonus scoop of fries",
+      "code": null,
+      "type": "deal",
+      "description": "Every burger and hot dog comes with 15+ free toppings (no upcharge), and in-store orders include a complimentary extra serving of fries scooped into the bag. The app occasionally pushes limited-time offers; no national coupon codes.",
+      "discount": "Free toppings + extra fries",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.thirstybear.com/five-guys-menu-with-prices/",
+      "sourceName": "ThirstyBear",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "five-guys-free-unlimited-toppings-bonus-scoop-of-fries"
+    },
+    {
+      "store": "Groupon",
+      "category": "Restaurants & Dining",
+      "title": "5% cash back at Super Duper Burgers (Castro / Emeryville)",
+      "code": null,
+      "type": "deal",
+      "description": "Groupon + Rewards Network cash-back dining deal: link a card and earn cash back (about 5%) on dine-in spend at Super Duper Burgers locations including the Castro (SF) and Emeryville (East Bay). No voucher needed.",
+      "discount": "5% cash back",
+      "eligibility": "San Francisco / East Bay",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.groupon.com/deals/rewardsnetwork-super-duper-burgers-castro",
+      "sourceName": "Groupon",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 27,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "groupon-5-cash-back-at-super-duper-burgers-castro-emeryville"
+    },
+    {
+      "store": "Groupon",
+      "category": "Restaurants & Dining",
+      "title": "Up to 70% off San Francisco restaurants",
+      "code": null,
+      "type": "deal",
+      "description": "Groupon's San Francisco restaurants section lists discounted dining vouchers (up to 70% off) at local SF eateries - American, seafood, diners and dinner-and-entertainment deals across the city.",
+      "discount": "Up to 70% off",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.groupon.com/local/san-francisco/restaurants",
+      "sourceName": "Groupon",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 58,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "groupon-up-to-70-off-san-francisco-restaurants"
+    },
+    {
+      "store": "IHOP",
+      "category": "Restaurants & Dining",
+      "title": "Kids Eat Free with adult entrée (4-10 PM)",
+      "code": null,
+      "type": "deal",
+      "description": "Kids 12 and under get one free meal with each adult entrée, generally 4-10 PM at participating locations, dine-in only. Join free International Bank of Pancakes rewards for app deals and a welcome offer.",
+      "discount": "Kids eat free",
+      "eligibility": "With adult entrée; dine-in, varies by location",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.ihop.com/en/specials",
+      "sourceName": "IHOP Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "ihop-kids-eat-free-with-adult-entr-e-4-10-pm"
+    },
+    {
+      "store": "Iron Horse Tavern (Sacramento)",
+      "category": "Restaurants & Dining",
+      "title": "Half-off pizzas and appetizers happy hour, Mon-Fri 3-6pm",
+      "code": null,
+      "type": "deal",
+      "description": "Midtown/Downtown Sacramento bar & grill: weekday happy hour Monday-Friday 3-6pm with half-off all pizzas and appetizers plus $3 off specialty cocktails.",
+      "discount": "50% off pizza & apps",
+      "eligibility": "Sacramento",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://sactoday.6amcity.com/city-guide/play/happy-hour-guide-sacramento-ca",
+      "sourceName": "SACtoday Happy Hour Guide",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 51,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "iron-horse-tavern-sacramento-half-off-pizzas-and-appetizers-happy-hour-mon-fri-3-6pm"
+    },
+    {
+      "store": "Jack in the Box",
+      "category": "Restaurants & Dining",
+      "title": "20% off when you join Jack Pack Rewards",
+      "code": null,
+      "type": "signup",
+      "description": "Sign up for Jack in the Box Rewards and score 20% off your order, plus app-exclusive Jack Pack deals and 10 points per $1. Also live: the limited-time Hot Ones Munchie Meal (June 1-July 22) and the Munch Better Deals value menu from $7.",
+      "discount": "20% off",
+      "eligibility": "New Jack Pack Rewards members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://jackinthebox-menuus.com/deals/",
+      "sourceName": "Jack in the Box Deals",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 39,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "jack-in-the-box-20-off-when-you-join-jack-pack-rewards"
+    },
+    {
+      "store": "Jersey Mike's",
+      "category": "Restaurants & Dining",
+      "title": "Free sub on birthday + free delivery in the app",
+      "code": null,
+      "type": "signup",
+      "description": "Join MyMike's Rewards (or the email club) for a free birthday sub and earn Shore Points toward free subs. Ordering through the Jersey Mike's app gets you free delivery plus app-exclusive promo codes.",
+      "discount": "Free sub / free delivery",
+      "eligibility": "MyMike's Rewards / app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.jerseymikes.com/",
+      "sourceName": "Jersey Mike's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "jersey-mike-s-free-sub-on-birthday-free-delivery-in-the-app"
+    },
+    {
+      "store": "Jimmy John's",
+      "category": "Restaurants & Dining",
+      "title": "Free sandwich on first order with JJ Rewards",
+      "code": null,
+      "type": "signup",
+      "description": "Sign up for the new JJ Rewards program and earn a free sandwich on your first order as a new member. Members earn 10 points per $1 toward free sandwiches, sides, drinks and desserts.",
+      "discount": "Free sandwich",
+      "eligibility": "New JJ Rewards members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://stories.inspirebrands.com/jimmy-johns-rolls-out-all-new-jj-rewards-program/",
+      "sourceName": "Inspire Brands",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "jimmy-john-s-free-sandwich-on-first-order-with-jj-rewards"
+    },
+    {
+      "store": "KFC",
+      "category": "Restaurants & Dining",
+      "title": "Free Bucket with $15+ online order (Rewards)",
+      "code": null,
+      "type": "deal",
+      "description": "Get a Free Bucket On Us with a $15+ online purchase through a KFC Rewards account on KFC.com or the app at participating stores. Plus a $10 Tuesday bucket deal and a rotating Bucket of the Day Mon-Fri.",
+      "discount": "Free bucket",
+      "eligibility": "KFC Rewards / app, $15+ online order",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://global.kfc.com/press-releases/kfc-r-begins-its-comeback-era-issues-come-back-call-to-fried-chicken-fans-with-free-bucket-on-us-offer",
+      "sourceName": "KFC Newsroom",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 51,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "kfc-free-bucket-with-15-online-order-rewards"
+    },
+    {
+      "store": "Krispy Kreme",
+      "category": "Restaurants & Dining",
+      "title": "Buy any dozen, get an Original Glazed dozen for $2",
+      "code": "BOGO2",
+      "type": "code",
+      "description": "Buy any regular-priced dozen and get an Original Glazed dozen for $2. Available in-shop and drive-thru (limit two); for online orders use code BOGO2 (limit one). Rewards members can redeem all weekend long.",
+      "discount": "Dozen for $2",
+      "eligibility": "Code BOGO2 for online orders",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.krispykreme.com/offers",
+      "sourceName": "Krispy Kreme Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "krispy-kreme-bogo2"
+    },
+    {
+      "store": "Little Caesars",
+      "category": "Restaurants & Dining",
+      "title": "Classic Pepperoni HOT-N-READY $5.55",
+      "code": null,
+      "type": "deal",
+      "description": "Grab a classic pepperoni HOT-N-READY pizza for $5.55 any time during store hours, no order ahead needed. ExtraMostBestest pizzas run $7.99. Family bundle: large pizza + 10 wings + Crazy Bread for $19.99.",
+      "discount": "$5.55 large pizza",
+      "eligibility": null,
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.eatdrinkdeals.com/little-caesars-pizza-coupons-deals/",
+      "sourceName": "EatDrinkDeals",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "little-caesars-classic-pepperoni-hot-n-ready-5-55"
+    },
+    {
+      "store": "Little Shucker (San Francisco)",
+      "category": "Restaurants & Dining",
+      "title": "Happy hour: $2 oysters, $10 wine, $7 beer",
+      "code": null,
+      "type": "deal",
+      "description": "Pacific Heights raw-bar spot Little Shucker offers a happy hour with $2 oysters (by the half-dozen or dozen), $10 glasses of wine and $7 beers.",
+      "discount": "$2 oysters",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.theinfatuation.com/san-francisco/guides/best-happy-hour-san-francisco",
+      "sourceName": "The Infatuation",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "little-shucker-san-francisco-happy-hour-2-oysters-10-wine-7-beer"
+    },
+    {
+      "store": "Mary's Pizza Shack",
+      "category": "Restaurants & Dining",
+      "title": "Club 59 rewards + 15% military discount",
+      "code": null,
+      "type": "signup",
+      "description": "Sonoma-founded Mary's Pizza Shack's free Club 59 rewards program earns points toward $5-off rewards with member-only deals and bonus gift cards; the chain also offers a 15% military discount to veterans/active duty with valid ID. Sonoma, Napa, Marin and North Bay locations.",
+      "discount": "$5 rewards / 15% military",
+      "eligibility": "Sonoma / North Bay",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://maryspizzashack.com/menu_category/specials/",
+      "sourceName": "Mary's Pizza Shack",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 36,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "mary-s-pizza-shack-club-59-rewards-15-military-discount"
+    },
+    {
+      "store": "Mayahuel (Sacramento)",
+      "category": "Restaurants & Dining",
+      "title": "Hora Feliz: $5 Modelo, $7 Maya Margarita, $8.50 taco flight",
+      "code": null,
+      "type": "deal",
+      "description": "Downtown Sacramento Oaxacan restaurant: 'Hora Feliz' happy hour Monday-Friday 3-5pm with $5 Modelo, $7 Maya Margarita and discounted apps including an $8.50 taco flight.",
+      "discount": "Happy hour",
+      "eligibility": "Sacramento",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://sactoday.6amcity.com/city-guide/play/happy-hour-guide-sacramento-ca",
+      "sourceName": "SACtoday Happy Hour Guide",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "mayahuel-sacramento-hora-feliz-5-modelo-7-maya-margarita-8-50-taco-flight"
+    },
+    {
+      "store": "McDonald's",
+      "category": "Restaurants & Dining",
+      "title": "McValue: $5 Meal Deal + Buy One, Add One for $1",
+      "code": null,
+      "type": "deal",
+      "description": "The $5 Meal Deal includes a McDouble or McChicken, small fries, 4-pc McNuggets and a small drink. McValue also has Buy One, Add One for $1 (add an item of equal/lesser value). App drops free medium fries with a $1 purchase every Friday and a free sandwich for new app users.",
+      "discount": "$5 meal / add item for $1",
+      "eligibility": "App for fries Friday & new-user freebie",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.mcdonalds.com/us/en-us/full-menu/mcvalue-menu.html",
+      "sourceName": "McDonald's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 62,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "mcdonald-s-mcvalue-5-meal-deal-buy-one-add-one-for-1"
+    },
+    {
+      "store": "Mountain Mike's Pizza",
+      "category": "Restaurants & Dining",
+      "title": "Mountain Rewards app - $5 off your first order",
+      "code": null,
+      "type": "signup",
+      "description": "Join Mountain Mike's Pizza Mountain Rewards via the mobile app to get $5 off your first order plus points on every purchase. Participating NorCal locations (select your store in the app). Locations are franchised so deals vary.",
+      "discount": "$5 off first order",
+      "eligibility": "California / NorCal",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.mountainmikespizza.com/rewards/",
+      "sourceName": "Mountain Mike's Pizza",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 29,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "mountain-mike-s-pizza-mountain-rewards-app-5-off-your-first-order"
+    },
+    {
+      "store": "Mountain Mike's Pizza",
+      "category": "Restaurants & Dining",
+      "title": "Triple Play bundle - large 1-topping pizza + 2 sides for $30",
+      "code": null,
+      "type": "deal",
+      "description": "California-based Mountain Mike's Pizza Triple Play bundle: a large 1-topping pizza plus your choice of any two sides, salads, wings or desserts for ~$30, dine-in or carryout, Monday-Thursday only. Available at Bay Area, Sacramento and statewide locations (price varies by location).",
+      "discount": "$30 bundle",
+      "eligibility": "California / NorCal",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.restaurantnews.com/mountain-mikes-pizza-triple-play-bundle-great-games-great-food-042126/",
+      "sourceName": "RestaurantNews.com",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "mountain-mike-s-pizza-triple-play-bundle-large-1-topping-pizza-2-sides-for-30"
+    },
+    {
+      "store": "Napa Valley Restaurant Month",
+      "category": "Restaurants & Dining",
+      "title": "Month-long prix-fixe menus and stay-and-dine deals across the valley",
+      "code": null,
+      "type": "deal",
+      "description": "Visit Napa Valley's Restaurant Month (all of January) offers prix-fixe menus, stay-and-dine hotel bundles and specials across Napa, Yountville, St. Helena, Calistoga and American Canyon - from food trucks to Michelin tasting menus (e.g. Wilfred's Lounge 3-course for $35).",
+      "discount": "Prix-fixe menus",
+      "eligibility": "Napa Valley",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.visitnapavalley.com/restaurant-month/",
+      "sourceName": "Visit Napa Valley",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "napa-valley-restaurant-month-month-long-prix-fixe-menus-and-stay-and-dine-deals-across-th"
+    },
+    {
+      "store": "Nation's Giant Hamburgers",
+      "category": "Restaurants & Dining",
+      "title": "Nation's Rewards - BOGO burger when you join",
+      "code": null,
+      "type": "signup",
+      "description": "Bay Area institution Nation's Giant Hamburgers & Great Pies (since 1952): join Nation's Rewards through the app to get a BOGO burger / free side offer, a free burger on your birthday, and a $5-off referral for you and a friend. East Bay, SF and Sacramento-area locations.",
+      "discount": "BOGO burger",
+      "eligibility": "Bay Area / Sacramento",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://nationsrestaurants.com/",
+      "sourceName": "Nation's Giant Hamburgers",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "nation-s-giant-hamburgers-nation-s-rewards-bogo-burger-when-you-join"
+    },
+    {
+      "store": "Oakland Restaurant Week",
+      "category": "Restaurants & Dining",
+      "title": "Prix-fixe lunch from $15 and dinner from $35 across Oakland",
+      "code": null,
+      "type": "deal",
+      "description": "Visit Oakland's annual restaurant week features 135+ Oakland restaurants with lunch menus at $15/$25/$35 and dinner at $35/$45/$65, plus family-style and tasting specials. Held each spring (2026 ran March 12-22).",
+      "discount": "Prix-fixe from $15",
+      "eligibility": "Oakland / East Bay",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.visitoakland.com/events/annual-events/restaurant-week/",
+      "sourceName": "Visit Oakland",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "oakland-restaurant-week-prix-fixe-lunch-from-15-and-dinner-from-35-across-oakland"
+    },
+    {
+      "store": "Olive Garden",
+      "category": "Restaurants & Dining",
+      "title": "Aussie-style unlimited soup, salad & breadsticks",
+      "code": null,
+      "type": "deal",
+      "description": "Unlimited Soup or Salad and breadsticks remains a year-round value at lunch. Note: the Never Ending Pasta Bowl ($13.99, unlimited pasta/sauce/soup or salad/breadsticks) runs as a seasonal promo starting Aug 25, and Buy One, Take One returns at select times - both dine-in only.",
+      "discount": "Unlimited soup/salad + breadsticks",
+      "eligibility": "Dine-in",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.nrn.com/casual-dining/olive-garden-s-buy-one-take-one-offer-returns",
+      "sourceName": "Nation's Restaurant News",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "olive-garden-aussie-style-unlimited-soup-salad-breadsticks"
+    },
+    {
+      "store": "OpenTable",
+      "category": "Restaurants & Dining",
+      "title": "1,000-Point bonus tables across the Bay Area",
+      "code": null,
+      "type": "deal",
+      "description": "OpenTable offers 1,000-Point bonus reservations at participating San Francisco Bay Area restaurants (vs. the standard 100) - book those tables and redeem accumulated points for Dining Rewards/gift cards. Free OpenTable account required.",
+      "discount": "1,000 bonus points",
+      "eligibility": "San Francisco Bay Area",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.opentable.com/s/dinerschoice?metroid=4&topic=MostBooked_pop",
+      "sourceName": "OpenTable",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 36,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "opentable-1-000-point-bonus-tables-across-the-bay-area"
+    },
+    {
+      "store": "OpenTable Experiences",
+      "category": "Restaurants & Dining",
+      "title": "Special menus, prix-fixe & dining experiences in the Bay Area",
+      "code": null,
+      "type": "deal",
+      "description": "OpenTable Experiences lists bookable special menus, multi-course prix-fixe deals and unique dining events at San Francisco Bay Area restaurants, including theater-district 3-course prix-fixe offers and business-lunch deals.",
+      "discount": "Prix-fixe / special menus",
+      "eligibility": "San Francisco Bay Area",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.opentable.com/experiences/4",
+      "sourceName": "OpenTable",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "opentable-experiences-special-menus-prix-fixe-dining-experiences-in-the-bay-area"
+    },
+    {
+      "store": "Outback Steakhouse",
+      "category": "Restaurants & Dining",
+      "title": "Aussie 3-Course Meal from $14.99",
+      "code": null,
+      "type": "deal",
+      "description": "A three-course meal - soup or salad, a signature entrée, and a slice of New York-style cheesecake - starting at $14.99. Dine-in at participating locations. Walkabout Wednesday entrée deal also available at $13.99.",
+      "discount": "3-course meal $14.99",
+      "eligibility": "Dine-in",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.outback.com/offers/Aussie-Aussie-Aussie-Oi-Oi-Oi-3-Course-Meal",
+      "sourceName": "Outback Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "outback-steakhouse-aussie-3-course-meal-from-14-99"
+    },
+    {
+      "store": "Outta Sight Pizza (San Francisco)",
+      "category": "Restaurants & Dining",
+      "title": "Weekday happy hour: $3-4 pizza slices + $13 Italian combo",
+      "code": null,
+      "type": "deal",
+      "description": "Tenderloin pizzeria Outta Sight Pizza offers slices at $3-4 apiece during its weekday happy hour, plus discounted drinks and a $13 Italian combo sandwich.",
+      "discount": "$3-4 slices",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.theinfatuation.com/san-francisco/guides/best-happy-hour-san-francisco",
+      "sourceName": "The Infatuation",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "outta-sight-pizza-san-francisco-weekday-happy-hour-3-4-pizza-slices-13-italian-combo"
+    },
+    {
+      "store": "P.F. Chang's",
+      "category": "Restaurants & Dining",
+      "title": "Free entrée for grads + free app/dessert at sign-up",
+      "code": null,
+      "type": "deal",
+      "description": "Through June, a graduate Guest of Honor gets a free entrée when the table dines in and spends $75+. Join free P.F. Chang's Rewards for a free appetizer or dessert at sign-up and 10% Chang's Cash back on purchases.",
+      "discount": "Free entrée / free appetizer",
+      "eligibility": "Grad deal: dine-in, $75+ table spend",
+      "expiry": "2026-06-30",
+      "reliability": "medium",
+      "source": "https://www.pfchangs.com/offers",
+      "sourceName": "P.F. Chang's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 49,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "p-f-chang-s-free-entr-e-for-grads-free-app-dessert-at-sign-up"
+    },
+    {
+      "store": "Panda Express",
+      "category": "Restaurants & Dining",
+      "title": "Free entrée online + Pandaoke kit with Family Meal",
+      "code": null,
+      "type": "deal",
+      "description": "Get a free entrée item when you order a Plate or A La Carte online at participating locations. During the spring/summer Pandaoke promotion, buy a Family Meal and receive a free Pandaoke karaoke kit (about a $15 value). New Panda Rewards users often get a free small entrée.",
+      "discount": "Free entrée / free kit",
+      "eligibility": "Online order; Panda Rewards",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.pandaexpress.com/",
+      "sourceName": "Panda Express Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 55,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "panda-express-free-entr-e-online-pandaoke-kit-with-family-meal"
+    },
+    {
+      "store": "Panera Bread",
+      "category": "Restaurants & Dining",
+      "title": "Unlimited Sip Club: first 3 months $5/month",
+      "code": null,
+      "type": "signup",
+      "description": "New subscribers get the Unlimited Sip Club for $5/month (plus tax) for the first three months - unlimited drip coffee, iced coffee, hot tea, fountain sodas and select bubbler drinks every 2 hours, with refills. Renews at $14.99/month unless cancelled.",
+      "discount": "Unlimited drinks $5/mo",
+      "eligibility": "New subscribers; sign up by 2026-06-30",
+      "expiry": "2026-06-30",
+      "reliability": "high",
+      "source": "https://www.panerabread.com/en-us/mypanera/subscription.html",
+      "sourceName": "Panera Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 48,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "panera-bread-unlimited-sip-club-first-3-months-5-month"
     },
     {
       "store": "Panera Bread",
@@ -7244,6 +8184,446 @@
       "dailyRank": null
     },
     {
+      "store": "Papa John's",
+      "category": "Restaurants & Dining",
+      "title": "50% off pizzas on carryout orders",
+      "code": null,
+      "type": "deal",
+      "description": "Most locations automatically apply 50% off all menu-priced pizzas when you choose Carryout at checkout. Join free Papa Rewards to earn points toward free pizza.",
+      "discount": "50% off pizza",
+      "eligibility": "Carryout orders",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.dealnews.com/features/papa-johns/promo-codes/",
+      "sourceName": "DealNews",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 51,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "papa-john-s-50-off-pizzas-on-carryout-orders"
+    },
+    {
+      "store": "Peet's Coffee",
+      "category": "Restaurants & Dining",
+      "title": "Peetnik Rewards - free birthday drink + welcome bonus",
+      "code": null,
+      "type": "signup",
+      "description": "Berkeley-founded Peet's Coffee Peetnik Rewards (free via app): get a free beverage on your birthday, 125 welcome points after your first purchase, and 25 bonus points on your sign-up anniversary. Bay Area and nationwide locations.",
+      "discount": "Free birthday drink",
+      "eligibility": "Bay Area / nationwide",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.peets.com/pages/peetnik-rewards",
+      "sourceName": "Peet's Coffee",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "peet-s-coffee-peetnik-rewards-free-birthday-drink-welcome-bonus"
+    },
+    {
+      "store": "PEJU (Napa Valley)",
+      "category": "Restaurants & Dining",
+      "title": "Sunday Sessions - wood-fired pizza & tacos with wine, $85 ($42.50 members)",
+      "code": null,
+      "type": "deal",
+      "description": "PEJU winery in Rutherford (Napa Valley) hosts relaxed Sunday afternoon patio sessions May 10-Aug 30, 2026 with wood-fired pizzas, artisan tacos and rotating wine pairings for $85 per person, or $42.50 for wine club members.",
+      "discount": "50% off for members",
+      "eligibility": "Napa Valley",
+      "expiry": "2026-08-30",
+      "reliability": "medium",
+      "source": "https://www.sonomamag.com/sonoma-and-napa-wineries-embrace-happy-hour-with-casual-tastings-food-trucks/",
+      "sourceName": "Sonoma Magazine",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "peju-napa-valley-sunday-sessions-wood-fired-pizza-tacos-with-wine-85-42-50-me"
+    },
+    {
+      "store": "Philz Coffee",
+      "category": "Restaurants & Dining",
+      "title": "Philz Rewards - free drink upgrade + 150 points at signup",
+      "code": null,
+      "type": "signup",
+      "description": "Bay Area-born Philz Coffee's new Philz Rewards program (app only): get a free drink upgrade plus 150 bonus points just for signing up, earn 10 points per $1, and get a free drink of any size at 1,200 points, plus a birthday treat. Bay Area and statewide locations.",
+      "discount": "Free drink upgrade + points",
+      "eligibility": "Bay Area / California",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://philzcoffee.com/rewards",
+      "sourceName": "Philz Coffee",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 60,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "philz-coffee-philz-rewards-free-drink-upgrade-150-points-at-signup"
+    },
+    {
+      "store": "Pizza Hut",
+      "category": "Restaurants & Dining",
+      "title": "$2 Personal Pan Pizza Tuesdays + Hut Rewards",
+      "code": null,
+      "type": "deal",
+      "description": "One-topping Personal Pan Pizzas for $2 each on Tuesdays (carryout, limit four). Join free Hut Rewards via the app to earn 2 points per $1, unlock app-only Hut Hook-Up offers, and get a birthday reward.",
+      "discount": "$2 personal pizza",
+      "eligibility": "Hut Rewards members / app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.pizzahut.com/c/content/coupons",
+      "sourceName": "Pizza Hut Coupons",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 45,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "pizza-hut-2-personal-pan-pizza-tuesdays-hut-rewards"
+    },
+    {
+      "store": "Pizza My Heart",
+      "category": "Restaurants & Dining",
+      "title": "Current promotions & email/app-only deals",
+      "code": null,
+      "type": "signup",
+      "description": "Pizza My Heart (Bay Area / Santa Cruz / Silicon Valley) posts rotating promotions on its site and sends promo codes and flash-sale deals to email and app subscribers - past deals include $7.50 off a large pizza with a salad. Sign up for newsletter to receive codes.",
+      "discount": "Varies",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.pizzamyheart.com/promotions/",
+      "sourceName": "Pizza My Heart",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 31,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "pizza-my-heart-current-promotions-email-app-only-deals"
+    },
+    {
+      "store": "Pizza My Heart",
+      "category": "Restaurants & Dining",
+      "title": "Early Week deal - large 1-topping pizza for $22 (Mon-Thu)",
+      "code": null,
+      "type": "deal",
+      "description": "Surf-themed Bay Area chain Pizza My Heart's Early Week special: a large 1-topping pizza for $22, available Monday through Thursday. Locations from San Francisco and the Peninsula to Silicon Valley, Santa Cruz and the East Bay.",
+      "discount": "$22 large pizza",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.pizzamyheart.com/event/one-topping-pizza-deal/",
+      "sourceName": "Pizza My Heart",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "pizza-my-heart-early-week-deal-large-1-topping-pizza-for-22-mon-thu"
+    },
+    {
+      "store": "Popeyes",
+      "category": "Restaurants & Dining",
+      "title": "Free chicken on first app order ($10+) + $4.49 Tuesday 2-pc",
+      "code": null,
+      "type": "deal",
+      "description": "New app customers get a free item (2-Pc Chicken, 3-Pc Tenders, 6-Pc Wings, Chicken Sandwich, or Fried Pickles) on their first order of $10+. Plus the consistent Tuesday 2-piece chicken meal for $4.49 nationwide.",
+      "discount": "Free entrée / $4.49 meal",
+      "eligibility": "App, new-customer first order $10+",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.popeyes.com/offers",
+      "sourceName": "Popeyes Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 55,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "popeyes-free-chicken-on-first-app-order-10-4-49-tuesday-2-pc"
+    },
+    {
+      "store": "Raising Cane's",
+      "category": "Restaurants & Dining",
+      "title": "Free Box Combo when you join the Caniac Club",
+      "code": null,
+      "type": "signup",
+      "description": "Join the free Caniac Club, register your card, and get a free Box Combo welcome meal (typically activated within 48 hours). BOGO Box Combo offers also appear in the app around holidays like Father's Day.",
+      "discount": "Free Box Combo",
+      "eligibility": "New Caniac Club members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.raisingcanes.com/caniacclubmothersdaybogo/",
+      "sourceName": "Raising Cane's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "raising-cane-s-free-box-combo-when-you-join-the-caniac-club"
+    },
+    {
+      "store": "Red Lobster",
+      "category": "Restaurants & Dining",
+      "title": "Ultimate Endless Shrimp from $24.99",
+      "code": null,
+      "type": "deal",
+      "description": "Endless Shrimp is back for a limited time - endless servings of Walt's Favorite Shrimp, Garlic Shrimp Scampi, Parrot Isle Coconut Shrimp, Shrimp Linguini Alfredo and new Marry Me Shrimp, starting at $24.99. Dine-in only at participating locations.",
+      "discount": "Endless shrimp from $24.99",
+      "eligibility": "Dine-in",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.redlobster.com/menu/specials/",
+      "sourceName": "Red Lobster Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "red-lobster-ultimate-endless-shrimp-from-24-99"
+    },
+    {
+      "store": "Resy",
+      "category": "Restaurants & Dining",
+      "title": "Special dining events & experiences in San Francisco",
+      "code": null,
+      "type": "deal",
+      "description": "Resy's San Francisco events hub lists special dining events, collaboration dinners, tasting menus and ticketed experiences at SF and Oakland restaurants. Free Resy account required to book.",
+      "discount": "Special events",
+      "eligibility": "San Francisco / Bay Area",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://resy.com/cities/san-francisco-ca/events",
+      "sourceName": "Resy",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 31,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "resy-special-dining-events-experiences-in-san-francisco"
+    },
+    {
+      "store": "Round Table Pizza",
+      "category": "Restaurants & Dining",
+      "title": "Royal Rewards - earn points toward free pizza",
+      "code": null,
+      "type": "signup",
+      "description": "California-born Round Table Pizza's free Royal Rewards loyalty program (sign up on the app/site) earns 1 point per $1 spent toward food rewards, with member-only deals and a signup offer. Available at Bay Area, Sacramento and statewide locations.",
+      "discount": "Rewards points",
+      "eligibility": "California / NorCal",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.roundtablepizza.com/",
+      "sourceName": "Round Table Pizza",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 56,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "round-table-pizza-royal-rewards-earn-points-toward-free-pizza"
+    },
+    {
+      "store": "Sacramento Farm-to-Fork",
+      "category": "Restaurants & Dining",
+      "title": "Free-admission Farm-to-Fork Festival, Sept 13-28",
+      "code": null,
+      "type": "deal",
+      "description": "Sacramento's annual Farm-to-Fork Celebration (Sept 13-28, 2026) is a two-week food event in America's Farm-to-Fork Capital; the festival weekend has free admission with hundreds of local food, wine and beer vendors. Terra Madre Americas runs Sept 26-28 at the SAFE Credit Union Convention Center.",
+      "discount": "Free admission",
+      "eligibility": "Sacramento",
+      "expiry": "2026-09-28",
+      "reliability": "high",
+      "source": "https://www.visitcalifornia.com/event/sacramento-farm-fork-festival/",
+      "sourceName": "Visit California",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sacramento-farm-to-fork-free-admission-farm-to-fork-festival-sept-13-28"
+    },
+    {
+      "store": "San Jose Dine Downtown",
+      "category": "Restaurants & Dining",
+      "title": "11 days of prix-fixe menus at ~50 downtown San Jose restaurants",
+      "code": null,
+      "type": "deal",
+      "description": "San Jose Downtown Association's Dine Downtown restaurant week features nearly 50 downtown San Jose restaurants - from street food to Michelin-rated spots - with multi-course prix-fixe menus over 11 days.",
+      "discount": "Prix-fixe menus",
+      "eligibility": "Downtown San Jose / Silicon Valley",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://sjdowntown.com/dine-downtown/",
+      "sourceName": "San Jose Downtown Association",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "san-jose-dine-downtown-11-days-of-prix-fixe-menus-at-50-downtown-san-jose-restauran"
+    },
+    {
+      "store": "Santería (San Francisco)",
+      "category": "Restaurants & Dining",
+      "title": "Happy hour: everything $10 (margaritas, flautas, nachos)",
+      "code": null,
+      "type": "deal",
+      "description": "Castro-district Mexican spot Santería runs a happy hour where everything is $10 - frozen margaritas, sangria and food specials like flautas, quesadillas and nachos.",
+      "discount": "Everything $10",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.theinfatuation.com/san-francisco/guides/best-happy-hour-san-francisco",
+      "sourceName": "The Infatuation",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "santer-a-san-francisco-happy-hour-everything-10-margaritas-flautas-nachos"
+    },
+    {
+      "store": "SF Restaurant Week",
+      "category": "Restaurants & Dining",
+      "title": "Prix-fixe lunch from $10 and dinner from $30 citywide",
+      "code": null,
+      "type": "deal",
+      "description": "San Francisco's twice-yearly restaurant week (GGRA): 200+ SF restaurants offer multi-course prix-fixe menus at set price points - brunch/lunch $10/$15/$25/$35/$45 and dinner $30/$45/$60/$75/$90. Spring 2026 ran April 10-19; fall edition typically returns in early November.",
+      "discount": "Prix-fixe from $10",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.sfrestaurantweek.com/about/",
+      "sourceName": "SF Restaurant Week",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sf-restaurant-week-prix-fixe-lunch-from-10-and-dinner-from-30-citywide"
+    },
+    {
+      "store": "Shake Shack",
+      "category": "Restaurants & Dining",
+      "title": "Free Crinkle Fries with $10 spend + 20% off first app order",
+      "code": null,
+      "type": "deal",
+      "description": "Get free Crinkle Fries when you spend $10 via the Shake Shack app. New app users get 20% off their first order (up to $5, $20+ pickup/delivery), and Rewards members get Free Fries Fridays plus Challenge rewards like $10 off after two burger purchases.",
+      "discount": "Free fries / 20% off",
+      "eligibility": "Shake Shack app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://shakeshack.com/national-regional-offers",
+      "sourceName": "Shake Shack Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "shake-shack-free-crinkle-fries-with-10-spend-20-off-first-app-order"
+    },
+    {
+      "store": "Sonic",
+      "category": "Restaurants & Dining",
+      "title": "Half-price drinks & slushes all day in the app",
+      "code": null,
+      "type": "deal",
+      "description": "Happy Hour is half-price drinks and slushes daily 2-4 PM - or get the discount all day, every day when you order through the Sonic app (auto-applied, no code). Thursdays add half-price shakes via the app through 6/30/2026.",
+      "discount": "50% off drinks/slushes",
+      "eligibility": "App for all-day pricing",
+      "expiry": "2026-06-30",
+      "reliability": "high",
+      "source": "https://www.eatdrinkdeals.com/sonic-coupons/",
+      "sourceName": "EatDrinkDeals",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 60,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sonic-half-price-drinks-slushes-all-day-in-the-app"
+    },
+    {
+      "store": "Sonoma County Restaurant Week",
+      "category": "Restaurants & Dining",
+      "title": "Prix-fixe lunch and dinner at 100+ wine-country restaurants",
+      "code": null,
+      "type": "deal",
+      "description": "Sonoma County's annual restaurant week brings 100+ restaurants across Santa Rosa, Petaluma, Healdsburg, Sonoma and beyond together with value prix-fixe lunch and dinner menus. Held each winter (2026 ran February 23-March 1).",
+      "discount": "Prix-fixe menus",
+      "eligibility": "Sonoma County",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://socorestaurantweek.org/",
+      "sourceName": "Sonoma County Restaurant Week",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 52,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sonoma-county-restaurant-week-prix-fixe-lunch-and-dinner-at-100-wine-country-restaurants"
+    },
+    {
+      "store": "Sonoma Tourist Guide",
+      "category": "Restaurants & Dining",
+      "title": "2-for-1 and free wine tasting coupons across Sonoma",
+      "code": null,
+      "type": "deal",
+      "description": "Sonoma Tourist Guide compiles current 2-for-1 and complimentary wine-tasting deals at wineries and tasting rooms throughout Sonoma Valley and Sonoma County - useful for pairing with wine-country dining.",
+      "discount": "2-for-1 / free tasting",
+      "eligibility": "Sonoma County",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://sonomatouristguide.com/wine-tasting-free-coupons-deals-sonoma",
+      "sourceName": "Sonoma Tourist Guide",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 47,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sonoma-tourist-guide-2-for-1-and-free-wine-tasting-coupons-across-sonoma"
+    },
+    {
+      "store": "St. Supéry Estate (Napa Valley)",
+      "category": "Restaurants & Dining",
+      "title": "Weekly Social Hour - wines by the glass from $10",
+      "code": null,
+      "type": "deal",
+      "description": "St. Supéry Estate Vineyards & Winery in Rutherford (Napa Valley) hosts a weekly casual 'Social Hour' with wines by the glass starting at just $10 - a low-key, lower-cost alternative to a formal tasting.",
+      "discount": "$10 glass pours",
+      "eligibility": "Napa Valley",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.sonomamag.com/sonoma-and-napa-wineries-embrace-happy-hour-with-casual-tastings-food-trucks/",
+      "sourceName": "Sonoma Magazine",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "st-sup-ry-estate-napa-valley-weekly-social-hour-wines-by-the-glass-from-10"
+    },
+    {
+      "store": "Starbucks",
+      "category": "Restaurants & Dining",
+      "title": "Free Mod Monday + app BOGO Happy Hour events",
+      "code": null,
+      "type": "deal",
+      "description": "Every Starbucks Rewards member gets a free Mod Monday perk - one complimentary modifier added to any handcrafted drink, once per month. Starbucks also runs app-exclusive BOGO Happy Hour events (afternoons) for Rewards members announced through the app.",
+      "discount": "Free modifier / BOGO drinks",
+      "eligibility": "Starbucks Rewards members / app",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.eatdrinkdeals.com/starbucks-happy-hour/",
+      "sourceName": "EatDrinkDeals",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 57,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "starbucks-free-mod-monday-app-bogo-happy-hour-events"
+    },
+    {
       "store": "Starbucks",
       "category": "Restaurants & Dining",
       "title": "Rewards members: Double Star Days + app BOGO offers",
@@ -7258,10 +8638,250 @@
       "sourceName": "The Krazy Coupon Lady",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "starbucks-rewards-members-double-star-days-app-bogo-offers",
-      "score": 47,
+      "score": 57,
       "featured": false,
       "top10": false,
       "dailyRank": null
+    },
+    {
+      "store": "Subway",
+      "category": "Restaurants & Dining",
+      "title": "Free 6-inch sub with $25 gift card purchase",
+      "code": null,
+      "type": "deal",
+      "description": "Get a free 6-inch sub with every $25 in Subway gift cards purchased, through 6/30/2026. Join free Subway MVP Rewards for additional app-only BOGO and discount offers.",
+      "discount": "Free 6-inch sub",
+      "eligibility": "$25 gift card purchase",
+      "expiry": "2026-06-30",
+      "reliability": "medium",
+      "source": "https://www.dealnews.com/features/subway/bogo-deal/",
+      "sourceName": "DealNews",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 45,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "subway-free-6-inch-sub-with-25-gift-card-purchase"
+    },
+    {
+      "store": "Sunset Sips (Downtown Sacramento)",
+      "category": "Restaurants & Dining",
+      "title": "$5 / $7 / $9 drink specials every Wednesday across downtown",
+      "code": null,
+      "type": "deal",
+      "description": "Seasonal summer happy-hour program from the Downtown Sacramento Partnership: participating bars and restaurants across downtown Sacramento offer drinks for $5, $7 and $9 every Wednesday from 4-7pm. Currently running through the summer.",
+      "discount": "$5/$7/$9 drinks",
+      "eligibility": "Downtown Sacramento",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.downtownsac.org/downtown-sac-experiences/sunset-sips/",
+      "sourceName": "Downtown Sacramento Partnership",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 40,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sunset-sips-downtown-sacramento-5-7-9-drink-specials-every-wednesday-across-downtown"
+    },
+    {
+      "store": "Super Duper Burgers",
+      "category": "Restaurants & Dining",
+      "title": "Happy hour: free fries with a local beer, wine or shake (Mon-Fri 4-6pm)",
+      "code": null,
+      "type": "deal",
+      "description": "Bay Area burger chain Super Duper's happy hour: buy a local Bay Area beer, wine or milkshake Monday-Friday 4-6pm and get a complimentary order of fresh fries. Locations across SF, the Peninsula and East Bay.",
+      "discount": "Free fries",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.superduperburgers.com/",
+      "sourceName": "Super Duper Burgers",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 41,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "super-duper-burgers-happy-hour-free-fries-with-a-local-beer-wine-or-shake-mon-fr"
+    },
+    {
+      "store": "Super Duper Burgers",
+      "category": "Restaurants & Dining",
+      "title": "Loyalty signup - 10% off first order + birthday treat",
+      "code": null,
+      "type": "signup",
+      "description": "Sign up for Super Duper Burgers' loyalty program on the website to get 10% off your first order, a birthday treat and member-only promotions. Bay Area locations (SF, Peninsula, East Bay).",
+      "discount": "10% off first order",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.superduperburgers.com/",
+      "sourceName": "Super Duper Burgers",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 31,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "super-duper-burgers-loyalty-signup-10-off-first-order-birthday-treat"
+    },
+    {
+      "store": "Sweetgreen",
+      "category": "Restaurants & Dining",
+      "title": "Sweet Rewards - $7 off for you and a friend (referral)",
+      "code": null,
+      "type": "signup",
+      "description": "Sweetgreen's Sweet Rewards: refer a friend and you both get $7 off; new customers also get a $5 credit on a first qualifying digital order of $9.95+ via the app or site. Bay Area locations in SF, the Peninsula and South Bay.",
+      "discount": "$7 off / $5 credit",
+      "eligibility": "Bay Area",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.sweetgreen.com/sweet-rewards/",
+      "sourceName": "Sweetgreen",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 34,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "sweetgreen-sweet-rewards-7-off-for-you-and-a-friend-referral"
+    },
+    {
+      "store": "Taco Bell",
+      "category": "Restaurants & Dining",
+      "title": "Luxe Cravings Boxes at $5, $7 & $9",
+      "code": null,
+      "type": "deal",
+      "description": "Luxe Cravings Boxes come in $5, $7, and $9 tiers loaded with fan favorites for a value meal. Rewards members can also build their own box in the app. Watch the app for Tuesday Drops with limited $1 Luxe Value Menu items.",
+      "discount": "Combo box from $5",
+      "eligibility": "App for Build-Your-Own / Tuesday Drops",
+      "expiry": null,
+      "reliability": "high",
+      "source": "https://www.tacobell.com/promotions/luxe-cravings-boxes",
+      "sourceName": "Taco Bell Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 50,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "taco-bell-luxe-cravings-boxes-at-5-7-9"
+    },
+    {
+      "store": "Texas Roadhouse",
+      "category": "Restaurants & Dining",
+      "title": "Early Dine entrées from ~$10.99 + free VIP appetizer",
+      "code": null,
+      "type": "deal",
+      "description": "Early Dine specials run weekdays 3-5 PM with steaks, ribs and chicken plates around $10.99-$12.99. Join the free VIP Club for a free appetizer, a birthday meal, and 2-4 exclusive offers per month.",
+      "discount": "Discounted entrées / free appetizer",
+      "eligibility": "Early Dine hours; VIP Club for appetizer",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://texasroadhouse-menus.us/texas-roadhouse-early-dine",
+      "sourceName": "Texas Roadhouse Menu Guide",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 55,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "texas-roadhouse-early-dine-entr-es-from-10-99-free-vip-appetizer"
+    },
+    {
+      "store": "TGI Fridays",
+      "category": "Restaurants & Dining",
+      "title": "Free Chips & Salsa or $3 off an appetizer (Rewards)",
+      "code": null,
+      "type": "signup",
+      "description": "Join free TGI Fridays Rewards and every member gets free Chips & Salsa or $3 off an appetizer with every visit. Earn points toward free apps (75 pts) and free entrées (150 pts), plus app-only offers.",
+      "discount": "Free appetizer / $3 off",
+      "eligibility": "Rewards members",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://tgifridays.com/loyalty/",
+      "sourceName": "TGI Fridays Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 45,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "tgi-fridays-free-chips-salsa-or-3-off-an-appetizer-rewards"
+    },
+    {
+      "store": "The Cheesecake Factory",
+      "category": "Restaurants & Dining",
+      "title": "Free $20 Bonus Card per $100 in gift cards",
+      "code": null,
+      "type": "deal",
+      "description": "Through June 21, 2026, get a complimentary $20 Bonus Card for every $100 in gift cards purchased (Bonus Card redeemable June 22-July 19). Cheesecake Rewards members also get a free slice of cheesecake on their birthday.",
+      "discount": "$20 bonus per $100",
+      "eligibility": "$100 gift card purchase",
+      "expiry": "2026-06-21",
+      "reliability": "high",
+      "source": "https://www.businesswire.com/news/home/20260401807598/en/The-Cheesecake-Factory-Introduces-New-App-With-Exclusive-Offer-for-Cheesecake-Rewards-Members",
+      "sourceName": "Business Wire",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 53,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "the-cheesecake-factory-free-20-bonus-card-per-100-in-gift-cards"
+    },
+    {
+      "store": "Tock",
+      "category": "Restaurants & Dining",
+      "title": "Bookable tasting menus & wine-country experiences (SF & Napa)",
+      "code": null,
+      "type": "deal",
+      "description": "Tock lists prix-fixe tasting-menu reservations and special dining experiences across San Francisco (Lazy Bear, Sons & Daughters, Sorrel) and Napa (La Toque's Black Truffle Tasting Menu), plus 1,200+ wineries. (Tock venues are being folded into Resy in 2026.)",
+      "discount": "Tasting menus",
+      "eligibility": "San Francisco / Napa",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.exploretock.com/city/san-francisco",
+      "sourceName": "Tock",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 31,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "tock-bookable-tasting-menus-wine-country-experiences-sf-napa"
+    },
+    {
+      "store": "Waterbar (San Francisco)",
+      "category": "Restaurants & Dining",
+      "title": "$1.05 featured oysters daily until 5pm",
+      "code": null,
+      "type": "deal",
+      "description": "Embarcadero waterfront seafood restaurant Waterbar serves its $1.05 featured oyster of the day from open until 5pm daily - one of SF's classic happy-hour deals with Bay Bridge views.",
+      "discount": "$1.05 oysters",
+      "eligibility": "San Francisco",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.theinfatuation.com/san-francisco/guides/best-happy-hour-san-francisco",
+      "sourceName": "The Infatuation",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 35,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "waterbar-san-francisco-1-05-featured-oysters-daily-until-5pm"
+    },
+    {
+      "store": "Wendy's",
+      "category": "Restaurants & Dining",
+      "title": "$5 Biggie Bag + free Frosty offer in the app",
+      "code": null,
+      "type": "deal",
+      "description": "The $5 Biggie Bag includes a Jr. Bacon Cheeseburger or Crispy Chicken Sandwich, 4-pc Nuggs, Jr. fries and a small drink. Wendy's runs a recurring app-only free small Frosty with Biggie Bag purchase promo each summer - check the app Offers tab.",
+      "discount": "$5 meal bundle / free Frosty",
+      "eligibility": "App for Frosty offer",
+      "expiry": null,
+      "reliability": "medium",
+      "source": "https://www.wendys.com/mealdeals",
+      "sourceName": "Wendy's Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 57,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "wendy-s-5-biggie-bag-free-frosty-offer-in-the-app"
     },
     {
       "store": "Wendy's",
@@ -7277,11 +8897,31 @@
       "source": "https://www.thestreet.com/investing/taco-bell-mcdonalds-wendys-app-deals",
       "sourceName": "TheStreet",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "wendy-s-free-6-pc-nuggets-with-any-purchase-every-wednesday-",
-      "score": 46,
+      "id": "wendy-s-free-6-pc-nuggets-with-any-purchase-every-wednesday",
+      "score": 56,
       "featured": false,
       "top10": false,
       "dailyRank": null
+    },
+    {
+      "store": "Wingstop",
+      "category": "Restaurants & Dining",
+      "title": "Boneless Meal Deal: 20 wings + fries + 2 dips $16.99",
+      "code": null,
+      "type": "deal",
+      "description": "20 boneless wings in up to 4 flavors, large fries, and 2 dips for $16.99. Order online or in the app. Also: $0.70 boneless wings every Monday and Tuesday (by the piece) at participating locations.",
+      "discount": "20 wings + sides $16.99",
+      "eligibility": null,
+      "expiry": "2026-06-30",
+      "reliability": "high",
+      "source": "https://www.wingstop.com/menu/specials/1699-boneless-meal-deal",
+      "sourceName": "Wingstop Official",
+      "verifiedAt": "2026-06-08T07:00:00Z",
+      "score": 44,
+      "featured": false,
+      "top10": false,
+      "dailyRank": null,
+      "id": "wingstop-boneless-meal-deal-20-wings-fries-2-dips-16-99"
     },
     {
       "store": "1Password",
@@ -7317,7 +8957,7 @@
       "source": "https://www.adobe.com/products/special-offers.html",
       "sourceName": "Adobe Official",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99-",
+      "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
       "top10": false,
@@ -7357,7 +8997,7 @@
       "source": "https://cybernews.com/antivirus-coupons/bitdefender-coupon-codes/",
       "sourceName": "Cybernews",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "bitdefender-bitdefender-total-security-19-99-first-year-was-",
+      "id": "bitdefender-bitdefender-total-security-19-99-first-year-was",
       "score": 63,
       "featured": false,
       "top10": false,
@@ -7577,7 +9217,7 @@
       "source": "https://www.bleepingcomputer.com/offer/deals/this-95-surfshark-bundle-includes-vpn-antivirus-and-data-broker-removal-for-a-year/amp/",
       "sourceName": "BleepingComputer Deals",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "surfshark-surfshark-one-with-incogni-1-year-for-95-msrp-250-",
+      "id": "surfshark-surfshark-one-with-incogni-1-year-for-95-msrp-250",
       "score": 58,
       "featured": false,
       "top10": false,
@@ -7899,7 +9539,7 @@
       "verifiedAt": "2026-06-08T00:10:00Z",
       "id": "delta-air-lines-smsummer26",
       "score": 67,
-      "featured": false,
+      "featured": true,
       "top10": false,
       "dailyRank": null
     },
@@ -7977,7 +9617,7 @@
       "source": "https://www.southwest.com/special-offers/flight-deals/",
       "sourceName": "Southwest (official)",
       "verifiedAt": "2026-06-08T00:10:00Z",
-      "id": "southwest-airlines-vacation-packages-up-to-250-off-domestic-",
+      "id": "southwest-airlines-vacation-packages-up-to-250-off-domestic",
       "score": 55,
       "featured": false,
       "top10": false,
