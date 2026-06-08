@@ -104,7 +104,7 @@ a { color: var(--primary); }
   gap: 1rem;
 }
 .brand { display: flex; gap: 0.8rem; align-items: flex-start; }
-.brand-mark { height: 40px; width: auto; display: block; }
+.brand-mark { height: 48px; width: auto; display: block; }
 .brand-title { margin: 0; font-size: 1.55rem; letter-spacing: -0.01em; }
 .brand-tagline { margin: 0.15rem 0 0; color: var(--text-muted); font-size: 0.95rem; max-width: 52ch; }
 
@@ -613,12 +613,13 @@ body.drawer-open { overflow: hidden; }
 .cat-special[aria-pressed="true"] .count { background: rgba(255, 255, 255, 0.25); }
 
 /* ===== Money-bag mascot ===== */
-.hero-mascot { width: 92px; height: auto; flex-shrink: 0; }
-.state-mascot { width: 78px; height: auto; display: block; margin: 0 auto 0.85rem; }
+.hero-mascot { width: 120px; height: auto; flex-shrink: 0; }
+.state-mascot { width: 96px; height: auto; display: block; margin: 0 auto 0.9rem; }
+.footer-mascot { width: 54px; height: auto; display: block; margin-bottom: 0.7rem; }
 @keyframes bobble { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
-.hero-mascot, .state-mascot { animation: bobble 3s ease-in-out infinite; transform-origin: center; }
+.hero-mascot, .state-mascot, .footer-mascot { animation: bobble 3s ease-in-out infinite; transform-origin: center; }
 .brand-mark { transition: transform .2s ease; }
-.brand-mark:hover { transform: scale(1.08) rotate(-4deg); }
+.brand-mark:hover { transform: scale(1.1) rotate(-5deg); }
 
 /* ===== Clickable KPI cards ===== */
 a.kpi { text-decoration: none; color: inherit; cursor: pointer; transition: border-color .15s ease, transform .15s ease; }
@@ -626,8 +627,8 @@ a.kpi:hover { border-color: var(--primary); transform: translateY(-2px); }
 a.kpi:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-mascot, .state-mascot { animation: none; }
+  .hero-mascot, .state-mascot, .footer-mascot { animation: none; }
 }
 @media (max-width: 480px) {
-  .hero-mascot { width: 64px; }
+  .hero-mascot { width: 88px; }
 }
