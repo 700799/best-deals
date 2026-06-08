@@ -566,3 +566,29 @@ body.drawer-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .drawer, .drawer-backdrop { transition: none; }
 }
+
+/* ===== Top Deals (overview) ===== */
+.top-deals { margin: 1.3rem 0 0.4rem; }
+.top-deals-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 0.8rem; }
+.top-deals-title { margin: 0; font-size: 1.35rem; letter-spacing: -0.01em; }
+.top-deals-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--gap); }
+.top-deal-card { text-decoration: none; color: inherit; display: flex; flex-direction: column; gap: 0.55rem; }
+
+/* ===== Featured badge ===== */
+.card-badges { display: inline-flex; gap: 0.35rem; align-items: center; }
+.badge-featured { background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; }
+
+/* ===== Toolbar: two buttons + featured toggle ===== */
+.toolbar-buttons { display: flex; gap: 0.5rem; }
+.toggle { display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; font-weight: 600; font-size: 0.92rem; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--primary); cursor: pointer; }
+
+/* ===== Category-jump drawer list ===== */
+.cat-jump-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+.cat-jump-list .category-pill { display: flex; align-items: center; justify-content: space-between; width: 100%; text-decoration: none; padding: 0.7rem 0.9rem; border-radius: var(--radius-sm); font-size: 0.95rem; }
+.cat-jump-list .category-pill .count { background: var(--surface-2); border-radius: 999px; padding: 0.05rem 0.55rem; opacity: 1; margin-left: 0.5rem; }
+.cat-jump-list .category-pill[aria-pressed="true"] .count { background: rgba(255, 255, 255, 0.25); }
+
+@media (max-width: 560px) {
+  .toolbar-inner { flex-wrap: wrap; }
+}

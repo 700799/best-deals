@@ -58,7 +58,7 @@
 
     // ---- KPI cards ----
     var kpis = [
-      { value: total, label: "Total coupons" },
+      { value: total, label: "Total deals" },
       { value: categories.length, label: "Categories" },
       { value: distinctStores, label: "Distinct stores" },
       { value: relCounts.high || 0, label: "High reliability", sub: pct(relCounts.high || 0, total) + "% of all" },
@@ -104,6 +104,9 @@
       evergreen: evergreen, dated: withExpiry, soonCount: expiringSoon.length,
       total: total, updated: updated, soonest: soonest
     });
+
+    renderTopDeals(coupons);
+    renderCategoryNav(categories, catCounts, total);
 
     hide("loading");
     show("stats-content");
@@ -165,6 +168,63 @@
     box.appendChild(el("div", "mini-value", String(value)));
     box.appendChild(el("div", "mini-label", label));
     return box;
+  }
+
+  // ---- Top Deals + category drawer ----
+  function renderTopDeals(coupons) {
+    var grid = byId("top-deals-grid");
+    if (!grid) return;
+    var featured = coupons.filter(function (c) { return c.featured; })
+      .sort(function (a, b) { return (b.score || 0) - (a.score || 0); })
+      .slice(0, 12);
+    if (!featured.length) return;
+    var frag = document.createDocumentFragment();
+    featured.forEach(function (c) {
+      var a = document.createElement("a");
+      a.className = "card top-deal-card";
+      a.href = "./browse.html?deal=" + encodeURIComponent(c.id);
+      a.setAttribute("aria-label", c.store + ": " + (c.discount || c.title || "deal"));
+      var top = el("div", "card-top");
+      top.appendChild(el("span", "card-store", c.store));
+      top.appendChild(el("span", "badge badge-featured", "★ Best"));
+      a.appendChild(top);
+      if (c.discount) a.appendChild(el("div", "card-discount", c.discount));
+      if (c.title) a.appendChild(el("div", "card-title", c.title));
+      var foot = el("div", "card-foot-sum");
+      if (c.category) foot.appendChild(el("span", "chip chip-category", c.category));
+      var hasCode = c.code != null && String(c.code).trim() !== "";
+      foot.appendChild(el("span", "card-cue", hasCode ? "Get code ›" : "View deal ›"));
+      a.appendChild(foot);
+      frag.appendChild(a);
+    });
+    grid.innerHTML = "";
+    grid.appendChild(frag);
+    show("top-deals");
+  }
+
+  function renderCategoryNav(categories, catCounts, total) {
+    var list = byId("category-list");
+    var btn = byId("open-categories");
+    if (!list) return;
+    var cats = [{ name: "All", n: total, href: "./browse.html" }].concat(categories.map(function (cat) {
+      return { name: cat, n: catCounts[cat] || 0, href: "./browse.html?category=" + encodeURIComponent(cat) };
+    }));
+    var frag = document.createDocumentFragment();
+    cats.forEach(function (c) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.className = "category-pill";
+      a.href = c.href;
+      a.appendChild(el("span", null, c.name));
+      a.appendChild(el("span", "count", String(c.n)));
+      li.appendChild(a);
+      frag.appendChild(li);
+    });
+    list.innerHTML = "";
+    list.appendChild(frag);
+    if (btn) btn.addEventListener("click", function () {
+      if (window.BDDrawer) window.BDDrawer.open(byId("category-drawer"), btn);
+    });
   }
 
   // ---- helpers ----

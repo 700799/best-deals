@@ -8,7 +8,7 @@
   <meta name="color-scheme" content="light dark" />
   <meta name="theme-color" content="#4f46e5" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./assets/css/styles.css?v=3" />
+  <link rel="stylesheet" href="./assets/css/styles.css?v=4" />
   <script>
     (function () {
       try {
@@ -36,6 +36,9 @@
           <a href="./index.html" class="nav-link nav-active" aria-current="page">📊 Overview</a>
           <a href="./browse.html" class="nav-link">🏷️ Browse</a>
         </nav>
+        <button id="open-categories" class="filters-btn" type="button" aria-haspopup="dialog" aria-controls="category-drawer">
+          <span aria-hidden="true">☰</span> Categories
+        </button>
         <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
           <span class="theme-toggle-icon" aria-hidden="true">🌙</span>
           <span class="theme-toggle-text">Dark</span>
@@ -48,9 +51,9 @@
     <section class="overview-hero">
       <h2 class="overview-h2">Deals overview</h2>
       <p class="overview-sub">
-        A snapshot of the <strong id="hero-total">—</strong> coupons in this directory, all confirmed active on
+        A snapshot of the <strong id="hero-total">—</strong> hand-picked deals in this directory, all confirmed active on
         <strong id="hero-updated">—</strong>.
-        <a class="hero-cta" href="./browse.html">Browse all coupons →</a>
+        <a class="hero-cta" href="./browse.html">Browse all deals →</a>
       </p>
     </section>
 
@@ -58,6 +61,14 @@
       <strong>What “confirmed active” means:</strong> the time each code was found <strong>listed as active on its source</strong>.
       Codes are <strong>not</strong> tested at a real checkout and may expire or be account/region-specific. Verify before you pay.
     </div>
+
+    <section id="top-deals" class="top-deals" hidden aria-label="Top deals">
+      <div class="top-deals-head">
+        <h2 class="top-deals-title">🔥 Top Deals</h2>
+        <a class="hero-cta" href="./browse.html?featured=1">See all →</a>
+      </div>
+      <div id="top-deals-grid" class="top-deals-grid"></div>
+    </section>
 
     <div id="loading" class="state-message">Loading stats…</div>
     <div id="error" class="state-message state-error" hidden>
@@ -116,7 +127,19 @@
     </div>
   </footer>
 
-  <script src="./assets/js/theme.js?v=3" defer></script>
-  <script src="./assets/js/stats.js?v=3" defer></script>
+  <div class="drawer-backdrop" aria-hidden="true"></div>
+  <aside id="category-drawer" class="drawer drawer-right" role="dialog" aria-modal="true" aria-label="Jump to category" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 class="drawer-title">Jump to category</h2>
+      <button class="drawer-close" type="button" data-drawer-close aria-label="Close categories">✕</button>
+    </div>
+    <div class="drawer-body">
+      <ul id="category-list" class="cat-jump-list"></ul>
+    </div>
+  </aside>
+
+  <script src="./assets/js/theme.js?v=4" defer></script>
+  <script src="./assets/js/drawer.js?v=4" defer></script>
+  <script src="./assets/js/stats.js?v=4" defer></script>
 </body>
 </html>

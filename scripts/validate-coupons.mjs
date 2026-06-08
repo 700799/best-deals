@@ -74,6 +74,8 @@ coupons.forEach((c, i) => {
   }
   if (c.type && !TYPES.has(c.type)) errors.push(`${where}: invalid type "${c.type}"`);
   if (c.reliability && !RELIABILITY.has(c.reliability)) errors.push(`${where}: invalid reliability "${c.reliability}"`);
+  if (c.featured != null && typeof c.featured !== "boolean") errors.push(`${where}: featured must be a boolean`);
+  if (c.score != null && (typeof c.score !== "number" || isNaN(c.score))) errors.push(`${where}: score must be a number`);
 
   const hasCode = c.code != null && String(c.code).trim() !== "";
   if (c.type === "code" && !hasCode) errors.push(`${where}: type "code" but no code value`);
@@ -126,6 +128,11 @@ const categories = Object.keys(counts).sort((a, b) => (counts[b] - counts[a]) ||
 const relCounts = { high: 0, medium: 0, low: 0 };
 deduped.forEach((c) => { relCounts[c.reliability] = (relCounts[c.reliability] || 0) + 1; });
 
+const storeCounts = {};
+deduped.forEach((c) => { storeCounts[c.store] = (storeCounts[c.store] || 0) + 1; });
+const overCap = Object.keys(storeCounts).filter((s) => storeCounts[s] > 8).sort((a, b) => storeCounts[b] - storeCounts[a]);
+const featuredCount = deduped.filter((c) => c.featured).length;
+
 const out = {
   generatedAt: KEEP_DATE && data.generatedAt ? data.generatedAt : new Date().toISOString(),
   count: deduped.length,
@@ -140,6 +147,8 @@ console.log("------------------------------------");
 console.log("Total coupons:      " + out.count + (dropped ? "  (" + dropped + " duplicate(s) dropped)" : ""));
 console.log("Categories:         " + categories.length);
 console.log("Reliability:        high " + relCounts.high + " / medium " + relCounts.medium + " / low " + relCounts.low);
+console.log("Featured:           " + featuredCount);
+if (overCap.length) console.warn("⚠  Stores over cap (8): " + overCap.map((s) => s + " (" + storeCounts[s] + ")").join(", "));
 console.log("");
 categories.forEach((cat) => console.log("  " + cat.padEnd(26) + counts[cat]));
 console.log("");

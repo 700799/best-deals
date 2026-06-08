@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Browse Coupons — Best Deals</title>
-  <meta name="description" content="Browse and filter 300 real coupon and promo codes. Tap any coupon for the code, terms, and a link to the deal." />
+  <title>Browse Deals — Best Deals</title>
+  <meta name="description" content="Browse hand-picked deals on popular brands and products. Tap any deal for the code, terms, and a link to the offer." />
   <meta name="color-scheme" content="light dark" />
   <meta name="theme-color" content="#4f46e5" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./assets/css/styles.css?v=3" />
+  <link rel="stylesheet" href="./assets/css/styles.css?v=4" />
   <script>
     (function () {
       try {
@@ -20,7 +20,7 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to coupons</a>
+  <a class="skip-link" href="#main">Skip to deals</a>
 
   <header class="site-header">
     <div class="container header-inner">
@@ -28,7 +28,7 @@
         <span class="brand-mark" aria-hidden="true">🏷️</span>
         <div>
           <h1 class="brand-title">Best Deals</h1>
-          <p class="brand-tagline">Tap a coupon for its code, terms, and a link to the deal.</p>
+          <p class="brand-tagline">Hand-picked deals on brands &amp; products people love. Tap any deal for the code.</p>
         </div>
       </div>
       <div class="header-actions">
@@ -46,10 +46,15 @@
 
   <div class="toolbar">
     <div class="container toolbar-inner">
-      <button id="open-filters" class="filters-btn" type="button" aria-haspopup="dialog" aria-controls="filters-drawer">
-        <span aria-hidden="true">⚙️</span> Filters
-        <span id="filter-badge" class="filter-badge" hidden></span>
-      </button>
+      <div class="toolbar-buttons">
+        <button id="open-categories" class="filters-btn" type="button" aria-haspopup="dialog" aria-controls="category-drawer">
+          <span aria-hidden="true">☰</span> Categories
+        </button>
+        <button id="open-filters" class="filters-btn" type="button" aria-haspopup="dialog" aria-controls="filters-drawer">
+          <span aria-hidden="true">⚙️</span> Filters
+          <span id="filter-badge" class="filter-badge" hidden></span>
+        </button>
+      </div>
       <p id="result-count" class="result-count" aria-live="polite"></p>
     </div>
     <div class="container">
@@ -58,12 +63,12 @@
   </div>
 
   <main id="main" class="container" tabindex="-1">
-    <div id="loading" class="state-message">Loading coupons…</div>
+    <div id="loading" class="state-message">Loading deals…</div>
     <div id="error" class="state-message state-error" hidden>
-      Sorry — we couldn’t load the coupons. Please refresh the page.
+      Sorry — we couldn’t load the deals. Please refresh the page.
     </div>
     <div id="empty" class="state-message" hidden>
-      No coupons match your filters. Open <strong>Filters</strong> and clear them, or choose “All”.
+      No deals match your filters. Open <strong>Filters</strong> and clear them, or pick a different category.
     </div>
     <div id="coupon-grid" class="coupon-grid"></div>
   </main>
@@ -71,13 +76,13 @@
   <footer class="site-footer">
     <div class="container">
       <p>
-        <strong>Best Deals</strong> is a static, open coupon directory. Coupons were gathered from public sources
-        (official brand pages and reputable deal sites) during a single collection run; each coupon links to its source.
+        <strong>Best Deals</strong> is a static, open deals directory. Deals were gathered from public sources
+        (official brand sale pages and reputable deal sites) during a single collection run; each deal links to its source.
       </p>
       <p class="footer-disclaimer">
-        “Confirmed active” reflects when a code was found listed as active on its source — not a guarantee it will work at
-        checkout. Offers may expire or be restricted. Verify before purchasing. This site has no affiliation with the
-        brands listed and earns no commission.
+        “Confirmed active” reflects when a deal was found listed as active on its source — not a guarantee it will work at
+        checkout. Deals are time-limited and may expire or be restricted. Verify before purchasing. This site has no
+        affiliation with the brands listed and earns no commission.
       </p>
       <p class="footer-updated">Data last updated: <span id="footer-updated">—</span></p>
     </div>
@@ -85,6 +90,16 @@
 
   <!-- ===== Drawers ===== -->
   <div class="drawer-backdrop" aria-hidden="true"></div>
+
+  <aside id="category-drawer" class="drawer drawer-right" role="dialog" aria-modal="true" aria-label="Jump to category" aria-hidden="true">
+    <div class="drawer-head">
+      <h2 class="drawer-title">Jump to category</h2>
+      <button class="drawer-close" type="button" data-drawer-close aria-label="Close categories">✕</button>
+    </div>
+    <div class="drawer-body">
+      <ul id="category-list" class="cat-jump-list"></ul>
+    </div>
+  </aside>
 
   <aside id="filters-drawer" class="drawer drawer-right" role="dialog" aria-modal="true" aria-label="Filters" aria-hidden="true">
     <div class="drawer-head">
@@ -94,7 +109,20 @@
     <div class="drawer-body">
       <div class="control">
         <label for="search">Search</label>
-        <input id="search" type="search" placeholder="Search store, offer, or code…" autocomplete="off" data-autofocus />
+        <input id="search" type="search" placeholder="Search store, product, or code…" autocomplete="off" data-autofocus />
+      </div>
+      <label class="toggle">
+        <input type="checkbox" id="featured-toggle" />
+        <span>★ Top deals only</span>
+      </label>
+      <div class="control">
+        <label for="sort">Sort by</label>
+        <select id="sort">
+          <option value="best">Best</option>
+          <option value="reliability">Reliability</option>
+          <option value="verified">Newest verified</option>
+          <option value="store">Store (A–Z)</option>
+        </select>
       </div>
       <div class="control">
         <label for="reliability">Reliability</label>
@@ -105,22 +133,10 @@
           <option value="low">Low</option>
         </select>
       </div>
-      <div class="control">
-        <label for="sort">Sort by</label>
-        <select id="sort">
-          <option value="reliability">Reliability</option>
-          <option value="verified">Newest verified</option>
-          <option value="store">Store (A–Z)</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <span class="filter-group-label">Category</span>
-        <ul id="category-list" class="drawer-cats"></ul>
-      </div>
     </div>
     <div class="drawer-foot">
       <button id="clear-filters" class="btn-ghost" type="button">Clear all</button>
-      <button class="btn-primary" type="button" data-drawer-close>Show <span id="apply-count">…</span> results</button>
+      <button class="btn-primary" type="button" data-drawer-close>Show <span id="apply-count">…</span> deals</button>
     </div>
   </aside>
 
@@ -134,8 +150,8 @@
 
   <div id="copy-live" class="visually-hidden" aria-live="assertive"></div>
 
-  <script src="./assets/js/theme.js?v=3" defer></script>
-  <script src="./assets/js/drawer.js?v=3" defer></script>
-  <script src="./assets/js/app.js?v=3" defer></script>
+  <script src="./assets/js/theme.js?v=4" defer></script>
+  <script src="./assets/js/drawer.js?v=4" defer></script>
+  <script src="./assets/js/app.js?v=4" defer></script>
 </body>
 </html>
