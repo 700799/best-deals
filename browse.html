@@ -7,8 +7,8 @@
   <meta name="description" content="Browse hand-picked deals on popular brands and products. Tap any deal for the code, terms, and a link to the offer." />
   <meta name="color-scheme" content="light dark" />
   <meta name="theme-color" content="#4f46e5" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%8F%B7%EF%B8%8F%3C/text%3E%3C/svg%3E" />
-  <link rel="stylesheet" href="./assets/css/styles.css?v=5" />
+  <link rel="icon" type="image/svg+xml" href="./assets/img/moneybag.svg" />
+  <link rel="stylesheet" href="./assets/css/styles.css?v=6" />
   <script>
     (function () {
       try {
@@ -25,7 +25,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <span class="brand-mark" aria-hidden="true">🏷️</span>
+        <img class="brand-mark" src="./assets/img/moneybag.svg" alt="" aria-hidden="true" />
         <div>
           <h1 class="brand-title">Best Deals</h1>
           <p class="brand-tagline">Hand-picked deals on brands &amp; products people love. Tap any deal for the code.</p>
@@ -63,12 +63,13 @@
   </div>
 
   <main id="main" class="container" tabindex="-1">
-    <div id="loading" class="state-message">Loading deals…</div>
+    <div id="loading" class="state-message"><img class="state-mascot" src="./assets/img/moneybag.svg" alt="" aria-hidden="true" /><div>Loading deals…</div></div>
     <div id="error" class="state-message state-error" hidden>
       Sorry — we couldn’t load the deals. Please refresh the page.
     </div>
     <div id="empty" class="state-message" hidden>
-      No deals match your filters. Open <strong>Filters</strong> and clear them, or pick a different category.
+      <img class="state-mascot" src="./assets/img/moneybag.svg" alt="" aria-hidden="true" />
+      <div>No deals match your filters. Open <strong>Filters</strong> and clear them, or pick a different category.</div>
     </div>
     <div id="coupon-grid" class="coupon-grid"></div>
   </main>
@@ -150,8 +151,8 @@
 
   <div id="copy-live" class="visually-hidden" aria-live="assertive"></div>
 
-  <script src="./assets/js/theme.js?v=5" defer></script>
-  <script src="./assets/js/drawer.js?v=5" defer></script>
-  <script src="./assets/js/app.js?v=5" defer></script>
+  <script src="./assets/js/theme.js?v=6" defer></script>
+  <script src="./assets/js/drawer.js?v=6" defer></script>
+  <script src="./assets/js/app.js?v=6" defer></script>
 </body>
 </html>

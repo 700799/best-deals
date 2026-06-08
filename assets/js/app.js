@@ -4,8 +4,9 @@
 
   var DATA_URL = "./data/coupons.json";
   var RELIABILITY_RANK = { high: 0, medium: 1, low: 2 };
+  var SOON_DAYS = 14;
 
-  var state = { category: "All", query: "", sort: "best", reliability: "all", featuredOnly: false, top10Only: false };
+  var state = { category: "All", query: "", sort: "best", reliability: "all", featuredOnly: false, top10Only: false, typeFilter: "all", expiringOnly: false };
   var allCoupons = [];
   var meta = { generatedAt: null, categories: [] };
   var els = {};
@@ -85,6 +86,13 @@
         state.featuredOnly = true;
         if (els.featuredToggle) els.featuredToggle.checked = true;
       }
+      var qpRel = params.get("reliability");
+      if (qpRel && ["high", "medium", "low"].indexOf(qpRel) !== -1) { state.reliability = qpRel; if (els.reliability) els.reliability.value = qpRel; }
+      var qpSort = params.get("sort");
+      if (qpSort && ["best", "reliability", "verified", "store"].indexOf(qpSort) !== -1) { state.sort = qpSort; if (els.sort) els.sort.value = qpSort; }
+      var qpType = params.get("type");
+      if (qpType && ["code", "deal", "signup"].indexOf(qpType) !== -1) state.typeFilter = qpType;
+      if (params.get("expiring") === "1") state.expiringOnly = true;
     } catch (e) { /* ignore */ }
   }
 
@@ -177,7 +185,7 @@
   }
 
   function clearAllFilters() {
-    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "best"; state.featuredOnly = false; state.top10Only = false;
+    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "best"; state.featuredOnly = false; state.top10Only = false; state.typeFilter = "all"; state.expiringOnly = false;
     if (els.search) els.search.value = "";
     if (els.reliability) els.reliability.value = "all";
     if (els.sort) els.sort.value = "best";
@@ -197,6 +205,12 @@
       if (state.featuredOnly && !c.featured) return false;
       if (state.category !== "All" && c.category !== state.category) return false;
       if (state.reliability !== "all" && c.reliability !== state.reliability) return false;
+      if (state.typeFilter !== "all" && c.type !== state.typeFilter) return false;
+      if (state.expiringOnly) {
+        if (!c.expiry) return false;
+        var dd = (new Date(c.expiry) - Date.now()) / 86400000;
+        if (!(dd >= 0 && dd <= SOON_DAYS)) return false;
+      }
       if (q) {
         var hay = [c.store, c.title, c.description, c.code, c.category, c.discount].filter(Boolean).join(" ").toLowerCase();
         if (hay.indexOf(q) === -1) return false;
@@ -241,6 +255,8 @@
     if (state.featuredOnly) active.push({ key: "featured", label: "★ Top deals" });
     if (state.category !== "All") active.push({ key: "category", label: state.category });
     if (state.reliability !== "all") active.push({ key: "reliability", label: cap(state.reliability) + " reliability" });
+    if (state.typeFilter !== "all") active.push({ key: "type", label: cap(state.typeFilter) + " offers" });
+    if (state.expiringOnly) active.push({ key: "expiring", label: "Expiring soon" });
     if (state.query) active.push({ key: "query", label: "“" + state.query + "”" });
 
     if (els.filterBadge) {
@@ -269,6 +285,8 @@
     else if (key === "query") { state.query = ""; if (els.search) els.search.value = ""; }
     else if (key === "featured") { state.featuredOnly = false; if (els.featuredToggle) els.featuredToggle.checked = false; }
     else if (key === "top10") { state.top10Only = false; }
+    else if (key === "type") { state.typeFilter = "all"; }
+    else if (key === "expiring") { state.expiringOnly = false; }
     updatePillStates();
     render();
   }

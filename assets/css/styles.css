@@ -104,7 +104,7 @@ a { color: var(--primary); }
   gap: 1rem;
 }
 .brand { display: flex; gap: 0.8rem; align-items: flex-start; }
-.brand-mark { font-size: 2rem; line-height: 1; }
+.brand-mark { height: 40px; width: auto; display: block; }
 .brand-title { margin: 0; font-size: 1.55rem; letter-spacing: -0.01em; }
 .brand-tagline { margin: 0.15rem 0 0; color: var(--text-muted); font-size: 0.95rem; max-width: 52ch; }
 
@@ -413,7 +413,8 @@ a { color: var(--primary); }
 .nav-link:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 
 /* ===== Overview / stats page ===== */
-.overview-hero { padding: 1.3rem 0 0.2rem; }
+.overview-hero { display: flex; align-items: center; gap: 1.1rem; padding: 1.3rem 0 0.2rem; }
+.overview-hero-text { min-width: 0; }
 .overview-h2 { margin: 0 0 0.25rem; font-size: 1.5rem; letter-spacing: -0.01em; }
 .overview-sub { margin: 0; color: var(--text-muted); max-width: 72ch; }
 .overview-sub strong { color: var(--text); }
@@ -610,3 +611,23 @@ body.drawer-open { overflow: hidden; }
 .cat-special { background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(239, 68, 68, 0.12)); border-color: #f59e0b; font-weight: 700; }
 .cat-special[aria-pressed="true"] { background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; border-color: transparent; }
 .cat-special[aria-pressed="true"] .count { background: rgba(255, 255, 255, 0.25); }
+
+/* ===== Money-bag mascot ===== */
+.hero-mascot { width: 92px; height: auto; flex-shrink: 0; }
+.state-mascot { width: 78px; height: auto; display: block; margin: 0 auto 0.85rem; }
+@keyframes bobble { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+.hero-mascot, .state-mascot { animation: bobble 3s ease-in-out infinite; transform-origin: center; }
+.brand-mark { transition: transform .2s ease; }
+.brand-mark:hover { transform: scale(1.08) rotate(-4deg); }
+
+/* ===== Clickable KPI cards ===== */
+a.kpi { text-decoration: none; color: inherit; cursor: pointer; transition: border-color .15s ease, transform .15s ease; }
+a.kpi:hover { border-color: var(--primary); transform: translateY(-2px); }
+a.kpi:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-mascot, .state-mascot { animation: none; }
+}
+@media (max-width: 480px) {
+  .hero-mascot { width: 64px; }
+}

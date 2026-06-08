@@ -58,16 +58,18 @@
 
     // ---- KPI cards ----
     var kpis = [
-      { value: total, label: "Total deals" },
-      { value: categories.length, label: "Categories" },
-      { value: distinctStores, label: "Distinct stores" },
-      { value: relCounts.high || 0, label: "High reliability", sub: pct(relCounts.high || 0, total) + "% of all" },
-      { value: withCode, label: "Ready-to-use codes", sub: pct(withCode, total) + "% copyable" },
-      { value: expiringSoon.length, label: "Expiring ≤ " + SOON_DAYS + " days", sub: evergreen + " never expire" }
+      { value: total, label: "Total deals", href: "./browse.html" },
+      { value: categories.length, label: "Categories", href: "./browse.html" },
+      { value: distinctStores, label: "Distinct stores", href: "./browse.html?sort=store" },
+      { value: relCounts.high || 0, label: "High reliability", sub: pct(relCounts.high || 0, total) + "% of all", href: "./browse.html?reliability=high" },
+      { value: withCode, label: "Ready-to-use codes", sub: pct(withCode, total) + "% copyable", href: "./browse.html?type=code" },
+      { value: expiringSoon.length, label: "Expiring ≤ " + SOON_DAYS + " days", sub: evergreen + " never expire", href: "./browse.html?expiring=1" }
     ];
     var kpiWrap = byId("kpis");
     kpis.forEach(function (k) {
-      var card = el("div", "kpi");
+      var card = document.createElement(k.href ? "a" : "div");
+      card.className = "kpi";
+      if (k.href) { card.href = k.href; card.setAttribute("aria-label", k.value + " " + k.label + " — view in Browse"); }
       card.appendChild(el("div", "kpi-value", String(k.value)));
       card.appendChild(el("div", "kpi-label", k.label));
       if (k.sub) card.appendChild(el("div", "kpi-sub", k.sub));
@@ -83,7 +85,7 @@
       { label: "High", value: relCounts.high || 0, cls: "fill-high" },
       { label: "Medium", value: relCounts.medium || 0, cls: "fill-medium" },
       { label: "Low", value: relCounts.low || 0, cls: "fill-low" }
-    ]);
+    ], function (r) { return "./browse.html?reliability=" + r.label.toLowerCase(); });
     setText("note-reliability",
       "High = official / evergreen codes. Medium = dated promos with a stated expiry. " +
       "Low = aggregator-listed, so verify before use.");
@@ -92,7 +94,7 @@
       { label: "Code", value: typeCounts.code || 0 },
       { label: "Deal", value: typeCounts.deal || 0 },
       { label: "Signup", value: typeCounts.signup || 0 }
-    ]);
+    ], function (r) { return "./browse.html?type=" + r.label.toLowerCase(); });
 
     var topStores = Object.keys(storeCounts)
       .sort(function (a, b) { return storeCounts[b] - storeCounts[a] || a.localeCompare(b); })
