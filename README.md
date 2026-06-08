@@ -7,10 +7,10 @@ The site has two pages:
 
 | Page | File | What it shows |
 | --- | --- | --- |
-| **Overview (home)** | `index.html` | Leads with a **🔥 Top Deals** rail (featured picks), then a stats dashboard — totals by category, reliability mix, offer types, top stores, freshness/expiry. |
-| **Browse** | `browse.html` | The deal grid with a **category-jump drawer**, a **Filters** drawer (search / sort by *Best* / reliability / top-deals-only), and a **detail drawer** per deal (code + copy, terms, "Get the deal"). |
+| **Overview (home)** | `index.html` | Leads with **⭐ Today's Top 10** + a **🔥 Top Deals** rail, then a stats dashboard — totals by category, reliability mix, offer types, top stores, freshness/expiry. |
+| **Browse** | `browse.html` | The deal grid with a **category-jump drawer** (incl. a **⭐ Top 10 Daily** filter), a **Filters** drawer (search / sort by *Best* / reliability / top-deals-only), and a **detail drawer** per deal (code + copy, terms, "Get the deal"). |
 
-> **291 hand-picked deals** across **14 categories** — High/Medium reliability only, **scored & ranked**, with **30 featured "Top Deals"**, collected **2026-06-08**.
+> **400 hand-picked deals** across **19 categories** (incl. Credit Cards, Internet & Mobile · Starlink, Automotive, AI & LLMs, Computers) — High/Medium only, **scored & ranked**, with a **⭐ Top 10 Daily** + 30 **Top Deals**, collected **2026-06-08**.
 
 ## ⚠️ How to read the data (please read)
 
@@ -23,7 +23,7 @@ aggregator sites go stale quickly. So this directory is built for **transparency
 - Every deal has a **reliability tier** (only **High/Medium** are kept):
   - **High** — official brand sale pages or strongly corroborated deals.
   - **Medium** — from a reputable deal site; rates can rotate, so verify before use.
-- Every deal has a **score** (0–100) used by the *Best* sort; the top ~30 are **featured** as Top Deals.
+- Every deal has a **score** (0–100) used by the *Best* sort; the top ~30 are **featured** as Top Deals, and the elite **top 10** form **Today's Top 10**.
 
 Codes may expire, be region- or account-specific, or change at any time. **Always confirm the
 discount applies before you pay.** This site has no affiliation with the brands listed and earns no
@@ -70,8 +70,8 @@ filesystem — use a local server.)
 ```jsonc
 {
   "generatedAt": "2026-06-08T00:16:55Z",   // when the dataset was assembled
-  "count": 291,
-  "categories": ["Home & Garden", "..."],
+  "count": 400,
+  "categories": ["Home & Garden", "Internet & Mobile", "AI & LLMs", "..."],
   "coupons": [
     {
       "id": "lululemon-up-to-67-off",
@@ -89,7 +89,9 @@ filesystem — use a local server.)
       "sourceName": "Lululemon",
       "verifiedAt": "2026-06-08T00:10:00Z",
       "score": 82,                           // 0–100 ranking ("Best" sort)
-      "featured": true                       // shown in Top Deals
+      "featured": true,                      // shown in Top Deals
+      "top10": true,                         // in Today's Top 10
+      "dailyRank": 1                         // 1–10 (null otherwise)
     }
   ]
 }

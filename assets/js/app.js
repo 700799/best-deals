@@ -5,7 +5,7 @@
   var DATA_URL = "./data/coupons.json";
   var RELIABILITY_RANK = { high: 0, medium: 1, low: 2 };
 
-  var state = { category: "All", query: "", sort: "best", reliability: "all", featuredOnly: false };
+  var state = { category: "All", query: "", sort: "best", reliability: "all", featuredOnly: false, top10Only: false };
   var allCoupons = [];
   var meta = { generatedAt: null, categories: [] };
   var els = {};
@@ -107,20 +107,38 @@
   function renderCategories() {
     var counts = {};
     allCoupons.forEach(function (c) { counts[c.category] = (counts[c.category] || 0) + 1; });
-    var cats = ["All"].concat(meta.categories);
     var frag = document.createDocumentFragment();
+
+    if (allCoupons.some(function (c) { return c.top10; })) {
+      var li0 = document.createElement("li");
+      var sp = document.createElement("button");
+      sp.type = "button";
+      sp.className = "category-pill cat-special";
+      sp.dataset.category = "__top10";
+      sp.setAttribute("aria-pressed", String(!!state.top10Only));
+      sp.appendChild(el("span", null, "⭐ Top 10 Daily"));
+      sp.appendChild(el("span", "count", "10"));
+      sp.addEventListener("click", function () {
+        state.top10Only = true; state.category = "All"; updatePillStates(); render();
+        if (window.BDDrawer) window.BDDrawer.close();
+      });
+      li0.appendChild(sp);
+      frag.appendChild(li0);
+    }
+
+    var cats = ["All"].concat(meta.categories);
     cats.forEach(function (cat) {
       var li = document.createElement("li");
       var btn = document.createElement("button");
       btn.type = "button";
       btn.className = "category-pill";
-      btn.setAttribute("aria-pressed", String(cat === state.category));
       btn.dataset.category = cat;
+      btn.setAttribute("aria-pressed", String(!state.top10Only && cat === state.category));
       btn.appendChild(el("span", null, cat));
       var n = cat === "All" ? allCoupons.length : (counts[cat] || 0);
       btn.appendChild(el("span", "count", String(n)));
       btn.addEventListener("click", function () {
-        state.category = cat; updatePillStates(); render();
+        state.category = cat; state.top10Only = false; updatePillStates(); render();
         if (window.BDDrawer) window.BDDrawer.close();
       });
       li.appendChild(btn);
@@ -134,7 +152,8 @@
     if (!els.categoryList) return;
     var pills = els.categoryList.querySelectorAll(".category-pill");
     Array.prototype.forEach.call(pills, function (p) {
-      p.setAttribute("aria-pressed", String(p.dataset.category === state.category));
+      if (p.dataset.category === "__top10") p.setAttribute("aria-pressed", String(!!state.top10Only));
+      else p.setAttribute("aria-pressed", String(!state.top10Only && p.dataset.category === state.category));
     });
   }
 
@@ -158,7 +177,7 @@
   }
 
   function clearAllFilters() {
-    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "best"; state.featuredOnly = false;
+    state.category = "All"; state.query = ""; state.reliability = "all"; state.sort = "best"; state.featuredOnly = false; state.top10Only = false;
     if (els.search) els.search.value = "";
     if (els.reliability) els.reliability.value = "all";
     if (els.sort) els.sort.value = "best";
@@ -169,6 +188,10 @@
 
   // ---- Filtering & sorting ----
   function getFiltered() {
+    if (state.top10Only) {
+      return allCoupons.filter(function (c) { return c.top10; })
+        .sort(function (a, b) { return (a.dailyRank || 99) - (b.dailyRank || 99); });
+    }
     var q = state.query;
     return allCoupons.filter(function (c) {
       if (state.featuredOnly && !c.featured) return false;
@@ -214,6 +237,7 @@
 
   function updateActiveFilters() {
     var active = [];
+    if (state.top10Only) active.push({ key: "top10", label: "⭐ Top 10 Daily" });
     if (state.featuredOnly) active.push({ key: "featured", label: "★ Top deals" });
     if (state.category !== "All") active.push({ key: "category", label: state.category });
     if (state.reliability !== "all") active.push({ key: "reliability", label: cap(state.reliability) + " reliability" });
@@ -244,6 +268,7 @@
     else if (key === "reliability") { state.reliability = "all"; if (els.reliability) els.reliability.value = "all"; }
     else if (key === "query") { state.query = ""; if (els.search) els.search.value = ""; }
     else if (key === "featured") { state.featuredOnly = false; if (els.featuredToggle) els.featuredToggle.checked = false; }
+    else if (key === "top10") { state.top10Only = false; }
     updatePillStates();
     render();
   }

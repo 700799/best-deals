@@ -105,6 +105,7 @@
       total: total, updated: updated, soonest: soonest
     });
 
+    renderDailyTop10(coupons, updated);
     renderTopDeals(coupons);
     renderCategoryNav(categories, catCounts, total);
 
@@ -171,10 +172,38 @@
   }
 
   // ---- Top Deals + category drawer ----
+  function renderDailyTop10(coupons, updated) {
+    var ol = byId("daily-top10-list");
+    if (!ol) return;
+    var top = coupons.filter(function (c) { return c.top10; })
+      .sort(function (a, b) { return (a.dailyRank || 99) - (b.dailyRank || 99); }).slice(0, 10);
+    if (!top.length) return;
+    setText("daily-date", "Refreshed " + updated);
+    var frag = document.createDocumentFragment();
+    top.forEach(function (c, i) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.className = "daily-deal";
+      a.href = "./browse.html?deal=" + encodeURIComponent(c.id);
+      a.setAttribute("aria-label", "#" + (c.dailyRank || i + 1) + " " + c.store + ": " + (c.discount || c.title || "deal"));
+      a.appendChild(el("span", "daily-rank", String(c.dailyRank || i + 1)));
+      var info = el("div", "daily-info");
+      info.appendChild(el("div", "daily-store", c.store));
+      if (c.discount) info.appendChild(el("div", "daily-disc", c.discount));
+      if (c.title) info.appendChild(el("div", "daily-title", c.title));
+      a.appendChild(info);
+      li.appendChild(a);
+      frag.appendChild(li);
+    });
+    ol.innerHTML = "";
+    ol.appendChild(frag);
+    show("daily-top10");
+  }
+
   function renderTopDeals(coupons) {
     var grid = byId("top-deals-grid");
     if (!grid) return;
-    var featured = coupons.filter(function (c) { return c.featured; })
+    var featured = coupons.filter(function (c) { return c.featured && !c.top10; })
       .sort(function (a, b) { return (b.score || 0) - (a.score || 0); })
       .slice(0, 12);
     if (!featured.length) return;

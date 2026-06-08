@@ -592,3 +592,21 @@ body.drawer-open { overflow: hidden; }
 @media (max-width: 560px) {
   .toolbar-inner { flex-wrap: wrap; }
 }
+
+/* ===== Today's Top 10 (overview) ===== */
+.daily-top10 { margin: 1.3rem 0 0.4rem; }
+.daily-date { color: var(--text-muted); font-size: 0.85rem; }
+.daily-top10-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 0.6rem; }
+.daily-deal { display: flex; align-items: center; gap: 0.75rem; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 0.7rem 0.85rem; box-shadow: var(--shadow); }
+.daily-deal:hover { border-color: var(--primary); }
+.daily-deal:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.daily-rank { flex-shrink: 0; width: 32px; height: 32px; border-radius: 999px; background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; font-weight: 800; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; }
+.daily-info { min-width: 0; }
+.daily-store { font-weight: 700; font-size: 0.95rem; }
+.daily-disc { color: var(--primary); font-weight: 700; font-size: 0.88rem; }
+.daily-title { color: var(--text-muted); font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* special "Top 10" category pill */
+.cat-special { background: linear-gradient(135deg, rgba(245, 158, 11, 0.16), rgba(239, 68, 68, 0.12)); border-color: #f59e0b; font-weight: 700; }
+.cat-special[aria-pressed="true"] { background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; border-color: transparent; }
+.cat-special[aria-pressed="true"] .count { background: rgba(255, 255, 255, 0.25); }
