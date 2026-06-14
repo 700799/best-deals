@@ -10,7 +10,7 @@ The site has two pages:
 | **Overview (home)** | `index.html` | Leads with **⭐ Today's Top 10** + a **🔥 Top Deals** rail, then a stats dashboard — totals by category, reliability mix, offer types, top stores, freshness/expiry. |
 | **Browse** | `browse.html` | The deal grid with a **category-jump drawer** (incl. a **⭐ Top 10 Daily** filter), a **Filters** drawer (search / sort by *Best* / reliability / top-deals-only), and a **detail drawer** per deal (code + copy, terms, "Get the deal"). |
 
-> **400 hand-picked deals** across **19 categories** (incl. Credit Cards, Internet & Mobile · Starlink, Automotive, AI & LLMs, Computers) — High/Medium only, **scored & ranked**, with a **⭐ Top 10 Daily** + 30 **Top Deals**, collected **2026-06-08**.
+> **596 hand-picked deals** across **36 categories** — **wine by varietal** (Merlot, Cabernet, Pinot Noir, Chardonnay, Rosé, Sparkling…) and **spirits by type** (Whiskey & Bourbon, Tequila, Vodka, Gin, Rum) from retailers that ship · **Pickleball** & **Power Tools** · a big **Restaurants & Dining** section (national + Northern California) · Credit Cards · Internet & Mobile · Starlink · Automotive · AI & LLMs · Computers, and more. High/Medium only, **scored & ranked**, with a **⭐ Top 10 Daily** + Top Deals. Collected **2026-06-08**.
 
 ## ⚠️ How to read the data (please read)
 
@@ -70,7 +70,7 @@ filesystem — use a local server.)
 ```jsonc
 {
   "generatedAt": "2026-06-08T00:16:55Z",   // when the dataset was assembled
-  "count": 400,
+  "count": 596,
   "categories": ["Home & Garden", "Internet & Mobile", "AI & LLMs", "..."],
   "coupons": [
     {
