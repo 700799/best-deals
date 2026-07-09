@@ -1,0 +1,59 @@
+name: Daily refresh & deploy
+
+# Free daily freshness pass (no AI): prune expired deals, rotate "Today's
+# Top 10", re-stamp the "Last updated" time, then redeploy to GitHub Pages.
+on:
+  schedule:
+    - cron: "17 13 * * *"   # 13:17 UTC daily (~06:17 America/Los_Angeles)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Daily refresh (prune expired, rotate Top 10, re-stamp)
+        run: node scripts/daily-refresh.mjs
+
+      - name: Validate data
+        run: node scripts/validate-coupons.mjs --check
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/coupons.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Daily refresh ($(date -u +%Y-%m-%d)): prune expired + rotate Top 10"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

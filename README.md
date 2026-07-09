@@ -114,6 +114,13 @@ A workflow at `.github/workflows/deploy-pages.yml` publishes the site on every p
 **One-time setup:** in the repo, go to **Settings → Pages → Build and deployment → Source** and choose
 **“GitHub Actions.”** The site then serves at `https://<owner>.github.io/best-deals/`.
 
+### Daily refresh (free, automatic)
+`.github/workflows/daily-refresh.yml` runs every morning (13:17 UTC) and on demand. It runs
+`scripts/daily-refresh.mjs` — a no-dependency, no-network pass that **prunes expired deals**,
+recomputes **featured**, **rotates "Today's Top 10"** (a date-seeded shuffle, so it changes every
+day), re-stamps the **"Last updated"** time, then redeploys to Pages. It never invents deals — the
+catalogue only gains brand-new deals on a fresh collection run.
+
 ### Vercel
 The repo includes `vercel.json` for a no-build static deploy. Import the repo into Vercel (or deploy
 via the Vercel integration); it serves the root directory directly and gives an instant preview URL.
