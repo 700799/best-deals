@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:30:42.082Z",
+  "generatedAt": "2026-08-06T15:30:24.344Z",
   "count": 469,
   "categories": [
     "Restaurants & Dining",
@@ -757,8 +757,8 @@
       "id": "carmax-carmax-promotional-apr-auto-financing",
       "score": 68,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 1
     },
     {
       "store": "Carvana",
@@ -977,8 +977,8 @@
       "id": "amazon-lg-ultragear-27gs93qe-b-27-1440p-240hz-oled-499-99-wa",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1057,8 +1057,8 @@
       "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1257,8 +1257,8 @@
       "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "Micro Center",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-349-99-was-399-99",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "GoPro",
@@ -2197,8 +2197,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Logitech",
@@ -2618,7 +2618,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 8
+      "dailyRank": 6
     },
     {
       "store": "Nordstrom Rack",
@@ -2977,8 +2977,8 @@
       "id": "steam-hogwarts-legacy-85-off-8-99-was-59-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -3817,8 +3817,8 @@
       "id": "le-creuset-le-creuset-summer-cookware-event-up-to-40-off-dut",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 4
     },
     {
       "store": "LEGO",
@@ -4177,8 +4177,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Wayfair",
@@ -4697,8 +4697,8 @@
       "id": "t-mobile-free-samsung-galaxy-s26-ultra-no-trade-in-on-experi",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "T-Mobile Home Internet",
@@ -4936,8 +4936,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5,
+      "top10": false,
+      "dailyRank": null,
       "id": "wine-com-up-to-60-off-7-000-wines-rated-90-points-or-higher"
     },
     {
@@ -7277,8 +7277,8 @@
       "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "Backblaze",
@@ -7397,8 +7397,8 @@
       "id": "hostinger-cnhostfirst",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "McAfee",
@@ -7656,8 +7656,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 10,
       "id": "costco-selkirk-slk-prime-max-pickleball-bundle-19-97-was-49-99"
     },
     {
@@ -8036,8 +8036,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1,
+      "top10": false,
+      "dailyRank": null,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8156,8 +8156,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 67,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 5,
       "id": "titan-ball-machines-2026"
     },
     {
@@ -8317,8 +8317,8 @@
       "id": "paramount-paramountplus",
       "score": 74,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "Peacock",
@@ -9356,8 +9356,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 71,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 7,
       "id": "winc-winc100"
     },
     {
