@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T13:59:21.987Z",
+  "generatedAt": "2026-08-09T14:01:28.348Z",
   "count": 469,
   "categories": [
     "Restaurants & Dining",
@@ -777,8 +777,8 @@
       "id": "carvana-carvana-500-off-first-vehicle-purchase",
       "score": 68,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Discount Tire",
@@ -977,8 +977,8 @@
       "id": "amazon-lg-ultragear-27gs93qe-b-27-1440p-240hz-oled-499-99-wa",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1017,8 +1017,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 4
     },
     {
       "store": "Best Buy",
@@ -2197,8 +2197,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "Logitech",
@@ -2337,8 +2337,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 1
     },
     {
       "store": "Adidas",
@@ -3758,7 +3758,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 8
+      "dailyRank": 10
     },
     {
       "store": "iRobot",
@@ -4177,8 +4177,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Wayfair",
@@ -4698,7 +4698,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 4
+      "dailyRank": 7
     },
     {
       "store": "T-Mobile Home Internet",
@@ -4936,8 +4936,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9,
+      "top10": false,
+      "dailyRank": null,
       "id": "wine-com-up-to-60-off-7-000-wines-rated-90-points-or-higher"
     },
     {
@@ -7277,8 +7277,8 @@
       "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 5
     },
     {
       "store": "Backblaze",
@@ -7397,8 +7397,8 @@
       "id": "hostinger-cnhostfirst",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "McAfee",
@@ -7457,8 +7457,8 @@
       "id": "nordvpn-nordvpn-2-year-plan-up-to-76-off-3-months-free",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Norton",
@@ -7656,8 +7656,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 8,
       "id": "costco-selkirk-slk-prime-max-pickleball-bundle-19-97-was-49-99"
     },
     {
@@ -8277,8 +8277,8 @@
       "id": "hbo-max-hbo-max-annual-prepay-save-over-40",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "Hulu",
@@ -8576,8 +8576,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6,
+      "top10": false,
+      "dailyRank": null,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
@@ -9256,8 +9256,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 3,
       "id": "firstleaf-first-6-bottles-for-44-95-free-shipping"
     },
     {
@@ -9357,7 +9357,7 @@
       "score": 71,
       "featured": true,
       "top10": true,
-      "dailyRank": 3,
+      "dailyRank": 9,
       "id": "winc-winc100"
     },
     {
