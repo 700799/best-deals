@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:33:46.029Z",
+  "generatedAt": "2026-08-14T14:27:06.852Z",
   "count": 469,
   "categories": [
     "Restaurants & Dining",
@@ -757,8 +757,8 @@
       "id": "carmax-carmax-promotional-apr-auto-financing",
       "score": 68,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Carvana",
@@ -1017,8 +1017,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1057,8 +1057,8 @@
       "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1257,8 +1257,8 @@
       "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 5
     },
     {
       "store": "Micro Center",
@@ -1997,8 +1997,8 @@
       "id": "amazon-airpods-max-2-usb-c-509-was-549",
       "score": 72,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "Amazon",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-349-99-was-399-99",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "GoPro",
@@ -2197,8 +2197,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Logitech",
@@ -2337,8 +2337,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Adidas",
@@ -2357,8 +2357,8 @@
       "id": "adidas-score",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Adidas",
@@ -2977,8 +2977,8 @@
       "id": "steam-hogwarts-legacy-85-off-8-99-was-59-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -3317,8 +3317,8 @@
       "id": "factor-factor276",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Factor",
@@ -3737,8 +3737,8 @@
       "id": "irobot-roomba-205-dustcompactor-combo-149-99-was-469-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 1
     },
     {
       "store": "iRobot",
@@ -3817,8 +3817,8 @@
       "id": "le-creuset-le-creuset-summer-cookware-event-up-to-40-off-dut",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "LEGO",
@@ -4177,8 +4177,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Wayfair",
@@ -4697,8 +4697,8 @@
       "id": "t-mobile-free-samsung-galaxy-s26-ultra-no-trade-in-on-experi",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 4
     },
     {
       "store": "T-Mobile Home Internet",
@@ -7457,8 +7457,8 @@
       "id": "nordvpn-nordvpn-2-year-plan-up-to-76-off-3-months-free",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 7
     },
     {
       "store": "Norton",
@@ -8156,8 +8156,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4,
+      "top10": false,
+      "dailyRank": null,
       "id": "titan-ball-machines-2026"
     },
     {
@@ -8277,8 +8277,8 @@
       "id": "hbo-max-hbo-max-annual-prepay-save-over-40",
       "score": 66,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Hulu",
@@ -8318,7 +8318,7 @@
       "score": 74,
       "featured": true,
       "top10": true,
-      "dailyRank": 5
+      "dailyRank": 6
     },
     {
       "store": "Peacock",
