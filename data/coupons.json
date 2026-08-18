@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T13:55:05.791Z",
+  "generatedAt": "2026-08-18T13:58:45.342Z",
   "count": 469,
   "categories": [
     "Restaurants & Dining",
@@ -377,8 +377,8 @@
       "id": "grammarly-grammarly-pro-up-to-50-off-for-students",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Jasper",
@@ -757,8 +757,8 @@
       "id": "carmax-carmax-promotional-apr-auto-financing",
       "score": 68,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Carvana",
@@ -777,8 +777,8 @@
       "id": "carvana-carvana-500-off-first-vehicle-purchase",
       "score": 68,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Discount Tire",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-349-99-was-399-99",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "GoPro",
@@ -2337,8 +2337,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "Adidas",
@@ -2358,7 +2358,7 @@
       "score": 67,
       "featured": true,
       "top10": true,
-      "dailyRank": 10
+      "dailyRank": 4
     },
     {
       "store": "Adidas",
@@ -2977,8 +2977,8 @@
       "id": "steam-hogwarts-legacy-85-off-8-99-was-59-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 7
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -3737,8 +3737,8 @@
       "id": "irobot-roomba-205-dustcompactor-combo-149-99-was-469-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "iRobot",
@@ -4277,8 +4277,8 @@
       "id": "at-t-iphone-17-pro-for-0-with-any-condition-iphone-trade-in",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "AT&T",
@@ -4697,8 +4697,8 @@
       "id": "t-mobile-free-samsung-galaxy-s26-ultra-no-trade-in-on-experi",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "T-Mobile Home Internet",
@@ -4797,8 +4797,8 @@
       "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-u",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Verizon",
@@ -4936,8 +4936,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8,
+      "top10": false,
+      "dailyRank": null,
       "id": "wine-com-up-to-60-off-7-000-wines-rated-90-points-or-higher"
     },
     {
@@ -5137,8 +5137,8 @@
       "id": "masterclass-tco",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "MasterClass",
@@ -7397,8 +7397,8 @@
       "id": "hostinger-cnhostfirst",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 1
     },
     {
       "store": "McAfee",
@@ -8036,8 +8036,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2,
+      "top10": false,
+      "dailyRank": null,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8317,8 +8317,8 @@
       "id": "paramount-paramountplus",
       "score": 74,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "Peacock",
@@ -8576,8 +8576,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3,
+      "top10": false,
+      "dailyRank": null,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
@@ -8797,8 +8797,8 @@
       "id": "delta-air-lines-smsummer26",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Hertz",
@@ -9356,8 +9356,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 71,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 5,
       "id": "winc-winc100"
     },
     {
