@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-31T19:31:16.581Z",
-  "count": 468,
+  "generatedAt": "2026-09-01T17:20:15.137Z",
+  "count": 467,
   "categories": [
     "Restaurants & Dining",
     "AI & LLMs",
@@ -20,9 +20,9 @@
     "Streaming & Subscriptions",
     "Groceries & Meal Kits",
     "Pets",
-    "Automotive",
     "Health & Beauty",
     "Travel",
+    "Automotive",
     "Food Delivery",
     "Gaming",
     "Tequila & Mezcal",
@@ -841,26 +841,6 @@
       "dailyRank": null
     },
     {
-      "store": "Subaru",
-      "category": "Automotive",
-      "title": "Subaru $500 Healthcare / Medical Professional discount",
-      "code": null,
-      "type": "deal",
-      "description": "From June 1 through August 31, 2026, eligible medical professionals get an additional $500 off the purchase or lease of a new Subaru, applied after you negotiate your best price. Stackable with most current finance/lease offers.",
-      "discount": "$500 off purchase or lease",
-      "eligibility": "Verified medical/healthcare professionals",
-      "expiry": "2026-08-31",
-      "reliability": "high",
-      "source": "https://www.subaru.com/shopping-tools/special-offers.html",
-      "sourceName": "Subaru.com Special Offers",
-      "verifiedAt": "2026-06-08T00:30:00Z",
-      "id": "subaru-subaru-500-healthcare-medical-professional-discount",
-      "score": 64,
-      "featured": false,
-      "top10": false,
-      "dailyRank": null
-    },
-    {
       "store": "Cameron Hughes (CAM X)",
       "category": "Cabernet Sauvignon",
       "title": "Lot 32 Stags Leap District Cabernet from $79 (reg. $375)",
@@ -1017,8 +997,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Best Buy",
@@ -1057,8 +1037,8 @@
       "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1257,8 +1237,8 @@
       "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "Micro Center",
@@ -2337,8 +2317,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Adidas",
@@ -2357,8 +2337,8 @@
       "id": "adidas-score",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Adidas",
@@ -2978,7 +2958,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 8
+      "dailyRank": 10
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -4278,7 +4258,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 5
+      "dailyRank": 3
     },
     {
       "store": "AT&T",
@@ -5137,8 +5117,8 @@
       "id": "masterclass-tco",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "MasterClass",
@@ -7257,8 +7237,8 @@
       "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "Backblaze",
@@ -7377,8 +7357,8 @@
       "id": "hostinger-cnhostfirst",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "McAfee",
@@ -7438,7 +7418,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 9
+      "dailyRank": 5
     },
     {
       "store": "Norton",
@@ -7636,8 +7616,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6,
+      "top10": false,
+      "dailyRank": null,
       "id": "costco-selkirk-slk-prime-max-pickleball-bundle-19-97-was-49-99"
     },
     {
@@ -8016,8 +7996,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 7,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8257,8 +8237,8 @@
       "id": "hbo-max-hbo-max-annual-prepay-save-over-40",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 4
     },
     {
       "store": "Hulu",
@@ -8298,7 +8278,7 @@
       "score": 74,
       "featured": true,
       "top10": true,
-      "dailyRank": 7
+      "dailyRank": 1
     },
     {
       "store": "Peacock",
@@ -8556,8 +8536,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2,
+      "top10": false,
+      "dailyRank": null,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
