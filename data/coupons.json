@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:20:15.137Z",
+  "generatedAt": "2026-09-02T17:11:09.258Z",
   "count": 467,
   "categories": [
     "Restaurants & Dining",
@@ -957,8 +957,8 @@
       "id": "amazon-lg-ultragear-27gs93qe-b-27-1440p-240hz-oled-499-99-wa",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 7
     },
     {
       "store": "Best Buy",
@@ -997,8 +997,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -1237,8 +1237,8 @@
       "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Micro Center",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "Logitech",
@@ -2317,8 +2317,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "Adidas",
@@ -2957,8 +2957,8 @@
       "id": "steam-hogwarts-legacy-85-off-8-99-was-59-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -3797,8 +3797,8 @@
       "id": "le-creuset-le-creuset-summer-cookware-event-up-to-40-off-dut",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "LEGO",
@@ -4257,8 +4257,8 @@
       "id": "at-t-iphone-17-pro-for-0-with-any-condition-iphone-trade-in",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "AT&T",
@@ -4777,8 +4777,8 @@
       "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-u",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "Verizon",
@@ -5117,8 +5117,8 @@
       "id": "masterclass-tco",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "MasterClass",
@@ -7237,8 +7237,8 @@
       "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Backblaze",
@@ -7417,8 +7417,8 @@
       "id": "nordvpn-nordvpn-2-year-plan-up-to-76-off-3-months-free",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Norton",
@@ -7616,8 +7616,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 2,
       "id": "costco-selkirk-slk-prime-max-pickleball-bundle-19-97-was-49-99"
     },
     {
@@ -7996,8 +7996,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7,
+      "top10": false,
+      "dailyRank": null,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8116,8 +8116,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 67,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 4,
       "id": "titan-ball-machines-2026"
     },
     {
@@ -8237,8 +8237,8 @@
       "id": "hbo-max-hbo-max-annual-prepay-save-over-40",
       "score": 66,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Hulu",
@@ -8516,8 +8516,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 68,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 10,
       "id": "home-depot-ridgid-18v-cordless-oscillating-multi-tool-kit-2x-2-0ah-char"
     },
     {
@@ -9216,8 +9216,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 5,
       "id": "firstleaf-first-6-bottles-for-44-95-free-shipping"
     },
     {
