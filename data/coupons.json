@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:13:50.167Z",
+  "generatedAt": "2026-09-27T17:47:27.174Z",
   "count": 466,
   "categories": [
     "Restaurants & Dining",
@@ -377,8 +377,8 @@
       "id": "grammarly-grammarly-pro-up-to-50-off-for-students",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Jasper",
@@ -997,8 +997,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Best Buy",
@@ -1037,8 +1037,8 @@
       "id": "best-buy-hp-omen-16-rtx-50-series-gaming-laptop-1-279-was-1",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "Best Buy",
@@ -1977,8 +1977,8 @@
       "id": "amazon-airpods-max-2-usb-c-509-was-549",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Amazon",
@@ -2158,7 +2158,7 @@
       "score": 72,
       "featured": true,
       "top10": true,
-      "dailyRank": 2
+      "dailyRank": 3
     },
     {
       "store": "GoPro",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Logitech",
@@ -2337,8 +2337,8 @@
       "id": "adidas-score",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Adidas",
@@ -2957,8 +2957,8 @@
       "id": "steam-hogwarts-legacy-85-off-8-99-was-59-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 6
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Amazon (Prime Visa)",
@@ -3797,8 +3797,8 @@
       "id": "le-creuset-le-creuset-summer-cookware-event-up-to-40-off-dut",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 5
     },
     {
       "store": "LEGO",
@@ -4157,8 +4157,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Wayfair",
@@ -4916,8 +4916,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9,
+      "top10": false,
+      "dailyRank": null,
       "id": "wine-com-up-to-60-off-7-000-wines-rated-90-points-or-higher"
     },
     {
@@ -7996,8 +7996,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 8,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8277,8 +8277,8 @@
       "id": "paramount-paramountplus",
       "score": 74,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Peacock",
@@ -8516,8 +8516,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 68,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 2,
       "id": "home-depot-ridgid-18v-cordless-oscillating-multi-tool-kit-2x-2-0ah-char"
     },
     {
@@ -8536,8 +8536,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 7,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
@@ -8757,8 +8757,8 @@
       "id": "delta-air-lines-smsummer26",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Hertz",
@@ -9197,7 +9197,7 @@
       "score": 66,
       "featured": true,
       "top10": true,
-      "dailyRank": 3,
+      "dailyRank": 4,
       "id": "firstleaf-first-6-bottles-for-44-95-free-shipping"
     },
     {
@@ -9296,8 +9296,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 71,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 1,
       "id": "winc-winc100"
     },
     {
