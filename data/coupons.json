@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T18:39:36.736Z",
+  "generatedAt": "2026-09-30T18:27:27.996Z",
   "count": 465,
   "categories": [
     "Restaurants & Dining",
@@ -377,8 +377,8 @@
       "id": "grammarly-grammarly-pro-up-to-50-off-for-students",
       "score": 66,
       "featured": true,
-      "top10": true,
-      "dailyRank": 10
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Jasper",
@@ -997,8 +997,8 @@
       "id": "best-buy-alienware-aurora-rtx-5080-core-ultra-9-285k-32gb-2t",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Best Buy",
@@ -2157,8 +2157,8 @@
       "id": "gopro-gopro-hero13-black-349-99-was-399-99",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 4
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "GoPro",
@@ -2317,8 +2317,8 @@
       "id": "samsung-samsung-galaxy-s25-ultra-250-off-trade-in-up-to-700",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 2
     },
     {
       "store": "Adidas",
@@ -2597,8 +2597,8 @@
       "id": "nordstrom-half-yearly-sale-clearance-up-to-60-off-88-off-cle",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Nordstrom Rack",
@@ -3298,7 +3298,7 @@
       "score": 70,
       "featured": true,
       "top10": true,
-      "dailyRank": 9
+      "dailyRank": 1
     },
     {
       "store": "Factor",
@@ -3718,7 +3718,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 2
+      "dailyRank": 9
     },
     {
       "store": "iRobot",
@@ -4777,8 +4777,8 @@
       "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-u",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 6
     },
     {
       "store": "Verizon",
@@ -5118,7 +5118,7 @@
       "score": 70,
       "featured": true,
       "top10": true,
-      "dailyRank": 8
+      "dailyRank": 3
     },
     {
       "store": "MasterClass",
@@ -7217,8 +7217,8 @@
       "id": "adobe-adobe-creative-cloud-all-apps-60-off-first-year-19-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 5
     },
     {
       "store": "Backblaze",
@@ -7977,7 +7977,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 6,
+      "dailyRank": 7,
       "id": "pickleball-central-pickleball-central-clearance-up-to-70-off-paddles-gear"
     },
     {
@@ -8217,8 +8217,8 @@
       "id": "hbo-max-hbo-max-annual-prepay-save-over-40",
       "score": 66,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 4
     },
     {
       "store": "Hulu",
@@ -8517,7 +8517,7 @@
       "score": 70,
       "featured": true,
       "top10": true,
-      "dailyRank": 5,
+      "dailyRank": 8,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
@@ -9176,8 +9176,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 66,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1,
+      "top10": false,
+      "dailyRank": null,
       "id": "firstleaf-first-6-bottles-for-44-95-free-shipping"
     },
     {
@@ -9276,8 +9276,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 71,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7,
+      "top10": false,
+      "dailyRank": null,
       "id": "winc-winc100"
     },
     {
