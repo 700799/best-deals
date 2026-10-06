@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T21:12:56.250Z",
+  "generatedAt": "2026-10-06T18:55:23.470Z",
   "count": 465,
   "categories": [
     "Restaurants & Dining",
@@ -758,7 +758,7 @@
       "score": 68,
       "featured": true,
       "top10": true,
-      "dailyRank": 9
+      "dailyRank": 8
     },
     {
       "store": "Carvana",
@@ -1237,8 +1237,8 @@
       "id": "lenovo-pdlive26",
       "score": 80,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 9
     },
     {
       "store": "Micro Center",
@@ -2178,7 +2178,7 @@
       "score": 72,
       "featured": true,
       "top10": true,
-      "dailyRank": 10
+      "dailyRank": 6
     },
     {
       "store": "Logitech",
@@ -2337,8 +2337,8 @@
       "id": "adidas-score",
       "score": 67,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 10
     },
     {
       "store": "Adidas",
@@ -2597,8 +2597,8 @@
       "id": "nordstrom-half-yearly-sale-clearance-up-to-60-off-88-off-cle",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 5
     },
     {
       "store": "Nordstrom Rack",
@@ -3297,8 +3297,8 @@
       "id": "factor-factor276",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 7
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Factor",
@@ -3717,8 +3717,8 @@
       "id": "irobot-roomba-205-dustcompactor-combo-149-99-was-469-99",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "iRobot",
@@ -3797,8 +3797,8 @@
       "id": "le-creuset-le-creuset-summer-cookware-event-up-to-40-off-dut",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 1
     },
     {
       "store": "LEGO",
@@ -4157,8 +4157,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Wayfair",
@@ -7337,8 +7337,8 @@
       "id": "hostinger-cnhostfirst",
       "score": 70,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "McAfee",
@@ -8096,8 +8096,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1,
+      "top10": false,
+      "dailyRank": null,
       "id": "titan-ball-machines-2026"
     },
     {
@@ -8497,7 +8497,7 @@
       "score": 68,
       "featured": true,
       "top10": true,
-      "dailyRank": 6,
+      "dailyRank": 7,
       "id": "home-depot-ridgid-18v-cordless-oscillating-multi-tool-kit-2x-2-0ah-char"
     },
     {
@@ -8737,8 +8737,8 @@
       "id": "delta-air-lines-smsummer26",
       "score": 67,
       "featured": true,
-      "top10": true,
-      "dailyRank": 3
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Hertz",
