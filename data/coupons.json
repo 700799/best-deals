@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:45:19.731Z",
+  "generatedAt": "2026-11-15T19:23:25.423Z",
   "count": 465,
   "categories": [
     "Restaurants & Dining",
@@ -998,7 +998,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 7
+      "dailyRank": 4
     },
     {
       "store": "Best Buy",
@@ -2177,8 +2177,8 @@
       "id": "gopro-gopro-hero13-black-extended-power-bundle-399-99-was-49",
       "score": 72,
       "featured": true,
-      "top10": true,
-      "dailyRank": 9
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Logitech",
@@ -3297,8 +3297,8 @@
       "id": "factor-factor276",
       "score": 70,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 3
     },
     {
       "store": "Factor",
@@ -3717,8 +3717,8 @@
       "id": "irobot-roomba-205-dustcompactor-combo-149-99-was-469-99",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 1
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "iRobot",
@@ -4157,8 +4157,8 @@
       "id": "walmart-walmart-summer-garden-center-rollbacks-up-to-65-off",
       "score": 73,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 8
     },
     {
       "store": "Wayfair",
@@ -4258,7 +4258,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 10
+      "dailyRank": 5
     },
     {
       "store": "AT&T",
@@ -4678,7 +4678,7 @@
       "score": 73,
       "featured": true,
       "top10": true,
-      "dailyRank": 6
+      "dailyRank": 9
     },
     {
       "store": "T-Mobile Home Internet",
@@ -4777,8 +4777,8 @@
       "id": "verizon-free-samsung-galaxy-s26-with-trade-in-on-unlimited-u",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 2
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Verizon",
@@ -4937,8 +4937,8 @@
       "id": "babbel-learn",
       "score": 68,
       "featured": true,
-      "top10": true,
-      "dailyRank": 8
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Brilliant",
@@ -7397,8 +7397,8 @@
       "id": "nordvpn-nordvpn-2-year-plan-up-to-76-off-3-months-free",
       "score": 73,
       "featured": true,
-      "top10": true,
-      "dailyRank": 5
+      "top10": false,
+      "dailyRank": null
     },
     {
       "store": "Norton",
@@ -8496,8 +8496,8 @@
       "verifiedAt": "2026-06-08T09:30:00Z",
       "score": 68,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 1,
       "id": "home-depot-ridgid-18v-cordless-oscillating-multi-tool-kit-2x-2-0ah-char"
     },
     {
@@ -8517,7 +8517,7 @@
       "score": 70,
       "featured": true,
       "top10": true,
-      "dailyRank": 4,
+      "dailyRank": 2,
       "id": "home-depot-ridgid-18v-max-output-starter-kit-2x-4-0ah-charger-free-subc"
     },
     {
@@ -8737,8 +8737,8 @@
       "id": "delta-air-lines-smsummer26",
       "score": 67,
       "featured": true,
-      "top10": false,
-      "dailyRank": null
+      "top10": true,
+      "dailyRank": 7
     },
     {
       "store": "Hertz",
@@ -9177,7 +9177,7 @@
       "score": 66,
       "featured": true,
       "top10": true,
-      "dailyRank": 3,
+      "dailyRank": 6,
       "id": "firstleaf-first-6-bottles-for-44-95-free-shipping"
     },
     {
@@ -9276,8 +9276,8 @@
       "verifiedAt": "2026-06-08T09:45:00Z",
       "score": 71,
       "featured": true,
-      "top10": false,
-      "dailyRank": null,
+      "top10": true,
+      "dailyRank": 10,
       "id": "winc-winc100"
     },
     {
